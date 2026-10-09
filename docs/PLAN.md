@@ -87,3 +87,7 @@ Check all four widths, menu/search/toggle behavior, safe route destinations, req
 - Director's attributed message and its quoted Sanskrit line require respectful handling. Pirate framing must not create a new statement attributed to him.
 - Programme aliases and department variations need inspection one at a time. Pick the first department source at the template task rather than scraping all departments now.
 - No UI, glossary rewrites or art direction beyond AGENTS.md defaults have been approved in this planning task.
+
+## Desktop priority
+
+The user specified that the site is mainly for PC. Prioritize layout reviews and interaction checks at 1440 and 1920px while retaining the required responsive widths (375, 768, 1280 and 1440px). Mirror the source desktop section order and proportions first on each upcoming page.

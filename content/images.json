@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "global-header-identity",
+    "section": "header",
+    "width": 1307,
+    "height": 304,
+    "originalAlt": "",
+    "role": "Header identity, same 2614:608 ratio as original; generated crest beside live wordmark",
+    "alt": "The crew’s skull, book and crossed-pickaxe crest",
+    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
+    "page": "global",
+    "file": "/images/pirate/global/global-header-identity.webp",
+    "status": "generated"
+  },
+  {
+    "id": "global-footer-identity",
+    "section": "footer",
+    "width": 616,
+    "height": 144,
+    "originalAlt": "",
+    "role": "Footer identity, same 616:144 ratio as original; generated crest beside live wordmark",
+    "alt": "The university’s friendly pirate crest, guardin’ the footer",
+    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
+    "page": "global",
+    "file": "/images/pirate/global/global-footer-identity.webp",
+    "status": "generated"
+  },
+  {
+    "id": "global-parrot-badge",
+    "section": "footer",
+    "width": 262,
+    "height": 261,
+    "originalAlt": "",
+    "role": "Decorative parody replacement for original 524:522 certification badge; no certification claim",
+    "alt": "A tricorne-wearin’ parrot perched on a treasure map inside a playful seal",
+    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: illustration-story. Asset type: small decorative parody seal for a pirate university website footer, replacing a real certification badge with an obviously fictional joke. A friendly green and blue cartoon parrot wearing a tiny tricorne perches on a rolled treasure map inside a simple circular sea-blue outline. One small pickaxe and a book bookmark. Centered square composition on transparent background, clear shapes legible at 80px. No text, lettering, logos, actual accreditation mark, QR code, official seal or watermark.",
+    "page": "global",
+    "file": "/images/pirate/global/global-parrot-badge.webp",
+    "status": "generated"
+  },
+  {
+    "id": "global-treasure-seal",
+    "section": "footer",
+    "width": 140,
+    "height": 140,
+    "originalAlt": "",
+    "role": "Decorative pirate crest replacing the original square QR graphic; no QR destination",
+    "alt": "A friendly skull above crossed pickaxes and an open book; no secret QR scroll",
+    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
+    "page": "global",
+    "file": "/images/pirate/global/global-treasure-seal.webp",
+    "status": "generated"
+  }
+]

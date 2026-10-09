@@ -1,0 +1,174 @@
+{
+  "original": {
+    "sourceUrl": "https://www.iitism.ac.in/",
+    "heading": "Quick Links/Resources",
+    "resources": [
+      {
+        "id": "resource-0",
+        "label": "Admission Guideline and Fee Structure of Foreign Student",
+        "href": "https://people.iitism.ac.in/~download/files/IIT%20(ISM)%20Foreign%20students%20Admission%20Guidelines%20from%202022%20onwards.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-1",
+        "label": "Campus Tour",
+        "href": "https://people.iitism.ac.in/~download/video/iitism-campus-tour.mp4",
+        "children": []
+      },
+      {
+        "id": "resource-2",
+        "label": "Study in India",
+        "href": "https://www.studyinindia.gov.in/",
+        "children": []
+      },
+      {
+        "id": "resource-3",
+        "label": "Student Verification",
+        "href": "https://www.iitism.ac.in/student-verification",
+        "children": []
+      },
+      {
+        "id": "resource-4",
+        "label": "Contingency Rules/Guidelines for Ph.D/M.Tech/ IPDF students",
+        "href": "https://people.iitism.ac.in/~download/rules/Contingency%20Rule%20with%20Claim%20Form.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-5",
+        "label": "Health Centre",
+        "href": "https://people.iitism.ac.in/~healthcenter/",
+        "children": []
+      },
+      {
+        "id": "resource-6",
+        "label": "GJLT Booking",
+        "href": "https://people.iitism.ac.in/~download/form-emp/GJLT.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-7",
+        "label": "IInvenTiv2026",
+        "href": "https://iinventiv.iitism.ac.in/",
+        "children": []
+      }
+    ],
+    "brand": {
+      "name": "IIT (ISM) Dhanbad",
+      "subtitle": "Indian School of Mines",
+      "imageId": "global-footer-identity"
+    },
+    "actions": [
+      {
+        "id": "action-0",
+        "label": "Donation",
+        "href": "https://alumni.iitism.ac.in/",
+        "children": []
+      },
+      {
+        "id": "action-1",
+        "label": "Contact",
+        "href": "https://www.iitism.ac.in/general-administration",
+        "children": []
+      }
+    ],
+    "badges": [
+      {
+        "imageId": "global-parrot-badge"
+      },
+      {
+        "imageId": "global-treasure-seal"
+      }
+    ],
+    "badgeSourceLabel": "The website is Audited by STQC",
+    "visit": {
+      "label": "User Visit:",
+      "value": "—"
+    }
+  },
+  "pirate": {
+    "sourceUrl": "https://www.iitism.ac.in/",
+    "heading": "Charts & Useful Scrolls",
+    "resources": [
+      {
+        "id": "resource-0",
+        "label": "Foreign Deckhands’ Admission Guidelines & Doubloons",
+        "href": "https://people.iitism.ac.in/~download/files/IIT%20(ISM)%20Foreign%20students%20Admission%20Guidelines%20from%202022%20onwards.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-1",
+        "label": "Tour the Isle",
+        "href": "https://people.iitism.ac.in/~download/video/iitism-campus-tour.mp4",
+        "children": []
+      },
+      {
+        "id": "resource-2",
+        "label": "Study in India, Matey",
+        "href": "https://www.studyinindia.gov.in/",
+        "children": []
+      },
+      {
+        "id": "resource-3",
+        "label": "Verify a Deckhand",
+        "href": "https://www.iitism.ac.in/student-verification",
+        "children": []
+      },
+      {
+        "id": "resource-4",
+        "label": "Contingency Rules for Ph.D/M.Tech/IPDF Deckhands",
+        "href": "https://people.iitism.ac.in/~download/rules/Contingency%20Rule%20with%20Claim%20Form.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-5",
+        "label": "Health Centre — Crew Care",
+        "href": "https://people.iitism.ac.in/~healthcenter/",
+        "children": []
+      },
+      {
+        "id": "resource-6",
+        "label": "Book the GJLT Deck",
+        "href": "https://people.iitism.ac.in/~download/form-emp/GJLT.pdf",
+        "children": []
+      },
+      {
+        "id": "resource-7",
+        "label": "IInvenTiv2026 Inventors’ Armada",
+        "href": "https://iinventiv.iitism.ac.in/",
+        "children": []
+      }
+    ],
+    "brand": {
+      "name": "NO Anchor University",
+      "subtitle": "Indian School o' Mutineers (est. 1926, still diggin')",
+      "imageId": "global-footer-identity"
+    },
+    "actions": [
+      {
+        "id": "action-0",
+        "label": "Add to the Treasure Chest",
+        "href": "https://alumni.iitism.ac.in/",
+        "children": []
+      },
+      {
+        "id": "action-1",
+        "label": "Send a Message in a Bottle",
+        "href": "https://www.iitism.ac.in/general-administration",
+        "children": []
+      }
+    ],
+    "badges": [
+      {
+        "imageId": "global-parrot-badge"
+      },
+      {
+        "imageId": "global-treasure-seal"
+      }
+    ],
+    "badgeSourceLabel": "Decorative pirate seal; no official certification.",
+    "visit": {
+      "label": "Visitors aboard:",
+      "value": "—"
+    }
+  }
+}

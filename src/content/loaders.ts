@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { headerSchema, footerSchema } from "./global-schemas";
 import {
   pageSchema,
   glossarySchema,
@@ -44,6 +45,12 @@ export function loadImages() {
 export function loadGlobal(name: "header" | "footer") {
   return loadJson(`global/${name}.json`, bilingualRecordSchema);
 }
+export function loadHeader() {
+  return loadJson("global/header.json", headerSchema);
+}
+export function loadFooter() {
+  return loadJson("global/footer.json", footerSchema);
+}
 
 const uiSchema = z.record(z.string(), pairedTextSchema);
 export function loadUi() {
@@ -56,8 +63,10 @@ export function loadUi() {
   if (!institute || !shortName)
     throw new Error("Institute glossary entries are missing.");
   ui.brand = {
-    original: institute.original,
-    pirate: shortName.pirate.split(" / ")[0],
+    original: institute.pirate,
+    pirate: institute.pirate,
   };
+  const slogan = glossary.find((term) => term.original === "University slogan");
+  if (slogan) ui.slogan = { original: slogan.pirate, pirate: slogan.pirate };
   return ui;
 }

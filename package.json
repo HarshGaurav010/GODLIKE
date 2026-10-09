@@ -12,7 +12,7 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "scrape": "tsx scripts/scrape.ts",
     "test": "tsx --test tests/*.test.ts",
-    "check:browser": "tsx scripts/check-browser.ts"
+    "check:browser": "tsx scripts/check-browser.ts && tsx scripts/check-shell.ts"
   },
   "dependencies": {
     "next": "^16.4.0",

@@ -1,4 +1,8 @@
-# IIT (ISM) Dhanbad — pirate parody
+# NO Anchor University
+
+no direction full confidence
+
+The site primarily targets PC; review desktop at 1440 and 1920px first, with responsive support retained.
 
 Phase 1 uses Next.js App Router, strict TypeScript, Tailwind CSS, token-based parchment styles and validated bilingual JSON. Follow [AGENTS.md](AGENTS.md), [the plan](docs/PLAN.md) and [the progress tracker](docs/PROGRESS.md).
 
@@ -9,7 +13,7 @@ npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:3000. During setup, the root temporarily redirects to /uncharted?from=home. The actual homepage is a later task. Available routes: /uncharted and /davy-jones-locker.
+Open http://127.0.0.1:3000. The root temporarily redirects to /uncharted?from=home. The actual homepage is a later task. Available routes: /uncharted and /davy-jones-locker.
 
 ```sh
 npm run lint
@@ -18,15 +22,16 @@ npm run build
 npm run format:check
 ```
 
-Content validation runs before every build. To repeat browser verification, start the app, install Chromium with `npx playwright install chromium`, then run `npm run check:browser`. Screenshots and the report are saved under ignored artifacts/setup.
+Content validation runs before every build. To repeat browser verification, start the app, install Chromium with `npx playwright install chromium`, then run `npm run check:browser`. Screenshots and reports are saved under ignored artifacts/setup and artifacts/global. The browser command also checks shared menus, search, quick links and accessibility controls.
 
 ## Content and styles
 
 - content/pages: one JSON per page, original and pirate section data.
 - Utility pages use sourceKind: authoredUtility. Their original text is authored plain-language UI, not text extracted from the institution.
-- content/global/ui.json: paired shared utility labels. Header and footer source datasets belong to the next task.
+- content/global/header.json and footer.json: paired source navigation and pirate rewrites extracted from the cached Firecrawl homepage.
+- content/global/ui.json: paired shared interface labels; brand and slogan are read from the glossary.
 - content/glossary.json: mappings copied from AGENTS.md. Brand rendering reads this glossary.
-- content/images.json: replacement image inventory, currently empty because setup pages contain no images.
+- content/images.json: four generated shared images. All public assets are original parody illustrations.
 - content/image-style.txt: shared image prompt prefix.
 - src/styles/tokens.css: all visual values. next/font supplies Source Serif 4 and Source Sans 3.
 - src/content: Zod validation, filesystem loaders and safe link routing.
@@ -55,4 +60,8 @@ The existing homepage screenshot is only 1440 × 1000 despite a full-page reques
 
 Generate replacements through the available image generation tool when a page is worked on. Prefix every prompt with content/image-style.txt, save optimized local WebP files in public/images/pirate/<slug>, and record dimensions, descriptive alt text and status in content/images.json. Refer to image IDs in page data. Validate local files before rendering with next/image.
 
-Setup contains no generated images, original images, logos, badges or placeholders. The original parody crest belongs to the global shell task.
+The shared shell uses a generated skull/book/crossed-pickaxes crest and a decorative parrot seal. The header and footer identity graphics retain the original image aspect ratios, with accessible live text for the name and slogan. The fictional seals make no official certification claim. No original assets or placeholders are shipped.
+
+Generation prompts are recorded under docs/assets. After generating new source PNGs with the image tool, prepare local WebP derivatives with `node scripts/prepare-global-images.mjs <generated-crest.png> <generated-parrot.png>`. This conversion script does not generate images or require an API key.
+
+The Firecrawl cache captures the primary footer resources, identity, actions and badges. A separate full browser reference lives under scrape/screenshots; a government-links strip visible on the live site was absent from the cache and remains an explicitly documented source gap.

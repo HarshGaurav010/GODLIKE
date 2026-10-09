@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { LanguageProvider } from "@/components/content/LanguageProvider";
+import { loadUi } from "@/content/loaders";
 import "./globals.css";
 
 const bodyFont = Source_Sans_3({
@@ -14,8 +15,9 @@ const displayFont = Source_Serif_4({
   display: "swap",
 });
 
+const brand = loadUi().brand.pirate;
 export const metadata: Metadata = {
-  title: { default: "The Isle · A pirate parody", template: "%s · The Isle" },
+  title: { default: `${brand} · A pirate parody`, template: `%s · ${brand}` },
   description:
     "A hackathon pirate parody of IIT (ISM) Dhanbad. Not affiliated with the institute.",
   robots: { index: false, follow: false },

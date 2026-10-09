@@ -1,7 +1,7 @@
 {
   "brand": {
-    "original": "IIT (ISM) Dhanbad",
-    "pirate": "The Isle"
+    "original": "NO Anchor University",
+    "pirate": "NO Anchor University"
   },
   "phase": {
     "original": "Phase 1 · Site under construction",
@@ -34,5 +34,69 @@
   "status": {
     "original": "The foundations are in place. The shared navigation and homepage are next in the build queue.",
     "pirate": "The keel be laid. The shared navigation and home port be next on the shipbuilder’s list."
+  },
+  "slogan": {
+    "original": "no direction full confidence",
+    "pirate": "no direction full confidence"
+  },
+  "mainNav": {
+    "original": "Main navigation",
+    "pirate": "The ship’s main routes"
+  },
+  "menu": {
+    "original": "Menu",
+    "pirate": "All the Decks"
+  },
+  "quickLinks": {
+    "original": "Quick links",
+    "pirate": "Useful Scrolls"
+  },
+  "closePanel": {
+    "original": "Close",
+    "pirate": "Stow this Panel"
+  },
+  "openSearch": {
+    "original": "Search",
+    "pirate": "Search the Ship’s Charts"
+  },
+  "searchEmpty": {
+    "original": "No matching pages. Try another word.",
+    "pirate": "No charts found. Try another bearing, matey."
+  },
+  "searchHint": {
+    "original": "Search page names and navigation destinations.",
+    "pirate": "Search for a deck, a course or a scroll."
+  },
+  "searchResults": {
+    "original": "Search results",
+    "pirate": "Charts found"
+  },
+  "accessibility": {
+    "original": "Accessibility Menu",
+    "pirate": "Accessible Deck Controls"
+  },
+  "parodyBadge": {
+    "original": "Decorative parody seals; no official certification.",
+    "pirate": "Parrot-approved parody seals. No official certification."
+  },
+  "sourceIdentity": {
+    "original": "Parody inspired by IIT (ISM) Dhanbad",
+    "pirate": "A parody voyage inspired by IIT (ISM) Dhanbad"
+  },
+  "enableContrast": {
+    "original": "Use stronger contrast",
+    "pirate": "Use stronger ink contrast"
+  },
+  "resetContrast": {
+    "original": "Reset contrast",
+    "pirate": "Reset the ink contrast"
+  },
+  "draftStatus": {
+    "original": "The shared navigation is ready. The homepage content is the next page in the build queue.",
+    "pirate": "The shared charts be ready. The home port’s content be next in the shipbuilder’s queue."
+  },
+  "socialNav": {
+    "original": "Social media",
+    "pirate": "Signals across the Seas"
   }
 }

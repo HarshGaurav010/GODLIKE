@@ -5,7 +5,8 @@ import {
   loadImages,
   loadGlossary,
   loadUi,
-  loadGlobal,
+  loadHeader,
+  loadFooter,
 } from "../src/content/loaders";
 import { richTextSchema, ctaSchema } from "../src/content/schemas";
 import { resolveLink } from "../src/content/links";
@@ -88,8 +89,11 @@ for (const page of pages) {
     }
   }
 }
-for (const name of ["header", "footer"] as const) {
-  if (existsSync(`content/global/${name}.json`)) loadGlobal(name);
+for (const [name, content] of [
+  ["header", loadHeader()],
+  ["footer", loadFooter()],
+] as const) {
+  checkImages(content as Json, `global.${name}`);
 }
 console.log(
   `Validated ${pages.length} pages, ${glossary.length} glossary entries, ${Object.keys(ui).length} UI labels and ${images.length} images.`,

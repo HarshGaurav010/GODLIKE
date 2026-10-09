@@ -1,0 +1,1092 @@
+{
+  "desktop": [
+    {
+      "class": "upper-part d-flex justify-content-flex-end",
+      "items": [
+        {
+          "label": "Home",
+          "href": "https://www.iitism.ac.in/home",
+          "children": []
+        },
+        {
+          "label": "Admission",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "UG",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "B. Tech",
+                  "href": "https://www.iitism.ac.in/jeea",
+                  "children": []
+                },
+                {
+                  "label": "BS MS",
+                  "href": "https://www.iitism.ac.in/jeea",
+                  "children": []
+                },
+                {
+                  "label": "B.Sc.-B.Ed.",
+                  "href": "https://people.iitism.ac.in/~academics/Academic/bsc-bed",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "PG",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "M.Tech",
+                  "href": "https://admissions.iitism.ac.in/mtech/index.php/admission",
+                  "children": []
+                },
+                {
+                  "label": "MBA",
+                  "href": "https://www.iitism.ac.in/home-mba",
+                  "children": []
+                },
+                {
+                  "label": "MA",
+                  "href": "https://www.iitism.ac.in/home-ma",
+                  "children": []
+                },
+                {
+                  "label": "M.Sc & M.Sc. Tech",
+                  "href": "https://www.iitism.ac.in/home-m-sc",
+                  "children": []
+                },
+                {
+                  "label": "Executive Masters Programmes",
+                  "href": "https://www.iitism.ac.in/executive-masters-programmes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "PhD",
+              "href": "https://www.iitism.ac.in/phdadmission",
+              "children": []
+            },
+            {
+              "label": "FAQ",
+              "href": "https://people.iitism.ac.in/~download/FAQ/FAQ_2025.pdf",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Alumni",
+          "href": "https://alumni.iitism.ac.in/centenary.php",
+          "children": [
+            {
+              "label": "Centenary Appeal",
+              "href": "https://alumni.iitism.ac.in/centenary-building.php",
+              "children": []
+            },
+            {
+              "label": "Alumni Portal",
+              "href": "https://alumni.iitism.ac.in/",
+              "children": []
+            },
+            {
+              "label": "Alumni Insurance Program",
+              "href": "https://app.alyve.health/login?redirect=%2Fall-programs%3Flink%3Dhttps%3A%2F%2Fprograms.alyve.health%2Finsurance%2Fselect%2Fcampus%2F472",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Centres",
+          "href": "https://www.iitism.ac.in/center",
+          "children": []
+        },
+        {
+          "label": "CE&O",
+          "href": "https://people.iitism.ac.in/~cep/",
+          "children": []
+        },
+        {
+          "label": "Department",
+          "href": "https://www.iitism.ac.in/departments",
+          "children": []
+        },
+        {
+          "label": "Faculty",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Faculty Portal",
+              "href": "https://people.iitism.ac.in/~faculty/",
+              "children": []
+            },
+            {
+              "label": "All Faculty",
+              "href": "https://www.iitism.ac.in/all-faculty",
+              "children": []
+            },
+            {
+              "label": "Research Cluster",
+              "href": "https://www.iitism.ac.in/research-cluster",
+              "children": []
+            },
+            {
+              "label": "Hand Book",
+              "href": "https://people.iitism.ac.in/~download//faculty_webpage/Faculty-Hand-Book.pdf",
+              "children": []
+            },
+            {
+              "label": "Forms",
+              "href": "https://www.iitism.ac.in/rules-and-guidelines",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "In Media",
+          "href": "https://people.iitism.ac.in/~inmedia/",
+          "children": []
+        },
+        {
+          "label": "Institute Video",
+          "href": "https://www.iitism.ac.in/institute-video",
+          "children": []
+        },
+        {
+          "label": "Officers & Staff",
+          "href": "https://www.iitism.ac.in/staff-and-officers",
+          "children": []
+        },
+        {
+          "label": "Students",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Students’ Welfare",
+              "href": "https://www.iitism.ac.in/home-dsw",
+              "children": []
+            },
+            {
+              "label": "ARK Portal",
+              "href": "https://ark.iitism.ac.in/",
+              "children": []
+            },
+            {
+              "label": "Online Payment",
+              "href": "https://www.iitism.ac.in/online-payment",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "href": "https://people.iitism.ac.in/~climate/",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "lower-navbar-menu d-flex justify-content-flex-end",
+      "items": [
+        {
+          "label": "The Institute",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Overview",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "Overview",
+                  "href": "https://www.iitism.ac.in/about-overview",
+                  "children": []
+                },
+                {
+                  "label": "Vision & Mission",
+                  "href": "https://www.iitism.ac.in/vision",
+                  "children": []
+                },
+                {
+                  "label": "History",
+                  "href": "https://www.iitism.ac.in/about-history",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Administration",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "Administration",
+                  "href": "https://www.iitism.ac.in/administration",
+                  "children": []
+                },
+                {
+                  "label": "Chairman",
+                  "href": "https://www.iitism.ac.in/chairman",
+                  "children": []
+                },
+                {
+                  "label": "Director",
+                  "href": "https://www.iitism.ac.in/director",
+                  "children": []
+                },
+                {
+                  "label": "Deputy Director",
+                  "href": "https://www.iitism.ac.in/deputy-director",
+                  "children": []
+                },
+                {
+                  "label": "Deans",
+                  "href": "https://www.iitism.ac.in/deans",
+                  "children": []
+                },
+                {
+                  "label": "Registrar",
+                  "href": "https://www.iitism.ac.in/registrar",
+                  "children": []
+                },
+                {
+                  "label": "Associate Deans",
+                  "href": "https://www.iitism.ac.in/associate-deans",
+                  "children": []
+                },
+                {
+                  "label": "Professor In-Charge",
+                  "href": "https://www.iitism.ac.in/professor-in-charge",
+                  "children": []
+                },
+                {
+                  "label": "HoDs",
+                  "href": "https://www.iitism.ac.in/hods",
+                  "children": []
+                },
+                {
+                  "label": "Library",
+                  "href": "https://www.iitism.ac.in/library",
+                  "children": []
+                },
+                {
+                  "label": "General Administration",
+                  "href": "https://www.iitism.ac.in/general-administration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Reports",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "Annual Reports",
+                  "href": "https://www.iitism.ac.in/annual-reports",
+                  "children": []
+                },
+                {
+                  "label": "NIRF",
+                  "href": "https://www.iitism.ac.in/nirf",
+                  "children": []
+                },
+                {
+                  "label": "ARIIA Report",
+                  "href": "https://www.iitism.ac.in/ariia-report",
+                  "children": []
+                },
+                {
+                  "label": "Institute of Technology Act, 1961",
+                  "href": "https://people.iitism.ac.in/~download/estt/registrar/The%20Institutes%20of%20Technology%20Act%201961_Modified%2014.9.2020.pdf",
+                  "children": []
+                },
+                {
+                  "label": "IIT Council Data",
+                  "href": "https://www.iitism.ac.in/iit-council-data",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Statutes of IIT(ISM)",
+              "href": "https://people.iitism.ac.in/~download/estt/registrar/IITISM-STATUTES.pdf",
+              "children": []
+            },
+            {
+              "label": "Minutes of BoG",
+              "href": "https://www.iitism.ac.in/minutes-of-bog-meeting",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Academics",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Academics",
+              "href": "https://people.iitism.ac.in/~academics/",
+              "children": []
+            },
+            {
+              "label": "AI Courses",
+              "href": "https://www.iitism.ac.in/ai-courses",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Research",
+          "href": "https://people.iitism.ac.in/~research/",
+          "children": []
+        },
+        {
+          "label": "Innovation",
+          "href": "https://www.iitism.ac.in/dean-iie",
+          "children": []
+        },
+        {
+          "label": "International Relations",
+          "href": "https://ir.iitism.ac.in/",
+          "children": []
+        },
+        {
+          "label": "Faculty & Staff Opening",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Faculty",
+              "href": "https://www.iitism.ac.in/facultycareers",
+              "children": []
+            },
+            {
+              "label": "Non Faculty",
+              "href": "https://www.iitism.ac.in/career-non-faculty",
+              "children": []
+            },
+            {
+              "label": "Project Opening",
+              "href": "https://www.iitism.ac.in/project-opening",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Placement",
+          "href": "https://www.iitism.ac.in/career-development-centre",
+          "children": []
+        },
+        {
+          "label": "Centenary Events",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "IIT(ISM) @2026; 100 Years of legacy",
+              "href": "https://people.iitism.ac.in/~download/news_and_events/admin/MISSION-2026-IIT-ISM-DHANBAD.pdf",
+              "children": []
+            },
+            {
+              "label": "Seminar",
+              "href": "https://www.iitism.ac.in/seminar-1",
+              "children": []
+            },
+            {
+              "label": "Newsletter",
+              "href": "https://www.iitism.ac.in/#",
+              "children": [
+                {
+                  "label": "Applied Geology",
+                  "href": "https://www.iitism.ac.in/applied-geology-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Applied Geophysics",
+                  "href": "https://www.iitism.ac.in/applied-geophysics-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Chemical Engg.",
+                  "href": "https://www.iitism.ac.in/chemical-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Chemistry and Chemical Biology",
+                  "href": "https://www.iitism.ac.in/chemistry-and-chemical-biology-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Civil Engg.",
+                  "href": "https://www.iitism.ac.in/civil-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Computer Science and Engg.",
+                  "href": "https://www.iitism.ac.in/computer-science-and-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Electrical Engg.",
+                  "href": "https://www.iitism.ac.in/electrical-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Electronics Eng.",
+                  "href": "https://www.iitism.ac.in/electronics-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Environmental Science and Engg.",
+                  "href": "https://www.iitism.ac.in/environmental-science-and-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Fuel, Minerals and Metallurgical Engg.",
+                  "href": "https://www.iitism.ac.in/fuel-minerals-and-metallurgical-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Humanities and Social Sciences",
+                  "href": "https://www.iitism.ac.in/department-of-humanities-and-social-sciences-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Mathematics & Computing",
+                  "href": "https://www.iitism.ac.in/mathematics-and-computing-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Management Studies and Industrial Engg.",
+                  "href": "https://www.iitism.ac.in/management-studies-and-industrial-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Mechanical Engg.",
+                  "href": "https://www.iitism.ac.in/mechanical-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Mining Engg.",
+                  "href": "https://www.iitism.ac.in/mining-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Petroleum Engg.",
+                  "href": "https://www.iitism.ac.in/petroleum-engineering-newsletter",
+                  "children": []
+                },
+                {
+                  "label": "Physics",
+                  "href": "https://www.iitism.ac.in/physics-newsletter",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "label": "Home",
+      "href": "https://www.iitism.ac.in/home",
+      "items": []
+    },
+    {
+      "label": "Admission",
+      "href": "#",
+      "items": [
+        {
+          "label": "UG",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "B. Tech",
+              "href": "https://www.iitism.ac.in/jeea",
+              "children": []
+            },
+            {
+              "label": "BS MS",
+              "href": "https://www.iitism.ac.in/jeea",
+              "children": []
+            },
+            {
+              "label": "B.Sc.-B.Ed.",
+              "href": "https://people.iitism.ac.in/~academics/Academic/bsc-bed",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "PG",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "M.Tech",
+              "href": "https://admissions.iitism.ac.in/mtech/index.php/admission",
+              "children": []
+            },
+            {
+              "label": "MBA",
+              "href": "https://www.iitism.ac.in/home-mba",
+              "children": []
+            },
+            {
+              "label": "MA",
+              "href": "https://www.iitism.ac.in/home-ma",
+              "children": []
+            },
+            {
+              "label": "M.Sc. & M.Sc. Tech",
+              "href": "https://www.iitism.ac.in/home-m-sc",
+              "children": []
+            },
+            {
+              "label": "Executive Masters Programmes",
+              "href": "https://www.iitism.ac.in/executive-masters-programmes",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "PhD",
+          "href": "https://www.iitism.ac.in/phdadmission",
+          "children": []
+        },
+        {
+          "label": "FAQ",
+          "href": "https://people.iitism.ac.in/~download/FAQ/FAQ_2025.pdf",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Institute video",
+      "href": "https://www.iitism.ac.in/institute-video",
+      "items": []
+    },
+    {
+      "label": "Alumni",
+      "href": "#",
+      "items": [
+        {
+          "label": "Centenary Appeal",
+          "href": "https://alumni.iitism.ac.in/centenary-building.php",
+          "children": []
+        },
+        {
+          "label": "Alumni Portal",
+          "href": "https://alumni.iitism.ac.in/",
+          "children": []
+        },
+        {
+          "label": "Alumni Insurance Program",
+          "href": "https://app.alyve.health/login?redirect=%2Fall-programs%3Flink%3Dhttps%3A%2F%2Fprograms.alyve.health%2Finsurance%2Fselect%2Fcampus%2F472",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Department",
+      "href": "https://www.iitism.ac.in/departments",
+      "items": []
+    },
+    {
+      "label": "Faculty",
+      "href": "#",
+      "items": [
+        {
+          "label": "Faculty Portal",
+          "href": "https://people.iitism.ac.in/~faculty/",
+          "children": []
+        },
+        {
+          "label": "All Faculty",
+          "href": "https://www.iitism.ac.in/all-faculty",
+          "children": []
+        },
+        {
+          "label": "Research Cluster",
+          "href": "https://www.iitism.ac.in/research-cluster",
+          "children": []
+        },
+        {
+          "label": "Hand Book",
+          "href": "https://people.iitism.ac.in/~download//faculty_webpage/Faculty-Hand-Book.pdf",
+          "children": []
+        },
+        {
+          "label": "Forms",
+          "href": "https://www.iitism.ac.in/rules-and-guidelines",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Officers & Staff",
+      "href": "https://www.iitism.ac.in/staff-and-officers",
+      "items": []
+    },
+    {
+      "label": "Students",
+      "href": "#",
+      "items": [
+        {
+          "label": "Students’ Welfare",
+          "href": "https://www.iitism.ac.in/home-dsw",
+          "children": []
+        },
+        {
+          "label": "ARK Portal",
+          "href": "https://ark.iitism.ac.in/",
+          "children": []
+        },
+        {
+          "label": "Online Payment",
+          "href": "https://www.iitism.ac.in/online-payment",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "The Institute",
+      "href": "#",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Overview",
+              "href": "https://www.iitism.ac.in/about-overview",
+              "children": []
+            },
+            {
+              "label": "Vision & Mission",
+              "href": "https://www.iitism.ac.in/vision",
+              "children": []
+            },
+            {
+              "label": "History",
+              "href": "https://www.iitism.ac.in/about-history",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Administration",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Administration",
+              "href": "https://www.iitism.ac.in/administration",
+              "children": []
+            },
+            {
+              "label": "Chairman",
+              "href": "https://www.iitism.ac.in/chairman",
+              "children": []
+            },
+            {
+              "label": "Director",
+              "href": "https://www.iitism.ac.in/director",
+              "children": []
+            },
+            {
+              "label": "Deputy Director",
+              "href": "https://www.iitism.ac.in/deputy-director",
+              "children": []
+            },
+            {
+              "label": "Deans",
+              "href": "https://www.iitism.ac.in/deans",
+              "children": []
+            },
+            {
+              "label": "Registrar",
+              "href": "https://www.iitism.ac.in/registrar",
+              "children": []
+            },
+            {
+              "label": "Associate Deans",
+              "href": "https://www.iitism.ac.in/associate-deans",
+              "children": []
+            },
+            {
+              "label": "Professor In Charge",
+              "href": "https://www.iitism.ac.in/professor-in-charge",
+              "children": []
+            },
+            {
+              "label": "HoDs",
+              "href": "https://www.iitism.ac.in/hods",
+              "children": []
+            },
+            {
+              "label": "Library",
+              "href": "https://www.iitism.ac.in/library",
+              "children": []
+            },
+            {
+              "label": "General Administration",
+              "href": "https://www.iitism.ac.in/general-administration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Reports",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Annual Reports",
+              "href": "https://www.iitism.ac.in/annual-reports",
+              "children": []
+            },
+            {
+              "label": "NIRF",
+              "href": "https://www.iitism.ac.in/nirf",
+              "children": []
+            },
+            {
+              "label": "ARIIA Report",
+              "href": "https://www.iitism.ac.in/ariia-report",
+              "children": []
+            },
+            {
+              "label": "Institute of Technology Act, 1961",
+              "href": "https://people.iitism.ac.in/~download/estt/registrar/The%20Institutes%20of%20Technology%20Act%201961_Modified%2014.9.2020.pdf",
+              "children": []
+            },
+            {
+              "label": "IIT Council Data",
+              "href": "https://www.iitism.ac.in/iit-council-data",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Statutes of IIT(ISM)",
+          "href": "https://people.iitism.ac.in/~download/estt/registrar/IITISM-STATUTES.pdf",
+          "children": []
+        },
+        {
+          "label": "Minutes of BoG Meeting",
+          "href": "https://www.iitism.ac.in/minutes-of-bog-meeting",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Academics",
+      "href": "#",
+      "items": [
+        {
+          "label": "Academics",
+          "href": "https://people.iitism.ac.in/~academics/",
+          "children": []
+        },
+        {
+          "label": "AI Courses",
+          "href": "https://www.iitism.ac.in/ai-courses",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Innovation",
+      "href": "https://www.iitism.ac.in/dean-iie",
+      "items": []
+    },
+    {
+      "label": "International Relations",
+      "href": "https://ir.iitism.ac.in/",
+      "items": []
+    },
+    {
+      "label": "Faculty & Staff Opening",
+      "href": "#",
+      "items": [
+        {
+          "label": "Faculty",
+          "href": "https://www.iitism.ac.in/facultycareers",
+          "children": []
+        },
+        {
+          "label": "Non Faculty",
+          "href": "https://www.iitism.ac.in/career-non-faculty",
+          "children": []
+        },
+        {
+          "label": "Project Opening",
+          "href": "https://www.iitism.ac.in/project-opening",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Placement",
+      "href": "https://www.iitism.ac.in/career-development-centre",
+      "items": []
+    },
+    {
+      "label": "Research",
+      "href": "https://people.iitism.ac.in/~research/",
+      "items": []
+    },
+    {
+      "label": "Centers",
+      "href": "https://www.iitism.ac.in/center",
+      "items": []
+    },
+    {
+      "label": "CE&O",
+      "href": "https://people.iitism.ac.in/~cep/",
+      "items": []
+    },
+    {
+      "label": "Sustainability",
+      "href": "#",
+      "items": [
+        {
+          "label": "MoTA",
+          "href": "https://people.iitism.ac.in/~tribalwelfare/",
+          "children": []
+        },
+        {
+          "label": "CSM",
+          "href": "https://people.iitism.ac.in/~csm/",
+          "children": []
+        },
+        {
+          "label": "Rain Water Harvesting",
+          "href": "https://www.iitism.ac.in/rain-water-harvesting",
+          "children": []
+        },
+        {
+          "label": "Solid Waste Management",
+          "href": "https://www.iitism.ac.in/solid-waste-management",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "In Media",
+      "href": "https://people.iitism.ac.in/~mbc/",
+      "items": []
+    },
+    {
+      "label": "IInvenTiv2026",
+      "href": "https://iinventiv.iitism.ac.in/",
+      "items": []
+    },
+    {
+      "label": "Centenary Events",
+      "href": "#",
+      "items": [
+        {
+          "label": "IIT(ISM) @2026; 100 Years of legacy",
+          "href": "https://people.iitism.ac.in/~download/news_and_events/admin/MISSION-2026-IIT-ISM-DHANBAD.pdf",
+          "children": []
+        },
+        {
+          "label": "Seminar",
+          "href": "https://www.iitism.ac.in/seminar-1",
+          "children": []
+        },
+        {
+          "label": "Newsletter",
+          "href": "https://www.iitism.ac.in/#",
+          "children": [
+            {
+              "label": "Applied Geology",
+              "href": "https://www.iitism.ac.in/applied-geology-newsletter",
+              "children": []
+            },
+            {
+              "label": "Applied Geophysics",
+              "href": "https://www.iitism.ac.in/applied-geophysics-newsletter",
+              "children": []
+            },
+            {
+              "label": "Chemical Engg.",
+              "href": "https://www.iitism.ac.in/chemical-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Chemistry and Chemical Biology",
+              "href": "https://www.iitism.ac.in/chemistry-and-chemical-biology-newsletter",
+              "children": []
+            },
+            {
+              "label": "Civil Engg.",
+              "href": "https://www.iitism.ac.in/civil-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Computer Science and Engg.",
+              "href": "https://www.iitism.ac.in/computer-science-and-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Electrical Engg.",
+              "href": "https://www.iitism.ac.in/electrical-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Electronics Engg.",
+              "href": "https://www.iitism.ac.in/electronics-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Environmental Science and Engg.",
+              "href": "https://www.iitism.ac.in/environmental-science-and-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Fuel, Minerals and Metallurgical Engg.",
+              "href": "https://www.iitism.ac.in/fuel-minerals-and-metallurgical-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Humanities and Social Sciences",
+              "href": "https://www.iitism.ac.in/department-of-humanities-and-social-sciences-newsletter",
+              "children": []
+            },
+            {
+              "label": "Mathematics & Computing",
+              "href": "https://www.iitism.ac.in/mathematics-and-computing-newsletter",
+              "children": []
+            },
+            {
+              "label": "Management Studies and Industrial Engg.",
+              "href": "https://www.iitism.ac.in/management-studies-and-industrial-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Mechanical Engg.",
+              "href": "https://www.iitism.ac.in/mechanical-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Mining Engg.",
+              "href": "https://www.iitism.ac.in/mining-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Petroleum Engg.",
+              "href": "https://www.iitism.ac.in/petroleum-engineering-newsletter",
+              "children": []
+            },
+            {
+              "label": "Physics",
+              "href": "https://www.iitism.ac.in/physics-newsletter",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "label": "Policy",
+      "href": "https://people.iitism.ac.in/~download/Policy/Policy%20for%20Fair%20Usage%20of%20Information%20Systems.pdf"
+    },
+    {
+      "label": "Central Library",
+      "href": "https://library.iitism.ac.in/"
+    },
+    {
+      "label": "Tenders",
+      "href": "https://www.iitism.ac.in/tenders"
+    },
+    {
+      "label": "Right to Information",
+      "href": "https://www.iitism.ac.in/right-to-information"
+    },
+    {
+      "label": "National Ragging Prevention Programme",
+      "href": "https://people.iitism.ac.in/~download/pdf/Colleges,%20University,%20Institution_Website_Information.pdf"
+    },
+    {
+      "label": "CVO",
+      "href": "https://people.iitism.ac.in/~cvo/"
+    },
+    {
+      "label": "BIS Corner",
+      "href": "https://www.iitism.ac.in/bureau-of-indian-standards-data"
+    },
+    {
+      "label": "SC/ST Cell",
+      "href": "https://www.iitism.ac.in/sc-st-cell"
+    },
+    {
+      "label": "Equal Opportunity Cell",
+      "href": "https://www.iitism.ac.in/equal-opportunity-cell"
+    },
+    {
+      "label": "Geological Museum",
+      "href": "https://www.iitism.ac.in/geological-museum"
+    }
+  ],
+  "footer": [
+    {
+      "label": "Admission Guideline and Fee Structure of Foreign Student",
+      "href": "https://people.iitism.ac.in/~download/files/IIT%20(ISM)%20Foreign%20students%20Admission%20Guidelines%20from%202022%20onwards.pdf"
+    },
+    {
+      "label": "Campus Tour",
+      "href": "https://people.iitism.ac.in/~download/video/iitism-campus-tour.mp4"
+    },
+    {
+      "label": "Study in India",
+      "href": "https://www.studyinindia.gov.in/"
+    },
+    {
+      "label": "Student Verification",
+      "href": "https://www.iitism.ac.in/student-verification"
+    },
+    {
+      "label": "Contingency Rules/Guidelines for Ph.D/M.Tech/ IPDF students",
+      "href": "https://people.iitism.ac.in/~download/rules/Contingency%20Rule%20with%20Claim%20Form.pdf"
+    },
+    {
+      "label": "Health Centre",
+      "href": "https://people.iitism.ac.in/~healthcenter/"
+    },
+    {
+      "label": "GJLT Booking",
+      "href": "https://people.iitism.ac.in/~download/form-emp/GJLT.pdf"
+    },
+    {
+      "label": "IInvenTiv2026",
+      "href": "https://iinventiv.iitism.ac.in/"
+    }
+  ],
+  "utilities": [
+    {
+      "label": "Contrast +",
+      "href": null
+    },
+    {
+      "label": "Bigger Text",
+      "href": null
+    },
+    {
+      "label": "Reset Text",
+      "href": null
+    },
+    {
+      "label": "Smaller Text",
+      "href": null
+    },
+    {
+      "label": "Hindi",
+      "href": "https://www.iitism.ac.in/hi"
+    },
+    {
+      "label": "English",
+      "href": "https://www.iitism.ac.in/"
+    }
+  ]
+}

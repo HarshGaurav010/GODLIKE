@@ -18,14 +18,14 @@
         "heading": "A destination for another day",
         "paragraphs": [
           "The page you followed has not been built yet. We are recreating the institute’s website one page at a time.",
-          "Your destination is saved in the address as the from parameter. Nothing is missing from your browser; this part of the site is in the build queue."
+          "There is nothing you need to fix. This destination will open here when its page is built."
         ]
       },
       "pirate": {
         "heading": "Beyond the edge o’ the map",
         "paragraphs": [
           "This stretch o’ The Isle is still uncharted. Our crew be rebuilding the institute one page at a time, with knowledge as the treasure. Mostly.",
-          "Yer destination be tucked into the address after from. The map is fine; the shipbuilders simply haven’t reached this shore yet."
+          "Yer browser hasn’t sprung a leak. This shore will appear here once the shipbuilders reach it."
         ]
       }
     },
