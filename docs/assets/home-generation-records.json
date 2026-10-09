@@ -1,327 +1,296 @@
 [
   {
-    "id": "global-header-identity",
-    "section": "header",
-    "width": 1307,
-    "height": 304,
-    "originalAlt": "",
-    "role": "Header identity, same 2614:608 ratio as original; generated crest beside live wordmark",
-    "alt": "The crew’s skull, book and crossed-pickaxe crest",
-    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
-    "page": "global",
-    "file": "/images/pirate/global/global-header-identity.webp",
-    "status": "generated"
-  },
-  {
-    "id": "global-footer-identity",
-    "section": "footer",
-    "width": 616,
-    "height": 144,
-    "originalAlt": "",
-    "role": "Footer identity, same 616:144 ratio as original; generated crest beside live wordmark",
-    "alt": "The university’s friendly pirate crest, guardin’ the footer",
-    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
-    "page": "global",
-    "file": "/images/pirate/global/global-footer-identity.webp",
-    "status": "generated"
-  },
-  {
-    "id": "global-parrot-badge",
-    "section": "footer",
-    "width": 262,
-    "height": 261,
-    "originalAlt": "",
-    "role": "Decorative parody replacement for original 524:522 certification badge; no certification claim",
-    "alt": "A tricorne-wearin’ parrot perched on a treasure map inside a playful seal",
-    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: illustration-story. Asset type: small decorative parody seal for a pirate university website footer, replacing a real certification badge with an obviously fictional joke. A friendly green and blue cartoon parrot wearing a tiny tricorne perches on a rolled treasure map inside a simple circular sea-blue outline. One small pickaxe and a book bookmark. Centered square composition on transparent background, clear shapes legible at 80px. No text, lettering, logos, actual accreditation mark, QR code, official seal or watermark.",
-    "page": "global",
-    "file": "/images/pirate/global/global-parrot-badge.webp",
-    "status": "generated"
-  },
-  {
-    "id": "global-treasure-seal",
-    "section": "footer",
-    "width": 140,
-    "height": 140,
-    "originalAlt": "",
-    "role": "Decorative pirate crest replacing the original square QR graphic; no QR destination",
-    "alt": "A friendly skull above crossed pickaxes and an open book; no secret QR scroll",
-    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Use case: logo-brand. Asset type: an original parody crest for the shared header and footer of an IIT (ISM) Dhanbad pirate hackathon website. Primary request: a friendly ivory cartoon skull wearing a modest tricorne above an open book, two crossed mining pickaxes behind the skull and book, contained in a simple sea-blue shield. Square centered composition, generous clear transparent margin, readable silhouette when scaled to 64 pixels. Flat shapes and thick dark-ink outlines. No official institute logo, seal, national emblem, lettering, ribbon text, accreditation symbols or watermark. This is an original fictional pirate school crest, not a rendition of any real university emblem.",
-    "page": "global",
-    "file": "/images/pirate/global/global-treasure-seal.webp",
-    "status": "generated"
-  },
-  {
     "id": "home-hero-galleon",
-    "section": "harbour",
-    "width": 1920,
-    "height": 890,
-    "originalAlt": "",
-    "role": "Hero banner, full width, same 1920:890 ratio as the original GIF. Replaces: Hero banner of the main heritage building with signboard",
-    "alt": "The red-brick main building reimagined as a grounded galleon, crew waving from the verandas under a skull-and-pickaxe flag",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Wide hero banner. The red-brick colonial heritage main building of an old mining university reimagined as a giant galleon run aground on a lawn: arched verandas become gun ports, the central tower becomes the mast with a skull-and-crossed-pickaxes flag, flower beds in front, cheerful pirate crew waving from the balconies, a parrot carrying a rolled diploma. Long low composition with calm sky space in the upper third for overlay text. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1920,
+      "height": 890
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-6a86c406-39bf-45d7-89d9-df75c509493d.png",
     "file": "/images/pirate/home/home-hero-galleon.webp",
-    "status": "generated"
+    "bytes": 260806,
+    "hasAlpha": false
   },
   {
     "id": "home-director-portrait",
-    "section": "caps-message",
-    "width": 832,
-    "height": 863,
-    "originalAlt": "",
-    "role": "Portrait beside the Director's message, same 832:863 ratio as the original photo. Replaces: Photograph of the Director",
-    "alt": "A cheerful cartoon pirate captain at a ship’s lectern with a spyglass (a stand-in, not a likeness of the Director)",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Friendly generic cartoon pirate captain portrait, head and shoulders, smiling warmly, tricorne hat, neat captain's coat, holding a spyglass, standing at a ship's lectern with a microphone. MUST NOT resemble the real Director or any real person: a fictional, stylised character. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 832,
+      "height": 863
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-95637d97-aeb0-47a6-813d-b5e3bc23afa4.png",
     "file": "/images/pirate/home/home-director-portrait.webp",
-    "status": "generated"
+    "bytes": 188590,
+    "hasAlpha": false
   },
   {
     "id": "home-stats-backdrop",
-    "section": "ships-tally",
-    "width": 1920,
-    "height": 328,
-    "originalAlt": "",
-    "role": "Decorative strip behind the counters; ratio estimated from the 1440:246 screenshot band. Replaces: Campus garden photograph behind the statistics",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Very wide, low decorative strip: a circular flower garden on an island lawn seen from above, pathways drawn like a treasure map with a dotted trail and an X, palm trees at the edges, soft colours so overlaid white counter cards stay readable. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1920,
+      "height": 328
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-4defc092-b76a-4653-87b4-eb29101c3a09.png",
     "file": "/images/pirate/home/home-stats-backdrop.webp",
-    "status": "generated"
+    "bytes": 228460,
+    "hasAlpha": false
   },
   {
     "id": "home-stats-deckhands-icon",
-    "section": "ships-tally",
-    "width": 130,
-    "height": 146,
-    "originalAlt": "",
-    "role": "Small round icon for the students counter, same 130:146 ratio. Replaces: Students icon",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Tiny simple icon: three cartoon deckhand heads in bandanas side by side behind an open book. Bold flat shapes, readable at 48px, transparent background. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 130,
+      "height": 146
+    },
+    "transparentBackground": true,
+    "sourceFile": "exec-e256c014-34bc-4fda-84f0-9670835892a8.png",
     "file": "/images/pirate/home/home-stats-deckhands-icon.webp",
-    "status": "generated"
+    "bytes": 9092,
+    "hasAlpha": true
   },
   {
     "id": "home-stats-officers-icon",
-    "section": "ships-tally",
-    "width": 130,
-    "height": 146,
-    "originalAlt": "",
-    "role": "Small round icon for the faculty counter, same 130:146 ratio. Replaces: Faculty icon",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Tiny simple icon: a cartoon pirate officer's tricorne hat resting on a lectern with a pointer stick. Bold flat shapes, readable at 48px, transparent background. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 130,
+      "height": 146
+    },
+    "transparentBackground": true,
+    "sourceFile": "exec-26816b95-05b6-4727-839c-f97b8f877a7e.png",
     "file": "/images/pirate/home/home-stats-officers-icon.webp",
-    "status": "generated"
+    "bytes": 9962,
+    "hasAlpha": true
   },
   {
     "id": "home-campus-filmfest",
-    "section": "isle-life",
-    "width": 1500,
-    "height": 1000,
-    "originalAlt": "",
-    "role": "Campus life card image, same 1500:1000 ratio. Replaces: Two hosts on stage at Filmfest 2K26",
-    "alt": "Two pirate hosts on a ship-deck stage at Filmfest, spotlights and a film-reel ship’s wheel behind them",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Two cartoon pirate hosts with microphones on a stage decorated like a ship's deck, a big film-reel ship's wheel and spotlights behind them, an audience of deckhands holding popcorn in barrels, festive confetti. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1500,
+      "height": 1000
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-54fa74bf-5feb-4291-975f-9a6bf1409056.png",
     "file": "/images/pirate/home/home-campus-filmfest.webp",
-    "status": "generated"
+    "bytes": 271836,
+    "hasAlpha": false
   },
   {
     "id": "home-campus-sports-day",
-    "section": "isle-life",
-    "width": 1600,
-    "height": 1200,
-    "originalAlt": "",
-    "role": "Campus life card image, same 1600:1200 ratio. Replaces: Two students playing chess",
-    "alt": "Two deckhands in a fierce chess duel on a barrel, the pieces carved as tiny ships and cannons",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Two cartoon pirate deckhands locked in an intense chess match on a barrel-top table; the chess pieces are tiny ships and cannons; badminton shuttlecocks and a table-tennis paddle visible in the background of a hostel common room. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1600,
+      "height": 1200
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-b7fa5833-ee54-4da8-87d4-405c17df70ea.png",
     "file": "/images/pirate/home/home-campus-sports-day.webp",
-    "status": "generated"
+    "bytes": 263812,
+    "hasAlpha": false
   },
   {
     "id": "home-campus-alive",
-    "section": "isle-life",
-    "width": 1440,
-    "height": 1440,
-    "originalAlt": "",
-    "role": "Campus life card image, same 1440:1440 square ratio. Replaces: Band performing at Penman Auditorium",
-    "alt": "A pirate rock band on stage with a barrel drum kit while friendly ghost pirates cheer from the balcony",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A cartoon pirate rock band on an auditorium stage: singer at the microphone, guitarist, keyboardist and drummer whose drum kit is made of barrels; friendly translucent ghost pirates in the balcony cheering for an encore. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1440,
+      "height": 1440
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-ca87ff0c-1042-45ac-af78-b1fc30f2d84c.png",
     "file": "/images/pirate/home/home-campus-alive.webp",
-    "status": "generated"
+    "bytes": 269468,
+    "hasAlpha": false
   },
   {
     "id": "home-academics-deckhand",
-    "section": "learning-deck",
-    "width": 518,
-    "height": 640,
-    "originalAlt": "",
-    "role": "Feature cut-out beside the academics tiles, same 518:640 ratio. Replaces: Student holding books in front of an arch",
-    "alt": "A smiling deckhand student hugging notebooks, with a treasure-chest backpack",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A smiling cartoon deckhand student with glasses, bandana and a backpack shaped like a treasure chest, hugging a stack of notebooks, standing in front of an arched window; half-body portrait on a transparent background. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 518,
+      "height": 640
+    },
+    "transparentBackground": true,
+    "sourceFile": "exec-6dbacf8b-2d5c-464b-8e78-6efdb194d2b0.png",
     "file": "/images/pirate/home/home-academics-deckhand.webp",
-    "status": "generated"
+    "bytes": 106298,
+    "hasAlpha": true
   },
   {
     "id": "home-academics-undergraduate",
-    "section": "learning-deck",
-    "width": 407,
-    "height": 242,
-    "originalAlt": "",
-    "role": "Academics tile background, same 407:242 ratio. Replaces: Undergraduate classroom",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A lecture hall arranged like the deck of a ship: rows of young cartoon deckhands taking notes, a blackboard covered in maps and equations, portholes instead of windows. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 407,
+      "height": 242
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-351058d5-36a6-4aba-bb4e-b29f63527e54.png",
     "file": "/images/pirate/home/home-academics-undergraduate.webp",
-    "status": "generated"
+    "bytes": 45794,
+    "hasAlpha": false
   },
   {
     "id": "home-academics-postgraduate",
-    "section": "learning-deck",
-    "width": 407,
-    "height": 242,
-    "originalAlt": "",
-    "role": "Academics tile background, same 407:242 ratio. Replaces: Postgraduate classroom",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Older cartoon navigator students in a chart room classroom, plotting courses on big sea charts with compasses and dividers, lanterns overhead. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 407,
+      "height": 242
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-c32c3372-1331-404b-98a7-404bc4d15568.png",
     "file": "/images/pirate/home/home-academics-postgraduate.webp",
-    "status": "generated"
+    "bytes": 44916,
+    "hasAlpha": false
   },
   {
     "id": "home-academics-doctoral",
-    "section": "learning-deck",
-    "width": 348,
-    "height": 516,
-    "originalAlt": "",
-    "role": "Academics tile background, same 348:516 tall ratio. Replaces: Researcher in a laboratory",
-    "alt": "",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Tall composition: a cartoon pirate researcher in a lab coat over a striped shirt working at an alchemist-style laboratory rig of brass pipes, flasks and a ship's-wheel valve, with a computer showing a treasure map. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 348,
+      "height": 516
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-82ff6de3-a7e5-4dd4-a621-a82b945ac951.png",
     "file": "/images/pirate/home/home-academics-doctoral.webp",
-    "status": "generated"
+    "bytes": 82676,
+    "hasAlpha": false
   },
   {
     "id": "home-research-sensor",
-    "section": "expeditions",
-    "width": 1756,
-    "height": 2599,
-    "originalAlt": "",
-    "role": "Research card image, same 1756:2599 tall ratio as the original figure. Replaces: Microscope images for the gas sensor study. Shown cropped to the card’s maximum height (16rem); keep the subject in the centre.",
-    "alt": "A brass sensor shaped like a big nose sniffing a pickle jar while a parrot takes notes",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Tall composition: a brass ship's-instrument gas sensor shaped like a big cartoon nose sniffing a jar of pickles labelled only with a vinegar-drop icon, with thin glowing layered sheets inside the instrument; a lookout parrot taking notes. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1756,
+      "height": 2599
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-fb25622e-6436-4227-9ca2-84f2bc613b94.png",
     "file": "/images/pirate/home/home-research-sensor.webp",
-    "status": "generated"
+    "bytes": 293022,
+    "hasAlpha": false
   },
   {
     "id": "home-research-alloy",
-    "section": "expeditions",
-    "width": 993,
-    "height": 559,
-    "originalAlt": "",
-    "role": "Research card image, same 993:559 ratio. Replaces: Metal samples from the alloy study. Shown cropped to the card’s maximum height (16rem); keep the subject in the centre.",
-    "alt": "A pirate scientist forging glowing alloy bars with a laser, checking a forecast first",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A cartoon pirate blacksmith-scientist forging glowing metal bars with a laser beam from a brass printer, consulting a crystal-ball style computer forecast before striking; three round metal sample discs on the workbench. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 993,
+      "height": 559
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-4c6c2eca-b399-4f52-b506-0db8dc928817.png",
     "file": "/images/pirate/home/home-research-alloy.webp",
-    "status": "generated"
+    "bytes": 179986,
+    "hasAlpha": false
   },
   {
     "id": "home-research-crust",
-    "section": "expeditions",
-    "width": 1568,
-    "height": 886,
-    "originalAlt": "",
-    "role": "Research card image, same 1568:886 ratio. Replaces: Seismic map figure. Shown cropped to the card’s maximum height (16rem); keep the subject in the centre.",
-    "alt": "A cutaway treasure map plunging down through the earth’s crust, with a tiny geologist and a lantern",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A cutaway treasure map of hills and valleys that goes downward: layers of the earth's crust drawn as a pirate map with a dotted trail descending into rock layers, a fault line drawn as a crack, a tiny pirate geologist with a lantern. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1568,
+      "height": 886
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-48c17295-2b5d-46c9-b7af-be035d25abfe.png",
     "file": "/images/pirate/home/home-research-crust.webp",
-    "status": "generated"
+    "bytes": 289400,
+    "hasAlpha": false
   },
   {
     "id": "home-research-protein",
-    "section": "expeditions",
-    "width": 592,
-    "height": 288,
-    "originalAlt": "",
-    "role": "Research card image, same 592:288 ratio. Replaces: Protein structure figure. Shown cropped to the card’s maximum height (16rem); keep the subject in the centre.",
-    "alt": "A tiny research ship navigating winding ribbon-like currents shaped like a protein molecule",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Gentle, respectful illustration: a tiny cartoon research ship navigating through a friendly abstract ribbon-like protein molecule drawn as winding coloured sea currents, a computer screen on deck showing simulations. No medical imagery, nothing scary. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 592,
+      "height": 288
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-dabf5b52-c39f-4350-bafe-57dc3d1e5991.png",
     "file": "/images/pirate/home/home-research-protein.webp",
-    "status": "generated"
+    "bytes": 63762,
+    "hasAlpha": false
   },
   {
     "id": "home-events-youth-awakening",
-    "section": "shore-parties",
-    "width": 1599,
-    "height": 899,
-    "originalAlt": "",
-    "role": "Events carousel image, same 1599:899 ratio. Replaces: Centenary lecture event photograph",
-    "alt": "Young deckhands listening attentively to a lecture as the sun rises through the windows",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Respectful scene: a lecture hall on the island with young cartoon deckhands attentively listening to a speaker at a lectern, a sunrise visible through large windows symbolising awakening. No religious figures depicted, no caricature. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1599,
+      "height": 899
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-25d05b88-2126-450e-af5f-8d911af87c26.png",
     "file": "/images/pirate/home/home-events-youth-awakening.webp",
-    "status": "generated"
+    "bytes": 285548,
+    "hasAlpha": false
   },
   {
     "id": "home-events-global-connections",
-    "section": "shore-parties",
-    "width": 1280,
-    "height": 854,
-    "originalAlt": "",
-    "role": "Events carousel image, same 1280:854 ratio. Replaces: International students meeting the Governor",
-    "alt": "International deckhands with sail-shaped flags gathered around a globe on deck",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Cartoon international deckhands from many countries in varied traditional and casual dress, with small flags shaped like sails, gathered happily around a globe on a ship's deck. No real dignitaries depicted. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1280,
+      "height": 854
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-3682ea62-7018-424a-8458-fb3e25707701.png",
     "file": "/images/pirate/home/home-events-global-connections.webp",
-    "status": "generated"
+    "bytes": 264602,
+    "hasAlpha": false
   },
   {
     "id": "home-events-groundwater",
-    "section": "shore-parties",
-    "width": 1600,
-    "height": 1066,
-    "originalAlt": "",
-    "role": "Events carousel image, same 1600:1066 ratio. Replaces: Groundwater conference group photograph",
-    "alt": "Pirates dig for treasure and joyfully strike a sparkling underground spring",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. A cartoon pirate expedition team digging a treasure hole and joyfully discovering a sparkling underground spring of clean water instead of gold, with scientists measuring it. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1600,
+      "height": 1066
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-c0fdb1fa-dd67-46c6-9277-ee133b656713.png",
     "file": "/images/pirate/home/home-events-groundwater.webp",
-    "status": "generated"
+    "bytes": 293370,
+    "hasAlpha": false
   },
   {
     "id": "home-events-mining",
-    "section": "shore-parties",
-    "width": 1600,
-    "height": 1064,
-    "originalAlt": "",
-    "role": "Events carousel image, same 1600:1064 ratio. Replaces: Mining conference photograph",
-    "alt": "Pirate miners in safety helmets with tiny tricornes, using sensors in a bright mine tunnel",
+    "generationTool": "built-in image_gen",
     "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. Cartoon pirate miners with safety helmets topped with tiny tricornes, using a tablet and glowing sensors in a well-lit, safe mine tunnel; a mine cart shaped like a little ship. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character (no One Piece / Luffy likeness). No text, logos, official emblems or watermarks in the image.",
-    "page": "home",
+    "canvas": {
+      "width": 1600,
+      "height": 1064
+    },
+    "transparentBackground": false,
+    "sourceFile": "exec-cb2d5fa2-7f75-4d9b-b772-22d9ed1b3478.png",
     "file": "/images/pirate/home/home-events-mining.webp",
-    "status": "generated"
+    "bytes": 299362,
+    "hasAlpha": false
   },
   {
     "id": "home-hero-galleon-cutout",
-    "page": "home",
-    "section": "hero",
-    "originalAlt": "Main building",
-    "role": "Isolated campus-galleon hero focal object, 3:2",
-    "width": 1536,
-    "height": 1024,
-    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. An isolated magnificent funny pirate galleon whose hull is a red-brick Indian heritage university building with symmetrical arched verandas; cream billowing sails, a small skull-and-crossed-pickaxes flag, books and a cheerful parrot on deck. Original fictional design, no official emblem, no real people, no existing characters. Three-quarter side view of the whole ship, beautifully readable silhouette, fully in frame with generous transparent margins. Copper wood, parchment sails, subtle sea-blue accents, thick crisp ink contours, suitable for a dark website hero. No sea, no landscape, no circular disc, no cast shadow outside the ship, no lettering. Genuinely transparent background. All characters are original designs: do not copy or resemble any existing anime, manga, film or game character.",
-    "alt": "A red-brick university sailing as a galleon, with parchment sails and a parrot aboard.",
+    "generationTool": "built-in image_gen",
+    "prompt": "Bright, humorous cartoon illustration, thick ink outlines, warm parchment and sea-blue palette, slightly chaotic, family-friendly pirate theme, no text in image. An isolated magnificent funny pirate galleon whose hull is a red-brick Indian heritage university building with symmetrical arched verandas; cream billowing sails, a small skull-and-crossed-pickaxes flag, books and a cheerful parrot on deck. Original fictional design, no official emblem, no real people, no existing characters. Three-quarter side view of the whole ship, beautifully readable silhouette, fully in frame with generous transparent margins. Copper wood, parchment sails, subtle sea-blue accents, thick crisp ink contours, suitable for a dark website hero. No sea, no landscape, no circular disc, no cast shadow outside the ship, no lettering. Genuinely transparent background.",
+    "canvas": {
+      "width": 1536,
+      "height": 1024
+    },
+    "transparentBackground": true,
+    "sourceFile": "exec-22073155-e7cc-4506-9347-939c751f6bc6.png",
     "file": "/images/pirate/home/home-hero-galleon-cutout.webp",
-    "status": "generated"
+    "bytes": 281532,
+    "hasAlpha": true
   }
 ]

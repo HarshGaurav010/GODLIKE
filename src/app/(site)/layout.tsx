@@ -35,7 +35,10 @@ export default function SiteLayout({
   collect(header.original.quickLinks, header.pirate.quickLinks);
   collect(footer.original.resources, footer.pirate.resources);
   pages.forEach((page) =>
-    entries.push({ ...page.title, href: `/${page.slug}` }),
+    entries.push({
+      ...page.title,
+      href: page.slug === "home" ? "/" : `/${page.slug}`,
+    }),
   );
   const unique = Array.from(
     new Map(

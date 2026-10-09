@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import { Source_Sans_3, Barlow_Condensed } from "next/font/google";
 import { LanguageProvider } from "@/components/content/LanguageProvider";
 import { loadUi } from "@/content/loaders";
 import "./globals.css";
@@ -9,9 +9,10 @@ const bodyFont = Source_Sans_3({
   variable: "--font-source-sans",
   display: "swap",
 });
-const displayFont = Source_Serif_4({
+const displayFont = Barlow_Condensed({
   subsets: ["latin"],
-  variable: "--font-source-serif",
+  weight: ["600", "700", "800"],
+  variable: "--font-barlow-condensed",
   display: "swap",
 });
 

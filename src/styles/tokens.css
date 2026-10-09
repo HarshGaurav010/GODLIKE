@@ -84,6 +84,28 @@
   --font-size-nav-large: 1rem;
   --font-size-body-small: 1rem;
   --main-scroll-margin: 14rem;
+  /* Home page (task 2) */
+  --color-pending: #ebe3d1;
+  --color-pending-stripe: #e2d8c2;
+  --color-overlay: rgb(41 44 41 / 72%);
+  --color-on-overlay: #fffdf7;
+  --size-pending-stripe: 0.75rem;
+  --size-hero-panel: 46rem;
+  --size-hero-art-max: 34rem;
+  --size-portrait: 22rem;
+  --size-stat-icon: 3.5rem;
+  --size-notice-box: 26rem;
+  --size-event-card: 20rem;
+  --size-video-frame: 18rem;
+  --size-feature: 24rem;
+  --size-research-art: 16rem;
+  --font-size-stat: clamp(2rem, 4vw, 3rem);
+  --font-size-card-title: 1.25rem;
+  --duration-count: 2400ms;
+  --notice-scroll-speed: 18;
+  --academics-columns: minmax(0, 2fr) minmax(0, 3fr);
+  --notice-events-columns: minmax(0, 5fr) minmax(0, 7fr);
+  --leader-columns: minmax(0, 2fr) minmax(0, 1fr);
 }
 
 :root[data-contrast="high"] {
@@ -93,6 +115,11 @@
   --color-muted: var(--color-high-muted);
   --color-accent: var(--color-high-accent);
   --color-rule: var(--color-high-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-count: 0ms;
+  }
 }
 :root[data-text-size="large"] {
   --font-size-body: var(--font-size-body-large);
@@ -117,4 +144,103 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1280px;
   --breakpoint-xl: 1440px;
+}
+
+/* Bucks Sauce reference, translated into NO Anchor's pirate art direction. */
+:root {
+  --color-parchment: #100e0b;
+  --color-paper: #191610;
+  --color-ink: #f5e4c7;
+  --color-muted: #c1b399;
+  --color-accent: #f0ae72;
+  --color-on-accent: #100e0b;
+  --color-rule: #544a3b;
+  --color-pending: #242017;
+  --color-pending-stripe: #302a1e;
+  --color-overlay: rgb(16 14 11 / 85%);
+  --color-on-overlay: #f5e4c7;
+  --color-backdrop: rgb(16 14 11 / 85%);
+  --color-copper: #df8b4b;
+  --color-sea: #1e4d58;
+  --color-sea-ink: #f5e4c7;
+  --color-light-paper: #f5e4c7;
+  --color-light-ink: #17130d;
+  --color-light-muted: #554939;
+  --color-light-accent: #74421e;
+  --font-display: var(--font-barlow-condensed), sans-serif;
+  --font-size-section: clamp(2.8rem, 5.7vw, 5.5rem);
+  --font-size-card-title: clamp(1.6rem, 2vw, 2.3rem);
+  --font-size-brand: 1.7rem;
+  --font-size-nav: 1rem;
+  --font-size-stat: clamp(3.5rem, 7vw, 7rem);
+  --font-size-heading: clamp(3.5rem, 7vw, 7rem);
+  --line-height-heading: 0.92;
+  --letter-spacing-heading: -0.025em;
+  --radius-panel: 0.75rem;
+  --radius-small: 0.5rem;
+  --space-block: clamp(4rem, 9vw, 9rem);
+  --size-portrait: 28rem;
+  --size-feature: 29rem;
+  --size-shell: 104rem;
+  --size-research-art: 20rem;
+  --size-stat-icon: 4.5rem;
+  --duration-reveal: 700ms;
+  --duration-float: 6500ms;
+  --duration-spin: 30000ms;
+  --duration-slide: 550ms;
+  --ease-voyage: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --font-size-hero: clamp(4.4rem, 11vw, 11rem);
+  --font-weight-heavy: 800;
+  --size-header-brand: 15rem;
+  --size-header-brand-height: 5rem;
+  --font-size-slogan: clamp(1.4rem, 3vw, 2.8rem);
+  --font-size-spark: clamp(3rem, 7vw, 6rem);
+  --hero-stage-height: clamp(21rem, 39vw, 39rem);
+  --hero-object-size: min(74vw, 57rem);
+  --hero-object-crew: min(40vw, 24rem);
+  --hero-orbit-size: clamp(15rem, 32vw, 32rem);
+  --hero-orbit-top: 12%;
+  --hero-star-left: 16%;
+  --hero-star-top: 20%;
+  --hero-coin-right: 18%;
+  --hero-coin-top: 66%;
+  --hero-arrow-size: clamp(3.5rem, 6vw, 6rem);
+  --hero-title-size: 80rem;
+  --hero-board-size: 20rem;
+  --hero-perspective: 70rem;
+  --hero-outline-width: 2px;
+  --voyage-tilt-limit: 8;
+  --pointer-x: 0deg;
+  --pointer-y: 0deg;
+  --motion-lift: -0.5rem;
+  --motion-reveal: 2rem;
+  --motion-float: -0.7rem;
+  --motion-rock: 1deg;
+  --motion-rock-back: -1deg;
+  --motion-turn: 1turn;
+  --motion-zoom: 1.03;
+  --motion-stagger: 120ms;
+  --motion-stagger-last: 240ms;
+  --voyage-border: 2px;
+  --radius-circle: 50%;
+  --opacity-backdrop: 0.12;
+  --opacity-inactive: 0.65;
+  --story-art-ratio: 4 / 3;
+  --research-art-ratio: 3 / 2;
+  --footer-title-size: clamp(3rem, 9vw, 9rem);
+  --voyage-columns: repeat(2, minmax(0, 1fr));
+  --ranking-columns: repeat(2, minmax(0, 1fr));
+  --leader-columns: minmax(0, 3fr) minmax(0, 2fr);
+}
+:root[data-contrast="high"] {
+  --color-parchment: var(--color-high-background);
+  --color-paper: var(--color-high-background);
+  --color-ink: var(--color-high-ink);
+  --color-muted: var(--color-high-muted);
+  --color-accent: var(--color-high-accent);
+  --color-rule: var(--color-high-muted);
+  --color-on-accent: var(--color-high-background);
+}
+:root[data-text-size="large"] {
+  --font-size-nav: var(--font-size-nav-large);
 }

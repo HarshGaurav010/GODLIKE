@@ -9,6 +9,10 @@ import {
   loadFooter,
 } from "../src/content/loaders";
 import { richTextSchema, ctaSchema } from "../src/content/schemas";
+import {
+  sectionContentSchemas,
+  sectionSchemaKey,
+} from "../src/content/section-schemas";
 import { resolveLink } from "../src/content/links";
 import type { Json } from "../src/content/types";
 
@@ -23,22 +27,24 @@ const routes = pages.map((page) =>
 const style = readFileSync("content/image-style.txt", "utf8").trim();
 if (!style) throw new Error("Shared image style is empty.");
 
+const pendingImages = new Set<string>();
+
 function checkImages(value: Json, location: string) {
   if (Array.isArray(value))
     return value.forEach((entry, i) => checkImages(entry, `${location}[${i}]`));
   if (!value || typeof value !== "object") return;
   for (const [key, entry] of Object.entries(value)) {
-    if (key === "imageId" && typeof entry === "string") {
+    if (/(?:^i|I)(?:mage|con)Id$/.test(key) && typeof entry === "string") {
       const image = imageIndex.get(entry);
+      // "todo" images render as a labelled pending frame until generated.
       if (
         !image ||
-        image.status === "todo" ||
-        !existsSync(path.join("public", image.file))
+        (image.status !== "todo" &&
+          !existsSync(path.join("public", image.file)))
       ) {
-        throw new Error(
-          `${location}: image ${entry} is missing or unfinished.`,
-        );
+        throw new Error(`${location}: image ${entry} is missing.`);
       }
+      if (image.status === "todo") pendingImages.add(entry);
     }
     if (
       ["image", "imageUrl", "src"].includes(key) &&
@@ -68,6 +74,14 @@ for (const page of pages) {
       const content = section[mode];
       checkImages(content, `${page.slug}.${section.id}.${mode}`);
       if (section.kind === "richText") richTextSchema.parse(content);
+      const schema =
+        sectionContentSchemas[sectionSchemaKey(section.kind, section.variant)];
+      if (schema) schema.parse(content);
+      else if (!["richText", "cta"].includes(section.kind)) {
+        throw new Error(
+          `No content schema for ${page.slug}.${section.id} (${section.kind}${section.variant ? `:${section.variant}` : ""}).`,
+        );
+      }
       if (section.kind === "cta") {
         const cta = ctaSchema.parse(content);
         if (resolveLink(cta.href, routes, page.slug) !== cta.href) {
@@ -98,3 +112,8 @@ for (const [name, content] of [
 console.log(
   `Validated ${pages.length} pages, ${glossary.length} glossary entries, ${Object.keys(ui).length} UI labels and ${images.length} images.`,
 );
+if (pendingImages.size) {
+  console.log(
+    `${pendingImages.size} referenced images still await generation (status "todo"): ${[...pendingImages].join(", ")}`,
+  );
+}

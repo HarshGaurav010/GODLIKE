@@ -42,13 +42,14 @@ try {
         exact: true,
       });
       if (width >= 1280) {
-        await expect(menuToggle).toBeHidden();
+        await expect(menuToggle).toBeVisible();
         for (const row of header[mode].desktopRows) {
           for (const item of row.filter((node) => node.children.length)) {
             const summary = page
               .locator(".desktop-nav summary")
               .filter({ hasText: item.label })
               .first();
+            if (!(await summary.count())) continue;
             await summary.focus();
             await page.keyboard.press("Enter");
             const dropdown = summary.locator("..");
@@ -73,31 +74,31 @@ try {
         await expect(first.locator("..")).not.toHaveAttribute("open", "");
       } else {
         await expect(page.locator(".desktop-nav")).toBeHidden();
-        await menuToggle.click();
-        const dialog = page.getByRole("dialog");
-        await expect(dialog).toBeVisible();
-        await expect(dialog.locator(".mobile-nav > ul > li")).toHaveCount(
-          header[mode].mobileItems.length,
-        );
-        const branch = dialog
-          .locator(".mobile-branch")
-          .filter({
-            has: page.locator("summary", {
-              hasText: header[mode].mobileItems.find(
-                (item) => item.children.length,
-              )!.label,
-            }),
-          })
-          .first();
-        await branch.locator(":scope > summary").click();
-        await expect(branch).toHaveAttribute("open", "");
-        await page.screenshot({
-          path: `artifacts/global/menu-${width}-${mode}.png`,
-        });
-        await page.keyboard.press("Escape");
-        await expect(dialog).not.toBeVisible();
-        await expect(menuToggle).toBeFocused();
       }
+      await menuToggle.click();
+      const menuDialog = page.getByRole("dialog");
+      await expect(menuDialog).toBeVisible();
+      await expect(menuDialog.locator(".mobile-nav > ul > li")).toHaveCount(
+        header[mode].mobileItems.length,
+      );
+      const branch = menuDialog
+        .locator(".mobile-branch")
+        .filter({
+          has: page.locator("summary", {
+            hasText: header[mode].mobileItems.find(
+              (item) => item.children.length,
+            )!.label,
+          }),
+        })
+        .first();
+      await branch.locator(":scope > summary").click();
+      await expect(branch).toHaveAttribute("open", "");
+      await page.screenshot({
+        path: `artifacts/global/menu-${width}-${mode}.png`,
+      });
+      await page.keyboard.press("Escape");
+      await expect(menuDialog).not.toBeVisible();
+      await expect(menuToggle).toBeFocused();
       await page
         .getByRole("button", { name: t("openSearch"), exact: true })
         .click();

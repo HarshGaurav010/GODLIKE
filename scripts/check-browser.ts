@@ -104,8 +104,9 @@ try {
     .getByRole("link", { name: "Back to chartin’ the waters →" })
     .click();
   await expect(page).toHaveURL(`${baseUrl}/uncharted`);
-  await page.goto(baseUrl);
-  await expect(page).toHaveURL(`${baseUrl}/uncharted?from=home`);
+  // The homepage is built (task 2); the source /home alias redirects to it.
+  await page.goto(`${baseUrl}/home`);
+  await expect(page).toHaveURL(`${baseUrl}/`);
   expect(failures).toEqual([]);
   await writeFile(
     "artifacts/setup/browser-checks.json",
@@ -122,7 +123,7 @@ try {
     ) + "\n",
   );
   console.log(
-    "Passed 10 route/viewport checks, both language modes, reload/cross-route persistence, keyboard controls, local actions and root redirect.",
+    "Passed 10 route/viewport checks, both language modes, reload/cross-route persistence, keyboard controls, local actions and /home alias.",
   );
 } finally {
   await browser.close();

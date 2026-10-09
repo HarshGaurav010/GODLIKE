@@ -1,0 +1,608 @@
+{
+  "slug": "home",
+  "sourceUrl": "https://www.iitism.ac.in/",
+  "sourceKind": "scraped",
+  "title": { "original": "Home", "pirate": "Home Port" },
+  "seo": {
+    "pirateTitle": "Home Port",
+    "pirateDescription": "NO Anchor University’s home port: rankings, the Cap’n’s message, life on the Isle, treasure expeditions, proclamations and shore parties. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "harbour",
+      "kind": "hero",
+      "original": {
+        "imageId": "home-hero-galleon",
+        "rankingGroups": [
+          {
+            "title": "QS World University Rankings 2027",
+            "items": [
+              { "text": "Ranked #11 among IITs", "strong": false },
+              { "text": "Ranked #701-710 Globally", "strong": true },
+              { "text": "Ranked #21 in India", "strong": false }
+            ]
+          },
+          {
+            "title": "QS World University Rankings 2026 by Subject",
+            "items": [
+              { "text": "Petroleum (151-175) Globally", "strong": false },
+              {
+                "text": "Mineral and Mining #21 Globally & #1 in India",
+                "strong": true
+              },
+              { "text": "Mechanical (501-575) Globally", "strong": false }
+            ]
+          }
+        ],
+        "footnote": "QS World University Rankings (Southern Asia 2026): Ranked #110"
+      },
+      "pirate": {
+        "imageId": "home-hero-galleon",
+        "rankingGroups": [
+          {
+            "title": "QS World University Rankings 2027",
+            "items": [
+              { "text": "#11 in the IIT fleet", "strong": false },
+              { "text": "#701–710 across the seven seas", "strong": true },
+              { "text": "#21 in all o’ India", "strong": false }
+            ]
+          },
+          {
+            "title": "QS World University Rankings 2026 by Subject",
+            "items": [
+              {
+                "text": "Petroleum: 151–175 globally (we know where the oil be)",
+                "strong": false
+              },
+              {
+                "text": "Mineral & Mining: #21 globally, #1 in India — diggin’ be our birthright",
+                "strong": true
+              },
+              {
+                "text": "Mechanical: 501–575 globally (the gears still turn)",
+                "strong": false
+              }
+            ]
+          }
+        ],
+        "footnote": "QS Southern Asia 2026: ranked #110. The compass may be broken, but the rankings ain’t."
+      }
+    },
+    {
+      "id": "caps-message",
+      "kind": "people",
+      "original": {
+        "heading": "Director’s Message",
+        "kicker": "",
+        "paragraphs": [
+          "I believe profoundly in the strength and promise of IIT(ISM) Dhanbad. It is curiosity that fosters the growth of a community, making it unique. Curiosity and accuracy are essential for knowledge, wisdom, intelligence, and stability; therefore, let this methodical and comprehensive way of thinking serve as a guide and inspiration for our endeavours.",
+          "Together, let us embrace the future with curiosity and determination. I look forward to witnessing the remarkable contributions our community will make to society."
+        ],
+        "verse": "“उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।”",
+        "verseTranslation": "( Arise, awake, and stop not till the goal is reached!)",
+        "person": {
+          "name": "Prof. Sukumar Mishra",
+          "role": "Director, IIT (ISM) Dhanbad"
+        },
+        "imageId": "home-director-portrait"
+      },
+      "pirate": {
+        "heading": "A Word from the Cap’n",
+        "kicker": "Read aloud from the quarterdeck, word for word. Nobody edits the Cap’n.",
+        "paragraphs": [
+          "I believe profoundly in the strength and promise of IIT(ISM) Dhanbad. It is curiosity that fosters the growth of a community, making it unique. Curiosity and accuracy are essential for knowledge, wisdom, intelligence, and stability; therefore, let this methodical and comprehensive way of thinking serve as a guide and inspiration for our endeavours.",
+          "Together, let us embrace the future with curiosity and determination. I look forward to witnessing the remarkable contributions our community will make to society."
+        ],
+        "verse": "“उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।”",
+        "verseTranslation": "( Arise, awake, and stop not till the goal is reached!)",
+        "person": {
+          "name": "Prof. Sukumar Mishra",
+          "role": "Cap’n (Commodore o’ the Fleet) · Director"
+        },
+        "imageId": "home-director-portrait"
+      }
+    },
+    {
+      "id": "ships-tally",
+      "kind": "stats",
+      "original": {
+        "backdropImageId": "home-stats-backdrop",
+        "items": [
+          {
+            "label": "Started in",
+            "value": 1926,
+            "format": "year",
+            "note": "",
+            "iconId": "global-treasure-seal"
+          },
+          {
+            "label": "Students",
+            "value": 9071,
+            "format": "count",
+            "note": "",
+            "iconId": "home-stats-deckhands-icon"
+          },
+          {
+            "label": "Faculty",
+            "value": 448,
+            "format": "count",
+            "note": "",
+            "iconId": "home-stats-officers-icon"
+          }
+        ]
+      },
+      "pirate": {
+        "backdropImageId": "home-stats-backdrop",
+        "items": [
+          {
+            "label": "Set sail in",
+            "value": 1926,
+            "format": "year",
+            "note": "and still no anchor",
+            "iconId": "global-treasure-seal"
+          },
+          {
+            "label": "Deckhands aboard",
+            "value": 9071,
+            "format": "count",
+            "note": "parrots not counted",
+            "iconId": "home-stats-deckhands-icon"
+          },
+          {
+            "label": "Officers on deck",
+            "value": 448,
+            "format": "count",
+            "note": "each with a map, none agreein’",
+            "iconId": "home-stats-officers-icon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isle-life",
+      "kind": "cardGrid",
+      "variant": "campus",
+      "original": {
+        "heading": "Campus Life",
+        "tagline": "Where creativity pulsates...",
+        "more": {
+          "label": "More about campus life",
+          "href": "https://www.iitism.ac.in/home-dsw"
+        },
+        "cards": [
+          {
+            "imageId": "home-campus-filmfest",
+            "text": "IIT (ISM) Dhanbad’s LightsCameraISM hosts Filmfest 2K26, celebrating cinema, music, dance and creativity while welcoming freshers.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          },
+          {
+            "imageId": "home-campus-sports-day",
+            "text": "National Sports Day celebrated at Jasper Hostel with 180+ students participating in badminton, chess and table tennis competitions.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          },
+          {
+            "imageId": "home-campus-alive",
+            "text": "Manthan’s musical event ‘Alive’ enthralled audiences at Penman Auditorium with soulful melodies, energetic rock performances and an electrifying finale.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Life on the Isle",
+        "tagline": "Where creativity pulsates… and occasionally capsizes.",
+        "more": {
+          "label": "More shore-leave stories",
+          "href": "https://www.iitism.ac.in/home-dsw"
+        },
+        "cards": [
+          {
+            "imageId": "home-campus-filmfest",
+            "text": "The Isle’s LightsCameraISM crew hosted Filmfest 2K26: cinema, music, dance and creativity, plus a hearty welcome for the freshest deckhands aboard. Popcorn rations were not enforced.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          },
+          {
+            "imageId": "home-campus-sports-day",
+            "text": "National Sports Day stormed Jasper Hostel’s crew quarters: 180+ deckhands battled at badminton, chess and table tennis. No cannons were fired, though the chess got close.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          },
+          {
+            "imageId": "home-campus-alive",
+            "text": "Manthan’s musical night ‘Alive’ rattled the rafters o’ Penman Auditorium with soulful melodies, roarin’ rock and an electrifyin’ finale. The auditorium’s resident ghosts requested an encore.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://www.iitism.ac.in/home-dsw"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "learning-deck",
+      "kind": "cardGrid",
+      "variant": "academics",
+      "original": {
+        "heading": "Academics",
+        "tagline": "A legacy built on more than nine decades of excellence and inventiveness",
+        "more": {
+          "label": "More about academics",
+          "href": "https://people.iitism.ac.in/~academics/"
+        },
+        "featureImageId": "home-academics-deckhand",
+        "tiles": [
+          {
+            "label": "Undergraduate",
+            "imageId": "home-academics-undergraduate"
+          },
+          { "label": "Postgraduate", "imageId": "home-academics-postgraduate" },
+          {
+            "label": "Doctoral Degree Programs",
+            "imageId": "home-academics-doctoral"
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The Learning Deck",
+        "tagline": "More than nine decades o’ excellence and inventiveness. The treasure? Knowledge. Mostly.",
+        "more": {
+          "label": "Survey the Learning Deck",
+          "href": "https://people.iitism.ac.in/~academics/"
+        },
+        "featureImageId": "home-academics-deckhand",
+        "tiles": [
+          {
+            "label": "Undergraduate Deck: Fresh Deckhands",
+            "imageId": "home-academics-undergraduate"
+          },
+          {
+            "label": "Postgraduate Deck: Seasoned Navigators",
+            "imageId": "home-academics-postgraduate"
+          },
+          {
+            "label": "Doctoral Voyages: Draw Yer Own Map",
+            "imageId": "home-academics-doctoral"
+          }
+        ]
+      }
+    },
+    {
+      "id": "expeditions",
+      "kind": "newsList",
+      "variant": "research",
+      "original": {
+        "heading": "Research",
+        "tagline": "Fostering inventiveness, imagination, and curiosity for a lifetime.",
+        "more": {
+          "label": "More on research",
+          "href": "https://people.iitism.ac.in/~research/"
+        },
+        "items": [
+          {
+            "imageId": "home-research-sensor",
+            "title": "Sensor Breakthrough",
+            "text": "Prof. J. Nayak and his team have published a study demonstrating highly sensitive room-temperature acetic acid gas sensing using two-dimensional graphitic carbon nitride, advancing the development of efficient and selective gas sensor technologies.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://link.springer.com/article/10.1007/s10854-026-16898-6"
+            }
+          },
+          {
+            "imageId": "home-research-alloy",
+            "title": "Alloy Innovation",
+            "text": "Prof. M. R. Rahul and his team have published a study demonstrating simulation-guided additive manufacturing of Fe–Ni–Nb medium entropy alloys, paving the way for predictive alloy design and controlled in-situ alloying through laser powder bed fusion.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://link.springer.com/article/10.1007/s40964-026-01564-4"
+            }
+          },
+          {
+            "imageId": "home-research-crust",
+            "title": "Crustal Insights",
+            "text": "Dr. Dhiraj Kumar Singh’s latest research unveils the crustal structure and tectonic evolution of Northeast India, offering new insights into the Shillong Massif, Dauki Fault, and Indo-Burma subduction system.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://ui.adsabs.harvard.edu/abs/2026JSeis..30...21S/abstract"
+            }
+          },
+          {
+            "imageId": "home-research-protein",
+            "title": "Parkinson's Insight",
+            "text": "Prof. Niladri Patra and his team publish a study in Journal of Chemical Information and Modeling revealing key conformational mechanisms of the Parkinson’s disease-linked kinase LRRK2 through advanced computational simulations.",
+            "cta": {
+              "label": "Read More",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/42130234/"
+            }
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Treasure Expeditions",
+        "tagline": "Fostering inventiveness, imagination and curiosity for a lifetime. Maps not included.",
+        "more": {
+          "label": "Follow the Treasure Expedition",
+          "href": "https://people.iitism.ac.in/~research/"
+        },
+        "items": [
+          {
+            "imageId": "home-research-sensor",
+            "title": "A Nose for Vinegar",
+            "text": "Prof. J. Nayak and crew have published a study on a highly sensitive sensor that sniffs out acetic acid gas (the sour stuff in vinegar) at room temperature, using paper-thin sheets o’ graphitic carbon nitride. Sharper, more selective gas sensors ahead. The galley pickles are officially under watch.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://link.springer.com/article/10.1007/s10854-026-16898-6"
+            }
+          },
+          {
+            "imageId": "home-research-alloy",
+            "title": "Alloys Forged by Forecast",
+            "text": "Prof. M. R. Rahul and crew used simulations to steer the laser 3D-printin’ (powder bed fusion) o’ Fe–Ni–Nb medium-entropy alloys, mixin’ the metals right in the melt. Predict the alloy first, then forge it: the one time this ship has ever planned ahead.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://link.springer.com/article/10.1007/s40964-026-01564-4"
+            }
+          },
+          {
+            "imageId": "home-research-crust",
+            "title": "A Map That Goes Down",
+            "text": "Dr. Dhiraj Kumar Singh has charted what lies beneath Northeast India: the crust’s structure and tectonic history around the Shillong Massif, the Dauki Fault and the Indo-Burma subduction system. Finally, a treasure map that points down instead o’ sideways.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://ui.adsabs.harvard.edu/abs/2026JSeis..30...21S/abstract"
+            }
+          },
+          {
+            "imageId": "home-research-protein",
+            "title": "Chartin’ a Protein’s Moves",
+            "text": "Prof. Niladri Patra and team, writing in the Journal of Chemical Information and Modeling, used advanced computer simulations to reveal how LRRK2, a kinase linked to Parkinson’s disease, changes shape. Careful navigation through very, very small waters.",
+            "cta": {
+              "label": "Unroll the Scroll",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/42130234/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "proclamations",
+      "kind": "noticeBoard",
+      "original": {
+        "heading": "Important Notices",
+        "pauseLabel": "Pause notices",
+        "playLabel": "Scroll notices",
+        "items": [
+          {
+            "text": "Final Result for recruitment to the post of Medical Officer (PL - 10) against advertisement no. 411002/1/2026 - NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac87407840401791521799.pdf"
+          },
+          {
+            "text": "Application for Post-Doctoral Fellowship (PDF) under Visvesvaraya PHD Scheme for Electronics and IT",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac78353b53511791460179.pdf"
+          },
+          {
+            "text": "List of Shortlisted Candidates for Ph.D. Admission in the Department of Humanities and Social Sciences_06.10.2026",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac50658c7ee31791297112.pdf"
+          },
+          {
+            "text": "Notice regarding Shortlisting of candidates for Presentation & Interview to the post of Medical Officer against advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac3b537e57831791210807.PDF"
+          },
+          {
+            "text": "Recruitment of BUSINESS DEVELOPMENT & CORPORATE COMMUNICATIONS EXECUTIVE in TEXMiN Foundation",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac337beecb961791178686.pdf"
+          },
+          {
+            "text": "Winter Research Internship Scheme (WRIS)-2026",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abd00c830b971790771400.pdf"
+          },
+          {
+            "text": "Advertisement for promotion to the post of Superintendent (Audit & Accounts) (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfc763c1ca1790770294.pdf"
+          },
+          {
+            "text": "Advertisement for promotion to the post of Assistant Executive Engineer (PL-10) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfbe7493931790770151.pdf"
+          },
+          {
+            "text": "Advertisement for promotion to the post of Junior Superintendent (PL-06) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfae7b80161790769895.pdf"
+          },
+          {
+            "text": "Advertisement for promotion to the post of Assistant Engineer (Civil/Electrical) (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfa555b05e1790769749.pdf"
+          },
+          {
+            "text": "Advertisement for promotion to the post of Senior Staff Nurse (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcf9a9e599f1790769577.pdf"
+          },
+          {
+            "text": "Notice regarding list of Not Shortlisted applicants for the post of Senior Counselor (PL- 12) and Counselor (PL-10) against advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc92427d5fa1790743106.pdf"
+          },
+          {
+            "text": "Ph.D. viva-voce exam of Sujeet Kumar 19DR0159 in the Raman Hall on 07-10-2026 Wed at 11-30 AM",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc91aedd30e1790742958.pdf"
+          },
+          {
+            "text": "Notice of TFW & Scholarship with steps for applying on ABHIKALP portal",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abb9beec238a1790680046.pdf"
+          },
+          {
+            "text": "International Conference on Optimization, Control and Learning (ICOCL-2026)",
+            "href": "https://drive.google.com/file/d/1Eyi9gHJd6XfxAdRsbUaAti4SrNfcKT3C/view"
+          }
+        ],
+        "more": {
+          "label": "All Active Notices",
+          "href": "https://www.iitism.ac.in/all-active-notices"
+        }
+      },
+      "pirate": {
+        "heading": "Proclamations from the Quarterdeck",
+        "pauseLabel": "Hold the proclamations",
+        "playLabel": "Let the proclamations roll",
+        "items": [
+          {
+            "text": "Final result: the Ship’s Surgeon hunt is done. Medical Officer (PL-10), advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac87407840401791521799.pdf"
+          },
+          {
+            "text": "Applications open: Post-Doctoral Fellowship (PDF) under the Visvesvaraya PhD Scheme for Electronics and IT.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac78353b53511791460179.pdf"
+          },
+          {
+            "text": "Shortlisted for the Navigator’s Apprenticeship: Ph.D. admission list, Department of Humanities and Social Sciences (06.10.2026).",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac50658c7ee31791297112.pdf"
+          },
+          {
+            "text": "Ship’s Surgeon hunt: candidates shortlisted for presentation & interview for the Medical Officer post, advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac3b537e57831791210807.PDF"
+          },
+          {
+            "text": "Crew wanted: Business Development & Corporate Communications Executive at TEXMiN Foundation.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac337beecb961791178686.pdf"
+          },
+          {
+            "text": "Winter Research Internship Scheme (WRIS) 2026: cold-weather expeditions now boarding.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abd00c830b971790771400.pdf"
+          },
+          {
+            "text": "Promotion trial by Limited Departmental Competitive Examination (LDCE): Superintendent (Audit & Accounts), PL-07, vacancy year 2027. Counters o’ doubloons, step forward.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfc763c1ca1790770294.pdf"
+          },
+          {
+            "text": "Promotion trial (LDCE): Assistant Executive Engineer, PL-10, vacancy year 2027.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfbe7493931790770151.pdf"
+          },
+          {
+            "text": "Promotion trial (LDCE): Junior Superintendent, PL-06, vacancy year 2027.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfae7b80161790769895.pdf"
+          },
+          {
+            "text": "Promotion trial (LDCE): Assistant Engineer (Civil/Electrical), PL-07, vacancy year 2027.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfa555b05e1790769749.pdf"
+          },
+          {
+            "text": "Promotion trial (LDCE): Senior Staff Nurse, PL-07, vacancy year 2027.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcf9a9e599f1790769577.pdf"
+          },
+          {
+            "text": "List of applicants not shortlisted for Senior Counselor (PL-12) and Counselor (PL-10), advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc92427d5fa1790743106.pdf"
+          },
+          {
+            "text": "Ph.D. viva-voce for Sujeet Kumar (19DR0159): Raman Hall, Wednesday 07-10-2026, 11:30 AM. Fair winds for the final trial.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc91aedd30e1790742958.pdf"
+          },
+          {
+            "text": "TFW & scholarship notice, with step-by-step boarding instructions for the ABHIKALP portal.",
+            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abb9beec238a1790680046.pdf"
+          },
+          {
+            "text": "International Conference on Optimization, Control and Learning (ICOCL-2026), for those who like their course corrections mathematical.",
+            "href": "https://drive.google.com/file/d/1Eyi9gHJd6XfxAdRsbUaAti4SrNfcKT3C/view"
+          }
+        ],
+        "more": {
+          "label": "All Active Proclamations",
+          "href": "https://www.iitism.ac.in/all-active-notices"
+        }
+      }
+    },
+    {
+      "id": "shore-parties",
+      "kind": "newsList",
+      "variant": "events",
+      "original": {
+        "heading": "Events",
+        "previousLabel": "Previous events",
+        "nextLabel": "Next events",
+        "items": [
+          {
+            "imageId": "home-events-youth-awakening",
+            "title": "Youth Awakening",
+            "text": "IIT (ISM) Dhanbad’s centenary lecture explores Swami Vivekananda’s message of youth, purpose, discipline and responsible use of science and technology for nation-building."
+          },
+          {
+            "imageId": "home-events-global-connections",
+            "title": "Global Connections",
+            "text": "IIT (ISM) Dhanbad’s international students, led by Prof. Rajni Singh, Dean (International Relations), interacted with the Hon’ble Governor of Jharkhand, Shri Santosh Kumar Gangwar, highlighting global learning, cultural exchange and India’s growing international academic engagement."
+          },
+          {
+            "imageId": "home-events-groundwater",
+            "title": "Groundwater Futures",
+            "text": "INGWC-2026 brings groundwater experts, researchers and stakeholders together to address climate-linked challenges and promote scientific, sustainable and community-based water management."
+          },
+          {
+            "imageId": "home-events-mining",
+            "title": "Smarter Mining",
+            "text": "KHANAN’26 brings students, academia and industry together to explore safer, smarter, sustainable and technology-driven mining practices."
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Shore Parties",
+        "previousLabel": "Previous shore parties",
+        "nextLabel": "Next shore parties",
+        "items": [
+          {
+            "imageId": "home-events-youth-awakening",
+            "title": "Youth Awakening",
+            "text": "A centenary lecture on the Isle explored Swami Vivekananda’s message to the young: purpose, discipline, and using science and technology responsibly to build the nation."
+          },
+          {
+            "imageId": "home-events-global-connections",
+            "title": "Global Connections, Seven-Seas Edition",
+            "text": "The Isle’s international deckhands, led by Prof. Rajni Singh, Dean (International Relations), met the Hon’ble Governor of Jharkhand, Shri Santosh Kumar Gangwar: a voyage of global learning, cultural exchange and India’s growing academic reach across the seas."
+          },
+          {
+            "imageId": "home-events-groundwater",
+            "title": "Treasure Beneath Our Boots",
+            "text": "INGWC-2026 gathers groundwater experts, researchers and stakeholders to tackle climate-linked challenges and champion scientific, sustainable, community-based water management. Turns out the finest buried treasure be water."
+          },
+          {
+            "imageId": "home-events-mining",
+            "title": "Diggin’ Smarter",
+            "text": "KHANAN’26 brings deckhands, scholars and industry together to explore safer, smarter, sustainable, tech-driven mining. The Isle’s been diggin’ since 1926; now it digs with sensors."
+          }
+        ]
+      }
+    },
+    {
+      "id": "makin-waves",
+      "kind": "gallery",
+      "variant": "video",
+      "original": {
+        "heading": "What's Trending",
+        "tagline": "Our mission is to provide you with valuable insights.",
+        "frameText": "The source page embeds a YouTube video here. This parody does not embed outside videos.",
+        "link": {
+          "label": "About the trending video",
+          "href": "https://www.youtube.com/embed/8s9dWp1EHqI"
+        }
+      },
+      "pirate": {
+        "heading": "What’s Makin’ Waves",
+        "tagline": "Our mission be to provide ye with valuable insights. Our navigation be another matter.",
+        "frameText": "This film reel washed overboard. Davy Jones keeps all outside videos under lock and key.",
+        "link": {
+          "label": "Ask Davy Jones about the reel",
+          "href": "https://www.youtube.com/embed/8s9dWp1EHqI"
+        }
+      }
+    }
+  ]
+}

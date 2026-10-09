@@ -69,6 +69,10 @@ export const sectionSchema = z
       "cta",
       "marquee",
     ]),
+    variant: z
+      .string()
+      .regex(/^[a-z-]+$/)
+      .optional(),
     original: record,
     pirate: record,
   })

@@ -1,0 +1,163 @@
+{
+  "sourceUrl": "https://buckssauce.com/",
+  "inspectedAt": "2026-10-09",
+  "metadata": {
+    "ogTitle": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+    "ogDescription": "Shop small-batch BBQ sauce made with real ingredients. No high fructose corn syrup, no seed oils, no additives. Sweet heat with a balanced finish. Premium BBQ sauce built to perform.",
+    "ogImage": "https://images.prismic.io/buckssauce/aaHgvcFoBIGEg8Hc_hf_20260227_163946_335a9ad0-a5cb-46d4-aa4f-f10aa97e0510.png?auto=format%2Ccompress&rect=0%2C118%2C2528%2C1327&w=2400&h=1260",
+    "description": "Shop small-batch BBQ sauce made with real ingredients. No high fructose corn syrup, no seed oils, no additives. Sweet heat with a balanced finish. Premium BBQ sauce built to perform.",
+    "twitter:image:height": [
+      "1260",
+      "2560"
+    ],
+    "title": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+    "og:image:width": [
+      "2400",
+      "2560"
+    ],
+    "twitter:image:width": [
+      "2400",
+      "2560"
+    ],
+    "og:title": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+    "og:image": [
+      "https://images.prismic.io/buckssauce/aaHgvcFoBIGEg8Hc_hf_20260227_163946_335a9ad0-a5cb-46d4-aa4f-f10aa97e0510.png?auto=format%2Ccompress&rect=0%2C118%2C2528%2C1327&w=2400&h=1260",
+      "https://images.prismic.io/buckssauce/aacbFlxvIZEnjSPO_hf_20260302_131340_609fc70f-564f-416c-97ec-aa20bdc5bc0e1.png?auto=format,compress"
+    ],
+    "twitter:card": "summary_large_image",
+    "twitter:description": "Shop small-batch BBQ sauce made with real ingredients. No high fructose corn syrup, no seed oils, no additives. Sweet heat with a balanced finish. Premium BBQ sauce built to perform.",
+    "next-size-adjust": "",
+    "viewport": "width=device-width, initial-scale=1",
+    "og:type": "website",
+    "og:description": "Shop small-batch BBQ sauce made with real ingredients. No high fructose corn syrup, no seed oils, no additives. Sweet heat with a balanced finish. Premium BBQ sauce built to perform.",
+    "language": "en",
+    "og:image:height": [
+      "1260",
+      "2560"
+    ],
+    "twitter:title": "Bucks Sauce - Best Small-Batch BBQ Sauce | Gourmet, No HFCS | Bucks Sauce",
+    "twitter:image": [
+      "https://images.prismic.io/buckssauce/aaHgvcFoBIGEg8Hc_hf_20260227_163946_335a9ad0-a5cb-46d4-aa4f-f10aa97e0510.png?auto=format%2Ccompress&rect=0%2C118%2C2528%2C1327&w=2400&h=1260",
+      "https://images.prismic.io/buckssauce/aacbFlxvIZEnjSPO_hf_20260302_131340_609fc70f-564f-416c-97ec-aa20bdc5bc0e1.png?auto=format,compress"
+    ],
+    "favicon": "https://buckssauce.com/favicon.png",
+    "scrapeId": "01a11fcf-9c53-712e-aa31-debabd13c07f",
+    "sourceURL": "https://buckssauce.com/",
+    "url": "https://buckssauce.com/",
+    "statusCode": 200,
+    "contentType": "text/html; charset=utf-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "basic",
+    "creditsUsed": 1,
+    "concurrencyLimited": false
+  },
+  "branding": {
+    "colorScheme": "dark",
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "body"
+      },
+      {
+        "family": "PeperoncinoSansCustom",
+        "role": "heading"
+      }
+    ],
+    "colors": {
+      "primary": "#F15726",
+      "secondary": "#BE8D3F",
+      "accent": "#F15726",
+      "background": "#100B06",
+      "textPrimary": "#F5E4C7",
+      "link": "#BE8D3F"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Inter Tight",
+        "heading": "PeperoncinoSansCustom"
+      },
+      "fontStacks": {
+        "heading": [
+          "PeperoncinoSansCustom"
+        ],
+        "body": [
+          "Inter Tight"
+        ],
+        "paragraph": [
+          "Inter Tight"
+        ]
+      },
+      "fontSizes": {
+        "h1": "99.9994px",
+        "h2": "16px",
+        "body": "16px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 8,
+      "borderRadius": "0px"
+    },
+    "components": {
+      "input": {
+        "background": "transparent",
+        "textColor": "#F5E4C7",
+        "borderColor": "#554C40",
+        "borderRadius": "10px",
+        "borderRadiusCorners": {
+          "topLeft": "10px",
+          "topRight": "10px",
+          "bottomRight": "10px",
+          "bottomLeft": "10px"
+        },
+        "shadow": "none"
+      },
+      "buttonPrimary": {
+        "background": "#F15726",
+        "textColor": "#F5E4C7",
+        "borderRadius": "10px",
+        "borderRadiusCorners": {
+          "topLeft": "10px",
+          "topRight": "10px",
+          "bottomRight": "10px",
+          "bottomLeft": "10px"
+        },
+        "shadow": "none"
+      },
+      "buttonSecondary": {
+        "background": "#100B06",
+        "textColor": "#F5E4C7",
+        "borderRadius": "0px",
+        "borderRadiusCorners": {
+          "topLeft": "0px",
+          "topRight": "0px",
+          "bottomRight": "0px",
+          "bottomLeft": "0px"
+        },
+        "shadow": "none"
+      }
+    }
+  },
+  "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-c29b1a60-d2ff-4c5f-80d1-bf47e35b3c5f.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1792139879&Signature=vGqDFS3fQp7EH8QPn0zqYYflR9QBeqUotZC1UZGZSGXSYXDVC1%2BYGA23Dz94BTGL5ADcwQkF8lA1fJbIVuLE4YhUGi3LcjX3JvJpAGfYGxyt7uczddSTcwyoM6CYhSyD4Xd5Dk2nIDHHlgINgpJxKtPEVrLV8Ya2WNdtetGi9jj70uNqcNWbAw%2FZHwBPMQjqczat4zJg4l9wk6%2BUShEosTBXAoOGdgRuTG4BRLN4w8DqjAswQbeW662qFpIm3CwI2gkm7tWEyLxXGRjI9aPMIunAifqecQs0IhElyTnbi1cnVE36ONVIUMXfnfECHhfinse7HyFPiRohZX1M%2Bvz%2BVw%3D%3D",
+  "links": [
+    "https://buckssauce.com/",
+    "https://buckssauce.com/shop",
+    "https://buckssauce.com/wholesale",
+    "https://buckssauce.com/about",
+    "https://buckssauce.com/find-us",
+    "https://buckssauce.com/contact",
+    "https://www.instagram.com/buckssauce/",
+    "https://www.facebook.com/people/Bucks-Sauce/61585508764010/",
+    "https://buckssauce.com/shop/smoked-peach-chipotle",
+    "https://buckssauce.com/shop/crushed-pineapple-sriracha",
+    "https://buckssauce.com/shop/crushed-habanero-garlic",
+    "https://buckssauce.com/shop/crushed-cherry-garlic",
+    "https://www.instagram.com/p/Da5LIyNx_bI/",
+    "https://www.instagram.com/p/DYAPVhmOn-k/",
+    "https://www.instagram.com/p/DZqHIfYx8gf/",
+    "https://www.instagram.com/p/DYFIT79NWEp/",
+    "https://www.instagram.com/p/DX-Jd3pJ5PN/",
+    "https://www.instagram.com/p/DTgrXrkEbJu/",
+    "https://buckssauce.com/faq",
+    "https://buzzworthystudio.com/"
+  ]
+}

@@ -12,7 +12,7 @@ export function Brand({
   image: PirateImage;
 }) {
   return (
-    <Link href="/uncharted?from=home" className="site-brand" aria-label={name}>
+    <Link href="/" className="site-brand" aria-label={name}>
       <Image
         src={image.file}
         width={image.width}

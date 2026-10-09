@@ -32,6 +32,17 @@ export function Header({
 }) {
   const { mode } = useLanguage();
   const data = content[mode];
+  // Keep the complete source navigation in the all-decks panel.
+  const primaryIds = [
+    "desktop-0-0",
+    "desktop-1-0",
+    "desktop-1-1",
+    "desktop-0-1",
+    "desktop-1-2",
+  ];
+  const primaryItems = primaryIds
+    .map((id) => data.desktopRows.flat().find((item) => item.id === id)!)
+    .filter(Boolean);
   const t = (key: string) => ui[key][mode];
   const [panel, setPanel] = useState<Panel>(null);
   const [contrast, setContrast] = useState(false);
@@ -90,7 +101,7 @@ export function Header({
         <div className="shell-container site-header-inner grid lg:grid-cols-[var(--header-columns)]">
           <Brand name={t("brand")} slogan={t("slogan")} image={crest} />
           <MegaMenu
-            rows={data.desktopRows}
+            rows={[primaryItems]}
             builtRoutes={builtRoutes}
             label={t("mainNav")}
           />
@@ -115,7 +126,7 @@ export function Header({
             </button>
             <button
               type="button"
-              className="icon-button mobile-menu-toggle lg:hidden"
+              className="icon-button mobile-menu-toggle"
               aria-label={t("menu")}
               aria-haspopup="dialog"
               onClick={() => setPanel("menu")}

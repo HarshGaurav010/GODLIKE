@@ -1,4 +1,4 @@
-# Phase 1 progress
+# Site progress — structure and Home design
 
 Updated: 9 October 2026 (Asia/Kolkata).
 
@@ -7,7 +7,7 @@ Updated: 9 October 2026 (Asia/Kolkata).
 Task 0 — Setup is complete. Task 1 — Global shell is implemented from the cached Firecrawl source and ready for review, with one documented footer source gap.
 The user selected the name **NO Anchor University** and slogan **no direction full confidence**, overriding the initial glossary identity. Both language modes keep that parody identity visible; the original institutional identity remains in source data for provenance.
 The user clarified that this site is mainly for PC. Desktop at 1440 and 1920px is the primary review target; the required 375/768/1280px responsive behavior remains supported.
-The next task is **2.1 — Home**, after user review. The root continues to redirect to the utility preview; no institutional page body has been built ahead.
+Task 2.1 — Home is implemented and ready for review. All 20 briefed illustrations plus a transparent galleon hero are generated. The user authorized a Bucks Sauce-inspired visual pass on Home and the shared shell; this is now implemented (see Task 2.2). The root now serves Home; `/home` redirects to `/`. The next page, 3.1 — About overview, waits for the user's approval of Home.
 
 ## Source inspection
 
@@ -27,51 +27,51 @@ The next task is **2.1 — Home**, after user review. The root continues to redi
 
 Groups below preserve AGENTS.md ordering. Each route is a separate task with its own report and user approval before advancing.
 
-| Order      | Task                                                                           | Route                                                     | Status                               |
-| ---------- | ------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------ |
-| 0          | Setup: Next.js, tokens, loaders, scraping tools, glossary, fallback routes     | /uncharted; /davy-jones-locker                            | Complete                             |
-| 1          | Global shell: shared header, navigation, toggle, footer, original parody crest | Shared section                                            | Implemented; footer source gap noted |
-| 2.1        | Home                                                                           | /                                                         | Planned; URL mapped                  |
-| 3.1        | About                                                                          | /about-overview                                           | Planned; URL mapped                  |
-| 3.2        | About                                                                          | /about-history                                            | Planned; URL mapped                  |
-| 3.3        | About                                                                          | /vision                                                   | Planned; URL mapped                  |
-| 4.1        | Leadership                                                                     | /director                                                 | Planned; URL mapped                  |
-| 4.2        | Leadership                                                                     | /chairman                                                 | Planned; URL mapped                  |
-| 4.3        | Leadership                                                                     | /deputy-director                                          | Planned; URL mapped                  |
-| 4.4        | Leadership                                                                     | /registrar                                                | Planned; URL mapped                  |
-| 4.5        | Leadership                                                                     | /deans                                                    | Planned; URL mapped                  |
-| 4.6        | Leadership                                                                     | /associate-deans                                          | Planned; URL mapped                  |
-| 4.7        | Leadership                                                                     | /hods                                                     | Planned; URL mapped                  |
-| 4.8        | Leadership                                                                     | /administration                                           | Planned; URL mapped                  |
-| 5.1        | Departments                                                                    | /departments                                              | Planned; URL mapped                  |
-| 5.template | Shared department template, after departments index                            | Select one mapped department source when this task begins | Planned                              |
-| 6.1        | Admissions & Programmes                                                        | /jeea                                                     | Planned; URL mapped                  |
-| 6.2        | Admissions & Programmes                                                        | /phdadmission                                             | Planned; URL mapped                  |
-| 6.3        | Admissions & Programmes                                                        | /home-mba                                                 | Planned; URL mapped                  |
-| 6.4        | Admissions & Programmes                                                        | /home-m-sc                                                | Planned; URL mapped                  |
-| 6.5        | Admissions & Programmes                                                        | /home-ma                                                  | Planned; URL mapped                  |
-| 6.6        | Admissions & Programmes                                                        | /executive-masters-programmes                             | Planned; URL mapped                  |
-| 6.7        | Admissions & Programmes                                                        | /ai-courses                                               | Planned; URL mapped                  |
-| 7.1        | Research                                                                       | /research-cluster                                         | Planned; URL mapped                  |
-| 7.2        | Research                                                                       | /center                                                   | Planned; URL mapped                  |
-| 7.3        | Research                                                                       | /project-opening                                          | Planned; URL mapped                  |
-| 8.1        | Placements                                                                     | /career-development-centre                                | Planned; URL mapped                  |
-| 9.1        | Faculty & Staff                                                                | /all-faculty                                              | Planned; URL mapped                  |
-| 9.2        | Faculty & Staff                                                                | /staff-and-officers                                       | Planned; URL mapped                  |
-| 10.1       | Student life                                                                   | /home-dsw                                                 | Planned; URL mapped                  |
-| 10.2       | Student life                                                                   | /library                                                  | Planned; URL mapped                  |
-| 10.3       | Student life                                                                   | /geological-museum                                        | Planned; URL mapped                  |
-| 11.1       | Notices & Recruitment                                                          | /all-active-notices                                       | Planned; URL mapped                  |
-| 11.2       | Notices & Recruitment                                                          | /tenders                                                  | Planned; URL mapped                  |
-| 11.3       | Notices & Recruitment                                                          | /facultycareers                                           | Planned; URL mapped                  |
-| 11.4       | Notices & Recruitment                                                          | /career-non-faculty                                       | Planned; URL mapped                  |
-| 12.1       | Governance & Compliance                                                        | /nirf                                                     | Planned; URL mapped                  |
-| 12.2       | Governance & Compliance                                                        | /annual-reports                                           | Planned; URL mapped                  |
-| 12.3       | Governance & Compliance                                                        | /right-to-information                                     | Planned; URL mapped                  |
-| 12.4       | Governance & Compliance                                                        | /sc-st-cell                                               | Planned; URL mapped                  |
-| 12.5       | Governance & Compliance                                                        | /equal-opportunity-cell                                   | Planned; URL mapped                  |
-| 12.6       | Governance & Compliance                                                        | /icc-1                                                    | Planned; URL mapped                  |
-| 13         | Additional mapped pages selected by the user                                   | To be selected                                            | Backlog                              |
+| Order      | Task                                                                           | Route                                                     | Status                                |
+| ---------- | ------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------- |
+| 0          | Setup: Next.js, tokens, loaders, scraping tools, glossary, fallback routes     | /uncharted; /davy-jones-locker                            | Complete                              |
+| 1          | Global shell: shared header, navigation, toggle, footer, original parody crest | Shared section                                            | Implemented; footer source gap noted  |
+| 2.1        | Home                                                                           | /                                                         | Complete; Home design ready to review |
+| 3.1        | About                                                                          | /about-overview                                           | Planned; URL mapped                   |
+| 3.2        | About                                                                          | /about-history                                            | Planned; URL mapped                   |
+| 3.3        | About                                                                          | /vision                                                   | Planned; URL mapped                   |
+| 4.1        | Leadership                                                                     | /director                                                 | Planned; URL mapped                   |
+| 4.2        | Leadership                                                                     | /chairman                                                 | Planned; URL mapped                   |
+| 4.3        | Leadership                                                                     | /deputy-director                                          | Planned; URL mapped                   |
+| 4.4        | Leadership                                                                     | /registrar                                                | Planned; URL mapped                   |
+| 4.5        | Leadership                                                                     | /deans                                                    | Planned; URL mapped                   |
+| 4.6        | Leadership                                                                     | /associate-deans                                          | Planned; URL mapped                   |
+| 4.7        | Leadership                                                                     | /hods                                                     | Planned; URL mapped                   |
+| 4.8        | Leadership                                                                     | /administration                                           | Planned; URL mapped                   |
+| 5.1        | Departments                                                                    | /departments                                              | Planned; URL mapped                   |
+| 5.template | Shared department template, after departments index                            | Select one mapped department source when this task begins | Planned                               |
+| 6.1        | Admissions & Programmes                                                        | /jeea                                                     | Planned; URL mapped                   |
+| 6.2        | Admissions & Programmes                                                        | /phdadmission                                             | Planned; URL mapped                   |
+| 6.3        | Admissions & Programmes                                                        | /home-mba                                                 | Planned; URL mapped                   |
+| 6.4        | Admissions & Programmes                                                        | /home-m-sc                                                | Planned; URL mapped                   |
+| 6.5        | Admissions & Programmes                                                        | /home-ma                                                  | Planned; URL mapped                   |
+| 6.6        | Admissions & Programmes                                                        | /executive-masters-programmes                             | Planned; URL mapped                   |
+| 6.7        | Admissions & Programmes                                                        | /ai-courses                                               | Planned; URL mapped                   |
+| 7.1        | Research                                                                       | /research-cluster                                         | Planned; URL mapped                   |
+| 7.2        | Research                                                                       | /center                                                   | Planned; URL mapped                   |
+| 7.3        | Research                                                                       | /project-opening                                          | Planned; URL mapped                   |
+| 8.1        | Placements                                                                     | /career-development-centre                                | Planned; URL mapped                   |
+| 9.1        | Faculty & Staff                                                                | /all-faculty                                              | Planned; URL mapped                   |
+| 9.2        | Faculty & Staff                                                                | /staff-and-officers                                       | Planned; URL mapped                   |
+| 10.1       | Student life                                                                   | /home-dsw                                                 | Planned; URL mapped                   |
+| 10.2       | Student life                                                                   | /library                                                  | Planned; URL mapped                   |
+| 10.3       | Student life                                                                   | /geological-museum                                        | Planned; URL mapped                   |
+| 11.1       | Notices & Recruitment                                                          | /all-active-notices                                       | Planned; URL mapped                   |
+| 11.2       | Notices & Recruitment                                                          | /tenders                                                  | Planned; URL mapped                   |
+| 11.3       | Notices & Recruitment                                                          | /facultycareers                                           | Planned; URL mapped                   |
+| 11.4       | Notices & Recruitment                                                          | /career-non-faculty                                       | Planned; URL mapped                   |
+| 12.1       | Governance & Compliance                                                        | /nirf                                                     | Planned; URL mapped                   |
+| 12.2       | Governance & Compliance                                                        | /annual-reports                                           | Planned; URL mapped                   |
+| 12.3       | Governance & Compliance                                                        | /right-to-information                                     | Planned; URL mapped                   |
+| 12.4       | Governance & Compliance                                                        | /sc-st-cell                                               | Planned; URL mapped                   |
+| 12.5       | Governance & Compliance                                                        | /equal-opportunity-cell                                   | Planned; URL mapped                   |
+| 12.6       | Governance & Compliance                                                        | /icc-1                                                    | Planned; URL mapped                   |
+| 13         | Additional mapped pages selected by the user                                   | To be selected                                            | Backlog                               |
 
 AGENTS.md group numbers remain the source of truth; the row identifiers above only indicate sequential implementation order. The department template belongs immediately after the /departments index, before admissions.
 
@@ -202,3 +202,101 @@ Added 141 global-shell/source-alias and interface mappings; the complete list is
 The live website includes a government-logo/link strip and extra lower-footer links absent from the cached Firecrawl response. The cached primary footer is implemented; that additional strip is not invented or copied from browser text. A question about an explicit --force Firecrawl refresh remains unanswered. No refresh was performed. This source gap should be resolved when the user chooses refresh; it is not a claim that the entire live footer has been mirrored.
 
 The root /home alias must resolve to / once the Home page is built. The source's active hero is an animated GIF rather than the commented-out carousel; settle the exact Home behavior during its own task.
+
+## Task 2.1 — Home report
+
+Built by Claude Code (per `CLAUDE.md`). Source: cached Firecrawl homepage (`scrape/raw/home.json`); no new scrape or network request to Firecrawl was made. No `.env.local` exists in the project, so no Firecrawl or image API key was available.
+
+### What was built
+
+- Route `/` (static) from `content/pages/home.json`, nine sections in source order: hero + QS ranking strip, Director's message, stats counters, Campus Life, Academics, Research, Important Notices + Events (one shared band, as on the source), What's Trending.
+- New section components in `src/components/sections/`: Hero, LeaderMessage (`people`), Stats (count-up once in view; static with reduced motion), CardGrid (`campus`, `academics` variants), NewsList (`research`, `events` carousel variants), NoticeBoard (slow auto-scroll ticker with a pause/play toggle; pauses on hover/focus; off by default with reduced motion), VideoFeature (`gallery:video`), shared SectionHeading, SectionContext and PirateFigure.
+- `PirateFigure` renders manifest images; entries with status `todo` show a striped, labelled frame at the final aspect ratio (“Paintin’ in progress. The artist be at sea.”). Swapping in generated art needs no code change: set `status` to `generated` and add the file.
+- Sections may now carry an optional `variant`. Per-kind/variant zod schemas live in `src/content/section-schemas.ts`; the content validator parses every section with them and accepts `todo` images (it lists them), while generated/placeholder images still require their file.
+- Routing: the root redirect to `/uncharted` was removed; `/home` (the source's alias) redirects to `/`, and source links to `/home` resolve to `/`. The header brand now links to `/`. Search lists Home at `/`.
+- The source's Events items link to `#` only, so the parody cards have no link. The source YouTube embed is replaced by a frame that routes to `/davy-jones-locker` (no outside embeds). Its link label is authored, because the source iframe had none.
+- Home-specific tokens were added to `tokens.css`; all styles use tokens.
+- UI labels added: `artPending`, `homeIntro`.
+
+### Copy decisions
+
+- The Director's message (paragraphs, Sanskrit verse, translation, name) is word-for-word in both modes; the humour sits only in the heading (“A Word from the Cap’n”), a kicker outside the quote and his pirate title. A unit test enforces this.
+- Notices keep every identifier (advertisement numbers, PL levels, dates, roll number, venue, time). The not-shortlisted notice and the viva-voce notice carry no joke at anyone's expense.
+- Youth Awakening (Swami Vivekananda lecture) and the Parkinson's research card are written respectfully, with only light framing.
+- QS ranking numbers are unchanged; the ranking name “QS” is untouched.
+- The source tagline “inventivenes s” spacing glitch was normalised to “inventiveness” in `original`.
+
+### Glossary additions (17)
+
+Director’s Message → A Word from the Cap’n; Campus Life → Life on the Isle; More about campus life → More shore-leave stories; Read More → Unroll the Scroll; More about academics → Survey the Learning Deck; Undergraduate → Undergraduate Deck: Fresh Deckhands; Postgraduate → Postgraduate Deck: Seasoned Navigators; Doctoral Degree Programs → Doctoral Voyages: Draw Yer Own Map; More on research → Follow the Treasure Expedition; Important Notices → Proclamations from the Quarterdeck; All Active Notices → All Active Proclamations; Events → Shore Parties; What's Trending → What’s Makin’ Waves; Started in → Set sail in; Medical Officer → Ship’s Surgeon; LDCE promotion → Promotion trial (LDCE); Recruitment → Crew wanted.
+
+### Codex image handoff
+
+Completed by Codex: all 20 handoff images are now generated, plus the transparent hero added for Task 2.2. The following steps record the original handoff. Each image has a prompt beginning with `content/image-style.txt`, the target size (the original's aspect ratio, measured from the source images; the stats backdrop is estimated from the screenshot band), a pirate alt text and a role note. For each:
+
+1. Generate the image from its `prompt` at `width` × `height`, save it as WebP at `public/images/pirate/home/<id>.webp` (ideally under 300 KB).
+2. Set `status` to `generated`; adjust `alt` if the result differs from the description.
+3. Run `npm run build` and `npm run check:browser`.
+
+Rules carried in every prompt: original characters only, with no copying of or resemblance to existing anime/manga/film/game characters (the user suggested Luffy images; One Piece characters are copyrighted, so a final decision on that rests with the user, and the prompts are written for original “straw-hat-energy” pirates). No real person's likeness (the Director portrait and the event photos become generic cartoon pirates), and no text, logos or emblems.
+
+The stats “Started in” icon reuses the existing `global-treasure-seal` in place of the official logo.
+
+### Verification
+
+- `npm run validate:content`, `npm run lint`, `npm run test` (11 tests, 4 new for Home) and `npm run build` pass.
+- `scripts/check-home.ts` (now part of `npm run check:browser`) on the production build: 375/768/1280/1440/1920px × Original/Pirate × reduced/normal motion. It checks for no horizontal overflow, one h1, one main, no broken or original images, no external anchors, and section headings matching each mode. It also covers ticker motion and pause, the carousel's next button, research links → `/davy-jones-locker`, campus links → `/uncharted?from=home-dsw` and `/home` → `/`. Axe WCAG A/AA: zero violations in both modes at 1440px.
+- `check-browser.ts` (root expectation updated to the `/home` alias) and `check-shell.ts` still pass.
+- Full-page screenshots: `artifacts/home/` (ignored).
+
+### Favourite pirate lines
+
+- “Mineral & Mining: #21 globally, #1 in India — diggin’ be our birthright”
+- “Deckhands aboard: 9,071 — parrots not counted”
+- “The galley pickles are officially under watch.”
+- “Finally, a treasure map that points down instead o’ sideways.”
+- “Predict the alloy first, then forge it: the one time this ship has ever planned ahead.”
+
+### Pending questions for the user (not applied)
+
+- Add a clearly labelled “ship’s parrot’s summary” box next to the Director’s message? (Currently not added.)
+- Give “QS” a pirate backronym such as “Quite Seaworthy”? (Currently plain.)
+- Make Penman Auditorium's “resident ghosts” a recurring gag? (Used once on Home.)
+- Luffy/One Piece imagery: see the copyright note above.
+
+## Task 2.2 — Bucks Sauce design and Home image completion
+
+The user explicitly requested the design of https://buckssauce.com/ be applied to our pirate site and made dynamic, authorizing the visual phase for Home and its shared shell. About and later pages remain unbuilt.
+
+### What changed
+
+- Firecrawl inspected Bucks Sauce with markdown, HTML, links, branding and a full-page screenshot request. The cache lives in `scrape/raw/bucks-design.*`; the screenshot URL is retained in the JSON. Live browser inspection confirmed the outlined/solid condensed headline, cream-on-black palette, floating product over a circle and compact navigation.
+- Applied these design patterns with NO Anchor branding, copper and sea-blue accents, Barlow Condensed through next/font, an original campus-galleon, and the existing pirate content. Design values remain in tokens; new CSS is `src/styles/voyage.css`.
+- Compact primary navigation retains all source destinations in the All the Decks panel on desktop and mobile. Search, mega menus, language toggle and accessibility controls remain working.
+- Three-scene hero, pointer tilt, gently swaying illustrations, spinning decorative stars, scroll arrivals and hover motion. The visible pause control stops decorative animations; reduced motion disables them. No sound or scroll hijacking.
+- Generated all 20 Home handoff images plus the new 1536 × 1024 transparent galleon. All 21 are WebP, exact manifest sizes and below 300,000 bytes. No Home todos, placeholders, real-person likenesses or official images remain. Final generation briefs/source filenames: `docs/assets/home-generation-records.json`. Preparation script: `scripts/prepare-home-images.mjs`.
+- Director message and sensitive content retained; the previous optional copy suggestions remain pending.
+
+### Assets and remaining uncertainty
+
+`docs/BUCKS-DESIGN.md` contains exact asset specs. No additional assets are required for the implemented design. Optional Lottie/Rive ship and parrot loops and a silent campus animation have precise specs for later. The reference uses a proprietary font; our implementation uses Barlow Condensed.
+
+### New glossary entries
+
+- Explore campus life → Board the Isle
+- Pause decorative motion → Batten down the motion
+- Resume decorative motion → Let the ship sway
+- Meet the students → Good books. Questionable navigation.
+
+### Favourite lines
+
+- “Welcome aboard. Mind the missing anchor.”
+- “Good books. Questionable navigation.”
+- “Batten down the motion”
+
+### Verification
+
+- `npm run lint`, `npm test` (11 tests), content validation and `npm run build` pass.
+- Production browser checks cover 375/768/1280/1440/1920px, both copy modes, normal/reduced motion, safe links, shared menus/search/accessibility, all hero scenes, pause control, event carousel and notice ticker. Axe WCAG A/AA reports zero violations in both modes.
+- Every Home WebP was checked for exact dimensions, bytes and alpha where required. Browser screenshot/audit loads all lazy images; no broken images or horizontal overflow.
+- Screenshots and browser reports are in ignored `artifacts/home/` and `artifacts/global/`.

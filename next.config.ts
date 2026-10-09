@@ -6,8 +6,8 @@ const config: NextConfig = {
   turbopack: { root: process.cwd() },
   async redirects() {
     return [
-      // The homepage is task 2; expose the setup preview until it is built.
-      { source: "/", destination: "/uncharted?from=home", permanent: false },
+      // The source site serves its homepage at /home too.
+      { source: "/home", destination: "/", permanent: false },
     ];
   },
 };

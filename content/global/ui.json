@@ -98,5 +98,49 @@
   "socialNav": {
     "original": "Social media",
     "pirate": "Signals across the Seas"
+  },
+  "artPending": {
+    "original": "Illustration coming soon",
+    "pirate": "Paintin’ in progress. The artist be at sea."
+  },
+  "homeIntro": {
+    "original": "A pirate parody of the IIT (ISM) Dhanbad homepage",
+    "pirate": "Welcome aboard. Mind the missing anchor."
+  },
+  "voyageShip": {
+    "original": "The campus, under full sail",
+    "pirate": "The campus, under full sail"
+  },
+  "voyageCampus": {
+    "original": "Explore campus",
+    "pirate": "Dhanbad Cove, charted at last"
+  },
+  "voyageCrew": {
+    "original": "Meet the students",
+    "pirate": "Good books. Questionable navigation."
+  },
+  "voyageNumber": {
+    "original": "Voyage no.",
+    "pirate": "Voyage no."
+  },
+  "voyagePrevious": {
+    "original": "Previous voyage scene",
+    "pirate": "Previous voyage scene"
+  },
+  "voyageNext": {
+    "original": "Next voyage scene",
+    "pirate": "Next voyage scene"
+  },
+  "voyageExplore": {
+    "original": "Explore campus life",
+    "pirate": "Board the Isle"
+  },
+  "voyagePause": {
+    "original": "Pause decorative motion",
+    "pirate": "Batten down the motion"
+  },
+  "voyageResume": {
+    "original": "Resume decorative motion",
+    "pirate": "Let the ship sway"
   }
 }
