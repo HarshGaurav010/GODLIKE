@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+package-lock.json
+scrape
+AGENTS.md
+framework.md
+artifacts
+next-env.d.ts

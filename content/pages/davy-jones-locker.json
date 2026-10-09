@@ -1,0 +1,45 @@
+{
+  "slug": "davy-jones-locker",
+  "sourceUrl": "https://www.iitism.ac.in/",
+  "sourceKind": "authoredUtility",
+  "title": {
+    "original": "This document is unavailable here",
+    "pirate": "Davy Jones’ Locker"
+  },
+  "seo": {
+    "pirateTitle": "Davy Jones’ Locker",
+    "pirateDescription": "External documents, logins and links stay out of this hackathon parody. This scroll be lost at sea."
+  },
+  "sections": [
+    {
+      "id": "locker-explanation",
+      "kind": "richText",
+      "original": {
+        "heading": "External resources are outside this parody",
+        "paragraphs": [
+          "This action points to a document, login or external resource on the original website. The parody does not provide access to those resources.",
+          "For official documents or services, visit the institute’s official website directly. This hackathon project cannot process applications, payments or requests."
+        ]
+      },
+      "pirate": {
+        "heading": "This scroll be lost at sea",
+        "paragraphs": [
+          "Ye followed a document, login or external resource from the original site. Those scrolls stay outside this parody; the kraken has strict filing policies.",
+          "For official scrolls or services, sail directly to the institute’s official website. This hackathon ship cannot take applications, doubloons or service requests."
+        ]
+      }
+    },
+    {
+      "id": "uncharted-link",
+      "kind": "cta",
+      "original": {
+        "label": "Return to the site preview",
+        "href": "/uncharted"
+      },
+      "pirate": {
+        "label": "Back to chartin’ the waters →",
+        "href": "/uncharted"
+      }
+    }
+  ]
+}

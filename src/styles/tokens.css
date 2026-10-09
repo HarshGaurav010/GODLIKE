@@ -1,0 +1,72 @@
+:root {
+  --color-parchment: #f5f0e5;
+  --color-paper: #fffbf3;
+  --color-ink: #292c29;
+  --color-muted: #64675f;
+  --color-accent: #235d68;
+  --color-on-accent: #fffdf7;
+  --color-rule: #c9c2b1;
+  --color-transparent: transparent;
+  --font-body: var(--font-source-sans), sans-serif;
+  --font-display: var(--font-source-serif), serif;
+  --font-size-small: 0.875rem;
+  --font-size-body: 1.125rem;
+  --font-size-label: 0.8125rem;
+  --font-size-heading: clamp(2.5rem, 7vw, 4.75rem);
+  --font-size-section: 1.5rem;
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.1;
+  --letter-spacing-label: 0.09em;
+  --letter-spacing-heading: -0.025em;
+  --space-none: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-page: clamp(1.25rem, 5vw, 4rem);
+  --space-block: clamp(2rem, 7vw, 5rem);
+  --size-page: 64rem;
+  --size-reading: 42rem;
+  --size-touch: 2.75rem;
+  --size-full: 100%;
+  --size-viewport: 100svh;
+  --border-width: 1px;
+  --focus-width: 3px;
+  --focus-offset: 4px;
+  --radius-small: 0.25rem;
+  --radius-panel: 0.5rem;
+  --shadow-none: none;
+  --duration-fast: 160ms;
+  --duration-reduced: 0ms;
+  --ease-default: ease-out;
+  --opacity-hover: 0.85;
+  --layout-zero: 0;
+  --layout-one: 1;
+  --layer-focus: 10;
+  --skip-offscreen: -200%;
+  --motion-rest: 0;
+}
+
+@theme inline {
+  --color-draft-parchment: var(--color-parchment);
+  --color-draft-paper: var(--color-paper);
+  --color-draft-ink: var(--color-ink);
+  --color-draft-accent: var(--color-accent);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+}
+
+/* Tailwind breakpoint tokens are static because media queries cannot read CSS vars. */
+@theme {
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1440px;
+}

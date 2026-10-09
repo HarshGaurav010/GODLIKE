@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.env*
+scrape/images/
+scrape/screenshots/
+.DS_Store
+*.tsbuildinfo
+artifacts/

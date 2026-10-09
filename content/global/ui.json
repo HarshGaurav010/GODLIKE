@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "original": "IIT (ISM) Dhanbad",
+    "pirate": "The Isle"
+  },
+  "phase": {
+    "original": "Phase 1 · Site under construction",
+    "pirate": "Phase 1 · Still chartin’ the waters"
+  },
+  "skip": {
+    "original": "Skip to main content",
+    "pirate": "Skip to the main deck"
+  },
+  "language": {
+    "original": "Choose language style",
+    "pirate": "Choose yer tongue"
+  },
+  "originalMode": {
+    "original": "Landlubber",
+    "pirate": "Landlubber"
+  },
+  "pirateMode": {
+    "original": "Pirate",
+    "pirate": "Pirate"
+  },
+  "notice": {
+    "original": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed.",
+    "pirate": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed."
+  },
+  "pageStatus": {
+    "original": "Build status",
+    "pirate": "The shipbuilder’s log"
+  },
+  "status": {
+    "original": "The foundations are in place. The shared navigation and homepage are next in the build queue.",
+    "pirate": "The keel be laid. The shared navigation and home port be next on the shipbuilder’s list."
+  }
+}

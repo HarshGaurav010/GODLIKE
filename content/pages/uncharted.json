@@ -1,0 +1,45 @@
+{
+  "slug": "uncharted",
+  "sourceUrl": "https://www.iitism.ac.in/",
+  "sourceKind": "authoredUtility",
+  "title": {
+    "original": "This page is still being built",
+    "pirate": "Here Be Dragons"
+  },
+  "seo": {
+    "pirateTitle": "Here Be Dragons",
+    "pirateDescription": "This corner of The Isle is still uncharted. Our crew is building the pirate parody one page at a time."
+  },
+  "sections": [
+    {
+      "id": "uncharted-explanation",
+      "kind": "richText",
+      "original": {
+        "heading": "A destination for another day",
+        "paragraphs": [
+          "The page you followed has not been built yet. We are recreating the institute’s website one page at a time.",
+          "Your destination is saved in the address as the from parameter. Nothing is missing from your browser; this part of the site is in the build queue."
+        ]
+      },
+      "pirate": {
+        "heading": "Beyond the edge o’ the map",
+        "paragraphs": [
+          "This stretch o’ The Isle is still uncharted. Our crew be rebuilding the institute one page at a time, with knowledge as the treasure. Mostly.",
+          "Yer destination be tucked into the address after from. The map is fine; the shipbuilders simply haven’t reached this shore yet."
+        ]
+      }
+    },
+    {
+      "id": "locker-link",
+      "kind": "cta",
+      "original": {
+        "label": "About unavailable documents",
+        "href": "/davy-jones-locker"
+      },
+      "pirate": {
+        "label": "Inspect the missing scrolls →",
+        "href": "/davy-jones-locker"
+      }
+    }
+  ]
+}
