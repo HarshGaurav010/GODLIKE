@@ -29,11 +29,9 @@ export const headerPayloadSchema = z
   .object({
     sourceUrl: z.url(),
     brand: brandSchema,
-    desktopRows: z.array(z.array(navItemSchema)).length(2),
-    mobileItems: z.array(navItemSchema).min(1),
-    quickLinks: z.array(navItemSchema).min(1),
-    quickHeading: z.string().min(1),
-    socialLinks: z.array(navItemSchema),
+    nav: z.array(navItemSchema).min(1),
+    // Items shown in the desktop header row; the menu panel lists every item.
+    primaryIds: z.array(z.string().min(1)).min(1),
     accessibility: z
       .object({
         heading: z.string().min(1),
@@ -67,7 +65,6 @@ export const footerPayloadSchema = z
     actions: z.array(navItemSchema),
     badges: z.array(z.object({ imageId: z.string() }).strict()),
     badgeSourceLabel: z.string(),
-    visit: z.object({ label: z.string(), value: z.string() }).strict(),
   })
   .strict();
 export const headerSchema = z

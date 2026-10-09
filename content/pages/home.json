@@ -2,10 +2,13 @@
   "slug": "home",
   "sourceUrl": "https://www.iitism.ac.in/",
   "sourceKind": "scraped",
-  "title": { "original": "Home", "pirate": "Home Port" },
+  "title": {
+    "original": "Home",
+    "pirate": "Home Port"
+  },
   "seo": {
     "pirateTitle": "Home Port",
-    "pirateDescription": "NO Anchor University’s home port: rankings, the Cap’n’s message, life on the Isle, treasure expeditions, proclamations and shore parties. A hackathon parody of IIT (ISM) Dhanbad."
+    "pirateDescription": "NO Anchor University’s home port: rankings by our own parrot, a word from the Captain, life on board, research treasure, notices and events. A hackathon parody of IIT (ISM) Dhanbad."
   },
   "sections": [
     {
@@ -15,57 +18,81 @@
         "imageId": "home-hero-galleon",
         "rankingGroups": [
           {
-            "title": "QS World University Rankings 2027",
-            "items": [
-              { "text": "Ranked #11 among IITs", "strong": false },
-              { "text": "Ranked #701-710 Globally", "strong": true },
-              { "text": "Ranked #21 in India", "strong": false }
-            ]
-          },
-          {
-            "title": "QS World University Rankings 2026 by Subject",
-            "items": [
-              { "text": "Petroleum (151-175) Globally", "strong": false },
-              {
-                "text": "Mineral and Mining #21 Globally & #1 in India",
-                "strong": true
-              },
-              { "text": "Mechanical (501-575) Globally", "strong": false }
-            ]
-          }
-        ],
-        "footnote": "QS World University Rankings (Southern Asia 2026): Ranked #110"
-      },
-      "pirate": {
-        "imageId": "home-hero-galleon",
-        "rankingGroups": [
-          {
-            "title": "QS World University Rankings 2027",
-            "items": [
-              { "text": "#11 in the IIT fleet", "strong": false },
-              { "text": "#701–710 across the seven seas", "strong": true },
-              { "text": "#21 in all o’ India", "strong": false }
-            ]
-          },
-          {
-            "title": "QS World University Rankings 2026 by Subject",
+            "title": "Seven Seas University Rankings 2027",
             "items": [
               {
-                "text": "Petroleum: 151–175 globally (we know where the oil be)",
+                "text": "Ranked #1 among universities without an anchor",
                 "strong": false
               },
               {
-                "text": "Mineral & Mining: #21 globally, #1 in India — diggin’ be our birthright",
+                "text": "Ranked #7 among universities that float",
                 "strong": true
               },
               {
-                "text": "Mechanical: 501–575 globally (the gears still turn)",
+                "text": "Ranked #3 in Questionable Navigation",
+                "strong": false
+              }
+            ]
+          },
+          {
+            "title": "Parrot Rankings Board 2026, by Subject",
+            "items": [
+              {
+                "text": "Digging: #1 in the known world",
+                "strong": false
+              },
+              {
+                "text": "Knot Theory (Practical): Top 5",
+                "strong": true
+              },
+              {
+                "text": "Mechanical Engineering: Top 10 for things that turn",
                 "strong": false
               }
             ]
           }
         ],
-        "footnote": "QS Southern Asia 2026: ranked #110. The compass may be broken, but the rankings ain’t."
+        "footnote": "All rankings are compiled by the University’s own parrot and have not been independently verified."
+      },
+      "pirate": {
+        "imageId": "home-hero-galleon",
+        "rankingGroups": [
+          {
+            "title": "Seven Seas University Rankings 2027",
+            "items": [
+              {
+                "text": "#1 among universities without an anchor. We checked: there is only us.",
+                "strong": false
+              },
+              {
+                "text": "#7 among universities that float. The other six are boats.",
+                "strong": true
+              },
+              {
+                "text": "#3 in Questionable Navigation. We were aiming for #1 and missed.",
+                "strong": false
+              }
+            ]
+          },
+          {
+            "title": "Parrot Rankings Board 2026, by Subject",
+            "items": [
+              {
+                "text": "Digging: #1 in the known world. The known world is quite small.",
+                "strong": false
+              },
+              {
+                "text": "Knot Theory, practical: top 5. The theory is still tangled.",
+                "strong": true
+              },
+              {
+                "text": "Mechanical: top 10 for things that turn. The ship’s wheel counts.",
+                "strong": false
+              }
+            ]
+          }
+        ],
+        "footnote": "All rankings compiled by our own parrot. It ranks us first in everything it can pronounce."
       }
     },
     {
@@ -75,29 +102,29 @@
         "heading": "Director’s Message",
         "kicker": "",
         "paragraphs": [
-          "I believe profoundly in the strength and promise of IIT(ISM) Dhanbad. It is curiosity that fosters the growth of a community, making it unique. Curiosity and accuracy are essential for knowledge, wisdom, intelligence, and stability; therefore, let this methodical and comprehensive way of thinking serve as a guide and inspiration for our endeavours.",
-          "Together, let us embrace the future with curiosity and determination. I look forward to witnessing the remarkable contributions our community will make to society."
+          "Welcome aboard NO Anchor University. Since 1717 we have sailed without an anchor, and we have never once regretted it. An anchor keeps a ship in one place. We would rather keep learning.",
+          "I am often asked where this university is heading. The honest answer is forward. Our students arrive with questions and leave with better ones, and somewhere along the way they learn to read a map, a balance sheet and a differential equation, usually in that order."
         ],
-        "verse": "“उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।”",
-        "verseTranslation": "( Arise, awake, and stop not till the goal is reached!)",
+        "verse": "“no direction full confidence”",
+        "verseTranslation": "(Our motto. It has served us well, wherever we are.)",
         "person": {
-          "name": "Prof. Sukumar Mishra",
-          "role": "Director, IIT (ISM) Dhanbad"
+          "name": "Gold D. Roger",
+          "role": "Director, NO Anchor University"
         },
         "imageId": "home-director-portrait"
       },
       "pirate": {
-        "heading": "A Word from the Cap’n",
-        "kicker": "Read aloud from the quarterdeck, word for word. Nobody edits the Cap’n.",
+        "heading": "A Word from the Captain",
+        "kicker": "Read out on deck exactly as written. Nobody edits the Captain.",
         "paragraphs": [
-          "I believe profoundly in the strength and promise of IIT(ISM) Dhanbad. It is curiosity that fosters the growth of a community, making it unique. Curiosity and accuracy are essential for knowledge, wisdom, intelligence, and stability; therefore, let this methodical and comprehensive way of thinking serve as a guide and inspiration for our endeavours.",
-          "Together, let us embrace the future with curiosity and determination. I look forward to witnessing the remarkable contributions our community will make to society."
+          "Welcome aboard NO Anchor University. Since 1717 we have sailed without an anchor, and we have never once regretted it. An anchor keeps a ship in one place. We would rather keep learning.",
+          "I am often asked where this university is heading. The honest answer is forward. Our students arrive with questions and leave with better ones, and somewhere along the way they learn to read a map, a balance sheet and a differential equation, usually in that order."
         ],
-        "verse": "“उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।”",
-        "verseTranslation": "( Arise, awake, and stop not till the goal is reached!)",
+        "verse": "“no direction full confidence”",
+        "verseTranslation": "(Our motto. It has served us well, wherever we are.)",
         "person": {
-          "name": "Prof. Sukumar Mishra",
-          "role": "Cap’n (Commodore o’ the Fleet) · Director"
+          "name": "Gold D. Roger",
+          "role": "Captain (Commodore of the Fleet) · Director"
         },
         "imageId": "home-director-portrait"
       }
@@ -109,22 +136,22 @@
         "backdropImageId": "home-stats-backdrop",
         "items": [
           {
-            "label": "Started in",
-            "value": 1926,
+            "label": "Established",
+            "value": 1717,
             "format": "year",
             "note": "",
             "iconId": "global-treasure-seal"
           },
           {
             "label": "Students",
-            "value": 9071,
+            "value": 7777,
             "format": "count",
             "note": "",
             "iconId": "home-stats-deckhands-icon"
           },
           {
             "label": "Faculty",
-            "value": 448,
+            "value": 365,
             "format": "count",
             "note": "",
             "iconId": "home-stats-officers-icon"
@@ -136,23 +163,23 @@
         "items": [
           {
             "label": "Set sail in",
-            "value": 1926,
+            "value": 1717,
             "format": "year",
             "note": "and still no anchor",
             "iconId": "global-treasure-seal"
           },
           {
-            "label": "Deckhands aboard",
-            "value": 9071,
+            "label": "Students on board",
+            "value": 7777,
             "format": "count",
             "note": "parrots not counted",
             "iconId": "home-stats-deckhands-icon"
           },
           {
-            "label": "Officers on deck",
-            "value": 448,
+            "label": "Professors on deck",
+            "value": 365,
             "format": "count",
-            "note": "each with a map, none agreein’",
+            "note": "one for every day of the voyage",
             "iconId": "home-stats-officers-icon"
           }
         ]
@@ -164,68 +191,68 @@
       "variant": "campus",
       "original": {
         "heading": "Campus Life",
-        "tagline": "Where creativity pulsates...",
+        "tagline": "A vibrant residential community.",
         "more": {
           "label": "More about campus life",
-          "href": "https://www.iitism.ac.in/home-dsw"
+          "href": "/campus-life"
         },
         "cards": [
           {
             "imageId": "home-campus-filmfest",
-            "text": "IIT (ISM) Dhanbad’s LightsCameraISM hosts Filmfest 2K26, celebrating cinema, music, dance and creativity while welcoming freshers.",
+            "text": "The Film Society held its annual Silent Sea Film Festival, screening fourteen films about the ocean, none of them with sound.",
             "cta": {
               "label": "Read More",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "href": "/campus-life"
             }
           },
           {
             "imageId": "home-campus-sports-day",
-            "text": "National Sports Day celebrated at Jasper Hostel with 180+ students participating in badminton, chess and table tennis competitions.",
+            "text": "Twenty-four teams competed in the annual Deck Basketball Tournament. Play was suspended twice owing to high waves.",
             "cta": {
               "label": "Read More",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "href": "/campus-life"
             }
           },
           {
             "imageId": "home-campus-alive",
-            "text": "Manthan’s musical event ‘Alive’ enthralled audiences at Penman Auditorium with soulful melodies, energetic rock performances and an electrifying finale.",
+            "text": "The Crew Reunion Concert brought together current and former students for an evening of music in the Gold D. Roger Auditorium.",
             "cta": {
               "label": "Read More",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "href": "/campus-life"
             }
           }
         ]
       },
       "pirate": {
-        "heading": "Life on the Isle",
+        "heading": "Life on Board",
         "tagline": "Where creativity pulsates… and occasionally capsizes.",
         "more": {
-          "label": "More shore-leave stories",
-          "href": "https://www.iitism.ac.in/home-dsw"
+          "label": "More stories from the deck",
+          "href": "/campus-life"
         },
         "cards": [
           {
             "imageId": "home-campus-filmfest",
-            "text": "The Isle’s LightsCameraISM crew hosted Filmfest 2K26: cinema, music, dance and creativity, plus a hearty welcome for the freshest deckhands aboard. Popcorn rations were not enforced.",
+            "text": "The Silent Sea Film Festival showed fourteen ocean films with no sound. The audience was asked to provide the waves.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "label": "Read the full story",
+              "href": "/campus-life"
             }
           },
           {
             "imageId": "home-campus-sports-day",
-            "text": "National Sports Day stormed Jasper Hostel’s crew quarters: 180+ deckhands battled at badminton, chess and table tennis. No cannons were fired, though the chess got close.",
+            "text": "Twenty-four teams played in the Deck Basketball Tournament. Play stopped twice for waves and once because the ball went overboard.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "label": "Read the full story",
+              "href": "/campus-life"
             }
           },
           {
             "imageId": "home-campus-alive",
-            "text": "Manthan’s musical night ‘Alive’ rattled the rafters o’ Penman Auditorium with soulful melodies, roarin’ rock and an electrifyin’ finale. The auditorium’s resident ghosts requested an encore.",
+            "text": "The Crew Reunion Concert packed Gold D. Roger Auditorium. The building’s resident ghosts asked for an encore.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://www.iitism.ac.in/home-dsw"
+              "label": "Read the full story",
+              "href": "/campus-life"
             }
           }
         ]
@@ -237,10 +264,10 @@
       "variant": "academics",
       "original": {
         "heading": "Academics",
-        "tagline": "A legacy built on more than nine decades of excellence and inventiveness",
+        "tagline": "Three centuries of instruction in engineering, science and management.",
         "more": {
           "label": "More about academics",
-          "href": "https://people.iitism.ac.in/~academics/"
+          "href": "/departments"
         },
         "featureImageId": "home-academics-deckhand",
         "tiles": [
@@ -248,7 +275,10 @@
             "label": "Undergraduate",
             "imageId": "home-academics-undergraduate"
           },
-          { "label": "Postgraduate", "imageId": "home-academics-postgraduate" },
+          {
+            "label": "Postgraduate",
+            "imageId": "home-academics-postgraduate"
+          },
           {
             "label": "Doctoral Degree Programs",
             "imageId": "home-academics-doctoral"
@@ -257,23 +287,23 @@
       },
       "pirate": {
         "heading": "The Learning Deck",
-        "tagline": "More than nine decades o’ excellence and inventiveness. The treasure? Knowledge. Mostly.",
+        "tagline": "Three hundred years of teaching. The treasure? Knowledge. Mostly.",
         "more": {
-          "label": "Survey the Learning Deck",
-          "href": "https://people.iitism.ac.in/~academics/"
+          "label": "See what we teach (not navigation)",
+          "href": "/departments"
         },
         "featureImageId": "home-academics-deckhand",
         "tiles": [
           {
-            "label": "Undergraduate Deck: Fresh Deckhands",
+            "label": "Undergraduate: New Recruits",
             "imageId": "home-academics-undergraduate"
           },
           {
-            "label": "Postgraduate Deck: Seasoned Navigators",
+            "label": "Postgraduate: Seasoned Sailors",
             "imageId": "home-academics-postgraduate"
           },
           {
-            "label": "Doctoral Voyages: Draw Yer Own Map",
+            "label": "Doctoral: Draw Your Own Map",
             "imageId": "home-academics-doctoral"
           }
         ]
@@ -285,92 +315,84 @@
       "variant": "research",
       "original": {
         "heading": "Research",
-        "tagline": "Fostering inventiveness, imagination, and curiosity for a lifetime.",
+        "tagline": "Advancing knowledge across disciplines.",
         "more": {
           "label": "More on research",
-          "href": "https://people.iitism.ac.in/~research/"
+          "href": "/research"
         },
         "items": [
           {
-            "imageId": "home-research-sensor",
-            "title": "Sensor Breakthrough",
-            "text": "Prof. J. Nayak and his team have published a study demonstrating highly sensitive room-temperature acetic acid gas sensing using two-dimensional graphitic carbon nitride, advancing the development of efficient and selective gas sensor technologies.",
+            "title": "Self-Correcting Compass",
+            "text": "Researchers in the Department of Physics have developed a compass that recalibrates itself every six minutes, with a reported accuracy of plus or minus one ocean.",
             "cta": {
               "label": "Read More",
-              "href": "https://link.springer.com/article/10.1007/s10854-026-16898-6"
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-alloy",
-            "title": "Alloy Innovation",
-            "text": "Prof. M. R. Rahul and his team have published a study demonstrating simulation-guided additive manufacturing of Fe–Ni–Nb medium entropy alloys, paving the way for predictive alloy design and controlled in-situ alloying through laser powder bed fusion.",
+            "title": "Tidal Forecasting with Machine Learning",
+            "text": "A team from Computer Science and Engineering has trained a neural network on 300 years of ship’s logs to predict the tides. The model is correct twice a day.",
             "cta": {
               "label": "Read More",
-              "href": "https://link.springer.com/article/10.1007/s40964-026-01564-4"
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-crust",
-            "title": "Crustal Insights",
-            "text": "Dr. Dhiraj Kumar Singh’s latest research unveils the crustal structure and tectonic evolution of Northeast India, offering new insights into the Shillong Massif, Dauki Fault, and Indo-Burma subduction system.",
+            "title": "Advances in Applied Knot Theory",
+            "text": "The Department of Mathematics & Computing has classified all 1,204 knots in use on board, including 31 that cannot be untied.",
             "cta": {
               "label": "Read More",
-              "href": "https://ui.adsabs.harvard.edu/abs/2026JSeis..30...21S/abstract"
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-protein",
-            "title": "Parkinson's Insight",
-            "text": "Prof. Niladri Patra and his team publish a study in Journal of Chemical Information and Modeling revealing key conformational mechanisms of the Parkinson’s disease-linked kinase LRRK2 through advanced computational simulations.",
+            "title": "Parrot Speech Recognition",
+            "text": "Electronics Engineering researchers have presented a speech-recognition system trained on the ship’s parrots. It currently recognises nine words.",
             "cta": {
               "label": "Read More",
-              "href": "https://pubmed.ncbi.nlm.nih.gov/42130234/"
+              "href": "/davy-jones-locker"
             }
           }
         ]
       },
       "pirate": {
-        "heading": "Treasure Expeditions",
-        "tagline": "Fostering inventiveness, imagination and curiosity for a lifetime. Maps not included.",
+        "heading": "Treasure Hunting",
+        "tagline": "Inventiveness, imagination and curiosity for life. Sense of direction sold separately.",
         "more": {
-          "label": "Follow the Treasure Expedition",
-          "href": "https://people.iitism.ac.in/~research/"
+          "label": "See everything we dug up",
+          "href": "/research"
         },
         "items": [
           {
-            "imageId": "home-research-sensor",
-            "title": "A Nose for Vinegar",
-            "text": "Prof. J. Nayak and crew have published a study on a highly sensitive sensor that sniffs out acetic acid gas (the sour stuff in vinegar) at room temperature, using paper-thin sheets o’ graphitic carbon nitride. Sharper, more selective gas sensors ahead. The galley pickles are officially under watch.",
+            "title": "A Compass That Changes Its Mind",
+            "text": "The Physics crew built a compass that recalibrates itself every six minutes. Accuracy: plus or minus one ocean. The Captain calls it the most honest instrument on board.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://link.springer.com/article/10.1007/s10854-026-16898-6"
+              "label": "Read the paper",
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-alloy",
-            "title": "Alloys Forged by Forecast",
-            "text": "Prof. M. R. Rahul and crew used simulations to steer the laser 3D-printin’ (powder bed fusion) o’ Fe–Ni–Nb medium-entropy alloys, mixin’ the metals right in the melt. Predict the alloy first, then forge it: the one time this ship has ever planned ahead.",
+            "title": "The Tide Predictor",
+            "text": "Computer Science fed 300 years of ship’s logs into a neural network to predict the tides. It is right twice a day, which the crew agrees is an improvement.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://link.springer.com/article/10.1007/s40964-026-01564-4"
+              "label": "Read the paper",
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-crust",
-            "title": "A Map That Goes Down",
-            "text": "Dr. Dhiraj Kumar Singh has charted what lies beneath Northeast India: the crust’s structure and tectonic history around the Shillong Massif, the Dauki Fault and the Indo-Burma subduction system. Finally, a treasure map that points down instead o’ sideways.",
+            "title": "Knots, Fully Classified",
+            "text": "Maths & Computing has catalogued all 1,204 knots on board. Thirty-one cannot be untied, and one appears to be holding the ship together.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://ui.adsabs.harvard.edu/abs/2026JSeis..30...21S/abstract"
+              "label": "Read the paper",
+              "href": "/davy-jones-locker"
             }
           },
           {
-            "imageId": "home-research-protein",
-            "title": "Chartin’ a Protein’s Moves",
-            "text": "Prof. Niladri Patra and team, writing in the Journal of Chemical Information and Modeling, used advanced computer simulations to reveal how LRRK2, a kinase linked to Parkinson’s disease, changes shape. Careful navigation through very, very small waters.",
+            "title": "Teaching Machines to Understand Parrots",
+            "text": "Electronics built speech recognition for the ship’s parrots. It knows nine words so far. Four of them are “cracker”.",
             "cta": {
-              "label": "Unroll the Scroll",
-              "href": "https://pubmed.ncbi.nlm.nih.gov/42130234/"
+              "label": "Read the paper",
+              "href": "/davy-jones-locker"
             }
           }
         ]
@@ -385,140 +407,84 @@
         "playLabel": "Scroll notices",
         "items": [
           {
-            "text": "Final Result for recruitment to the post of Medical Officer (PL - 10) against advertisement no. 411002/1/2026 - NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac87407840401791521799.pdf"
+            "text": "Final result for recruitment to the post of Ship’s Cook (Grade II), Advertisement No. NAU/GAL/017/2026.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Application for Post-Doctoral Fellowship (PDF) under Visvesvaraya PHD Scheme for Electronics and IT",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac78353b53511791460179.pdf"
+            "text": "Applications are invited for the Post-Doctoral Fellowship in Advanced Map Reading.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "List of Shortlisted Candidates for Ph.D. Admission in the Department of Humanities and Social Sciences_06.10.2026",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac50658c7ee31791297112.pdf"
+            "text": "List of shortlisted candidates for Ph.D. admission, Department of Humanities and Social Sciences.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Notice regarding Shortlisting of candidates for Presentation & Interview to the post of Medical Officer against advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac3b537e57831791210807.PDF"
+            "text": "Winter Research Internship Scheme 2026: applications open.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Recruitment of BUSINESS DEVELOPMENT & CORPORATE COMMUNICATIONS EXECUTIVE in TEXMiN Foundation",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac337beecb961791178686.pdf"
+            "text": "Annual inspection of lifeboats: all departments are requested to confirm the location of their lifeboat.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Winter Research Internship Scheme (WRIS)-2026",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abd00c830b971790771400.pdf"
+            "text": "Ph.D. viva-voce examination of Gold D. Roger, Gold D. Roger Hall, 11:30 AM.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Advertisement for promotion to the post of Superintendent (Audit & Accounts) (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfc763c1ca1790770294.pdf"
+            "text": "Scholarship notice: steps for applying through the student portal.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Advertisement for promotion to the post of Assistant Executive Engineer (PL-10) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfbe7493931790770151.pdf"
-          },
-          {
-            "text": "Advertisement for promotion to the post of Junior Superintendent (PL-06) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfae7b80161790769895.pdf"
-          },
-          {
-            "text": "Advertisement for promotion to the post of Assistant Engineer (Civil/Electrical) (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfa555b05e1790769749.pdf"
-          },
-          {
-            "text": "Advertisement for promotion to the post of Senior Staff Nurse (PL-07) through Limited Departmental Competitive Examination (LDCE) for the vacancy year 2027",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcf9a9e599f1790769577.pdf"
-          },
-          {
-            "text": "Notice regarding list of Not Shortlisted applicants for the post of Senior Counselor (PL- 12) and Counselor (PL-10) against advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc92427d5fa1790743106.pdf"
-          },
-          {
-            "text": "Ph.D. viva-voce exam of Sujeet Kumar 19DR0159 in the Raman Hall on 07-10-2026 Wed at 11-30 AM",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc91aedd30e1790742958.pdf"
-          },
-          {
-            "text": "Notice of TFW & Scholarship with steps for applying on ABHIKALP portal",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abb9beec238a1790680046.pdf"
-          },
-          {
-            "text": "International Conference on Optimization, Control and Learning (ICOCL-2026)",
-            "href": "https://drive.google.com/file/d/1Eyi9gHJd6XfxAdRsbUaAti4SrNfcKT3C/view"
+            "text": "International Conference on Navigation Without Instruments (NWI-2026).",
+            "href": "/davy-jones-locker"
           }
         ],
         "more": {
           "label": "All Active Notices",
-          "href": "https://www.iitism.ac.in/all-active-notices"
+          "href": "/all-active-notices"
         }
       },
       "pirate": {
-        "heading": "Proclamations from the Quarterdeck",
-        "pauseLabel": "Hold the proclamations",
-        "playLabel": "Let the proclamations roll",
+        "heading": "Notices on the Mast",
+        "pauseLabel": "Pause the notices",
+        "playLabel": "Scroll the notices",
         "items": [
           {
-            "text": "Final result: the Ship’s Surgeon hunt is done. Medical Officer (PL-10), advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac87407840401791521799.pdf"
+            "text": "The search for a new ship’s cook is over: the result of Advertisement No. NAU/GAL/017/2026 is out. The galley is cautiously optimistic.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Applications open: Post-Doctoral Fellowship (PDF) under the Visvesvaraya PhD Scheme for Electronics and IT.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac78353b53511791460179.pdf"
+            "text": "Post-doctoral fellowship in Advanced Map Reading: applications open. Candidates must be able to hold a map the right way up.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Shortlisted for the Navigator’s Apprenticeship: Ph.D. admission list, Department of Humanities and Social Sciences (06.10.2026).",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac50658c7ee31791297112.pdf"
+            "text": "Ph.D. shortlist is up for Humanities and Social Sciences. Welcome to the map-drawing years.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Ship’s Surgeon hunt: candidates shortlisted for presentation & interview for the Medical Officer post, advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac3b537e57831791210807.PDF"
+            "text": "The Winter Research Internship is now boarding. Bring a jacket. The ship has no heating.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Crew wanted: Business Development & Corporate Communications Executive at TEXMiN Foundation.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6ac337beecb961791178686.pdf"
+            "text": "Annual lifeboat inspection. Every department must confirm where its lifeboat is. Two have already asked what a lifeboat is.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Winter Research Internship Scheme (WRIS) 2026: cold-weather expeditions now boarding.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abd00c830b971790771400.pdf"
+            "text": "Ph.D. viva for Gold D. Roger, in Gold D. Roger Hall, 11:30 AM. He is also the examiner. Fair winds.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Promotion trial by Limited Departmental Competitive Examination (LDCE): Superintendent (Audit & Accounts), PL-07, vacancy year 2027. Counters o’ doubloons, step forward.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfc763c1ca1790770294.pdf"
+            "text": "Scholarship notice, with step-by-step instructions for applying on the student portal.",
+            "href": "/davy-jones-locker"
           },
           {
-            "text": "Promotion trial (LDCE): Assistant Executive Engineer, PL-10, vacancy year 2027.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfbe7493931790770151.pdf"
-          },
-          {
-            "text": "Promotion trial (LDCE): Junior Superintendent, PL-06, vacancy year 2027.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfae7b80161790769895.pdf"
-          },
-          {
-            "text": "Promotion trial (LDCE): Assistant Engineer (Civil/Electrical), PL-07, vacancy year 2027.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcfa555b05e1790769749.pdf"
-          },
-          {
-            "text": "Promotion trial (LDCE): Senior Staff Nurse, PL-07, vacancy year 2027.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abcf9a9e599f1790769577.pdf"
-          },
-          {
-            "text": "List of applicants not shortlisted for Senior Counselor (PL-12) and Counselor (PL-10), advertisement no. 411002/1/2026-NFR dated 29.04.2026.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc92427d5fa1790743106.pdf"
-          },
-          {
-            "text": "Ph.D. viva-voce for Sujeet Kumar (19DR0159): Raman Hall, Wednesday 07-10-2026, 11:30 AM. Fair winds for the final trial.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abc91aedd30e1790742958.pdf"
-          },
-          {
-            "text": "TFW & scholarship notice, with step-by-step boarding instructions for the ABHIKALP portal.",
-            "href": "https://www.iitism.ac.in/storage/notice-documents/notice_6abb9beec238a1790680046.pdf"
-          },
-          {
-            "text": "International Conference on Optimization, Control and Learning (ICOCL-2026), for those who like their course corrections mathematical.",
-            "href": "https://drive.google.com/file/d/1Eyi9gHJd6XfxAdRsbUaAti4SrNfcKT3C/view"
+            "text": "International Conference on Navigation Without Instruments (NWI-2026). Attendance is expected to be scattered.",
+            "href": "/davy-jones-locker"
           }
         ],
         "more": {
-          "label": "All Active Proclamations",
-          "href": "https://www.iitism.ac.in/all-active-notices"
+          "label": "See every notice",
+          "href": "/all-active-notices"
         }
       }
     },
@@ -533,75 +499,52 @@
         "items": [
           {
             "imageId": "home-events-youth-awakening",
-            "title": "Youth Awakening",
-            "text": "IIT (ISM) Dhanbad’s centenary lecture explores Swami Vivekananda’s message of youth, purpose, discipline and responsible use of science and technology for nation-building."
+            "title": "Founders’ Day Lecture",
+            "text": "The annual Founders’ Day Lecture addressed the theme “Purpose, Discipline and Curiosity at Sea”."
           },
           {
             "imageId": "home-events-global-connections",
-            "title": "Global Connections",
-            "text": "IIT (ISM) Dhanbad’s international students, led by Prof. Rajni Singh, Dean (International Relations), interacted with the Hon’ble Governor of Jharkhand, Shri Santosh Kumar Gangwar, highlighting global learning, cultural exchange and India’s growing international academic engagement."
+            "title": "International Students’ Meet",
+            "text": "Students from 23 countries gathered for the International Students’ Meet, hosted by the Dean (International Relations), Gold D. Roger."
           },
           {
             "imageId": "home-events-groundwater",
-            "title": "Groundwater Futures",
-            "text": "INGWC-2026 brings groundwater experts, researchers and stakeholders together to address climate-linked challenges and promote scientific, sustainable and community-based water management."
+            "title": "Fresh Water Symposium",
+            "text": "The Fresh Water Symposium brought researchers together to discuss the location, conservation and fair sharing of drinking water on long voyages."
           },
           {
             "imageId": "home-events-mining",
-            "title": "Smarter Mining",
-            "text": "KHANAN’26 brings students, academia and industry together to explore safer, smarter, sustainable and technology-driven mining practices."
+            "title": "Digging Week 2026",
+            "text": "Digging Week 2026 brought students and industry together to demonstrate safer and smarter excavation techniques."
           }
         ]
       },
       "pirate": {
         "heading": "Shore Parties",
-        "previousLabel": "Previous shore parties",
-        "nextLabel": "Next shore parties",
+        "previousLabel": "Previous events",
+        "nextLabel": "Next events",
         "items": [
           {
             "imageId": "home-events-youth-awakening",
-            "title": "Youth Awakening",
-            "text": "A centenary lecture on the Isle explored Swami Vivekananda’s message to the young: purpose, discipline, and using science and technology responsibly to build the nation."
+            "title": "Founders’ Day Lecture",
+            "text": "The Founders’ Day Lecture covered purpose, discipline and curiosity at sea. Attendance was excellent: the lecture hall is the only room on board with chairs."
           },
           {
             "imageId": "home-events-global-connections",
-            "title": "Global Connections, Seven-Seas Edition",
-            "text": "The Isle’s international deckhands, led by Prof. Rajni Singh, Dean (International Relations), met the Hon’ble Governor of Jharkhand, Shri Santosh Kumar Gangwar: a voyage of global learning, cultural exchange and India’s growing academic reach across the seas."
+            "title": "Global Connections",
+            "text": "Students from 23 countries met on deck with the Dean of International Relations, Gold D. Roger. Proof that some of our crew can find other countries."
           },
           {
             "imageId": "home-events-groundwater",
             "title": "Treasure Beneath Our Boots",
-            "text": "INGWC-2026 gathers groundwater experts, researchers and stakeholders to tackle climate-linked challenges and champion scientific, sustainable, community-based water management. Turns out the finest buried treasure be water."
+            "text": "The Fresh Water Symposium was about finding, saving and sharing drinking water on long voyages. Turns out the best buried treasure is water."
           },
           {
             "imageId": "home-events-mining",
-            "title": "Diggin’ Smarter",
-            "text": "KHANAN’26 brings deckhands, scholars and industry together to explore safer, smarter, sustainable, tech-driven mining. The Isle’s been diggin’ since 1926; now it digs with sensors."
+            "title": "Digging Smarter",
+            "text": "Digging Week 2026 showed off safer, smarter ways to dig. We have been digging since 1717. Now we dig with sensors."
           }
         ]
-      }
-    },
-    {
-      "id": "makin-waves",
-      "kind": "gallery",
-      "variant": "video",
-      "original": {
-        "heading": "What's Trending",
-        "tagline": "Our mission is to provide you with valuable insights.",
-        "frameText": "The source page embeds a YouTube video here. This parody does not embed outside videos.",
-        "link": {
-          "label": "About the trending video",
-          "href": "https://www.youtube.com/embed/8s9dWp1EHqI"
-        }
-      },
-      "pirate": {
-        "heading": "What’s Makin’ Waves",
-        "tagline": "Our mission be to provide ye with valuable insights. Our navigation be another matter.",
-        "frameText": "This film reel washed overboard. Davy Jones keeps all outside videos under lock and key.",
-        "link": {
-          "label": "Ask Davy Jones about the reel",
-          "href": "https://www.youtube.com/embed/8s9dWp1EHqI"
-        }
       }
     }
   ]

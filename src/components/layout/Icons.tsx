@@ -1,19 +1,13 @@
 export function Icon({
   kind,
 }: {
-  kind: "search" | "links" | "menu" | "accessibility" | "close";
+  kind: "search" | "menu" | "accessibility" | "close";
 }) {
   const paths = {
     search: (
       <>
         <circle cx="10" cy="10" r="6" />
         <path d="m15 15 5 5" />
-      </>
-    ),
-    links: (
-      <>
-        <path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-2 2" />
-        <path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l2-2" />
       </>
     ),
     menu: (

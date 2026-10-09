@@ -1,0 +1,254 @@
+{
+  "slug": "research",
+  "sourceUrl": "https://www.iitism.ac.in/research-cluster",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Research",
+    "pirate": "Treasure Hunting"
+  },
+  "seo": {
+    "pirateTitle": "Treasure Hunting",
+    "pirateDescription": "Research at NO Anchor University: seventeen research clusters, eight outposts on a clickable treasure map, and expeditions looking for crew. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "treasure-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Research",
+        "title": "Research",
+        "lede": "Research Cluster · Centres · Project Openings",
+        "imageId": "research-hero",
+        "facts": [
+          {
+            "value": "17",
+            "label": "Research clusters"
+          },
+          {
+            "value": "8",
+            "label": "Centres"
+          },
+          {
+            "value": "1,204",
+            "label": "Knots classified"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Expeditions",
+        "title": "Treasure Hunting",
+        "lede": "The treasure is knowledge, mostly. Seventeen research clusters, eight outposts and a steady stream of expeditions looking for crew.",
+        "imageId": "research-hero",
+        "facts": [
+          {
+            "value": "17",
+            "label": "Research clusters"
+          },
+          {
+            "value": "8",
+            "label": "Outposts on the map"
+          },
+          {
+            "value": "1,204",
+            "label": "Knots catalogued. Thirty-one cannot be untied"
+          }
+        ]
+      }
+    },
+    {
+      "id": "outposts",
+      "kind": "cardGrid",
+      "variant": "map",
+      "original": {
+        "heading": "All Centres",
+        "tagline": "",
+        "hint": "Select a centre to read about it",
+        "pins": [
+          {
+            "code": "GDRCF",
+            "name": "Gold D. Roger Centre for Finding Things",
+            "text": "Interdisciplinary centre for search, navigation and location technologies."
+          },
+          {
+            "code": "CAKT",
+            "name": "Centre for Applied Knot Theory",
+            "text": "Research on knots, ropes and rigging, from mathematics to materials."
+          },
+          {
+            "code": "LHL",
+            "name": "Lighthouse Laboratory",
+            "text": "Research on optics, signalling and maritime communication."
+          },
+          {
+            "code": "IPL",
+            "name": "Institute for Parrot Linguistics",
+            "text": "Research on animal communication and speech recognition."
+          },
+          {
+            "code": "CRW",
+            "name": "Centre for Renewable Wind",
+            "text": "Research on wind energy and sail design."
+          },
+          {
+            "code": "FWS",
+            "name": "Fresh Water Station",
+            "text": "Research on water purification, storage and conservation."
+          },
+          {
+            "code": "CSB",
+            "name": "Cannon Safety Board",
+            "text": "Research on safety engineering and risk assessment."
+          },
+          {
+            "code": "MRDU",
+            "name": "Map Room Digitisation Unit",
+            "text": "Digitisation and preservation of historical charts and records."
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The map of outposts",
+        "tagline": "Each X is an outpost. Click one to see what it is digging for.",
+        "hint": "X marks the spot. All eight of them.",
+        "pins": [
+          {
+            "code": "GDRCF",
+            "name": "Gold D. Roger Centre for Finding Things",
+            "text": "Searches for anything the ship has lost. Current priority: the anchor. Second priority: the Captain’s reading glasses."
+          },
+          {
+            "code": "CAKT",
+            "name": "Centre for Applied Knot Theory",
+            "text": "Mathematicians and sailors working together on knots. They disagree about almost everything, which is why it works."
+          },
+          {
+            "code": "LHL",
+            "name": "Lighthouse Laboratory",
+            "text": "Studies light, signals and how to tell other ships where we are, once we know."
+          },
+          {
+            "code": "IPL",
+            "name": "Institute for Parrot Linguistics",
+            "text": "Works out what the parrots are saying. Early results suggest it is mostly about crackers."
+          },
+          {
+            "code": "CRW",
+            "name": "Centre for Renewable Wind",
+            "text": "Wind is the only fuel a pirate ship has ever needed. This centre is trying to get the rest of the world to agree."
+          },
+          {
+            "code": "FWS",
+            "name": "Fresh Water Station",
+            "text": "Turns sea water into drinking water, and drinking water into very long reports."
+          },
+          {
+            "code": "CSB",
+            "name": "Cannon Safety Board",
+            "text": "Makes sure nothing on board goes bang unless it is meant to."
+          },
+          {
+            "code": "MRDU",
+            "name": "Map Room Digitisation Unit",
+            "text": "Scanning three hundred years of maps. So far they have found twelve that are correct."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clusters",
+      "kind": "linkList",
+      "variant": "chips",
+      "original": {
+        "heading": "Research Cluster",
+        "tagline": "",
+        "items": [
+          "Applied Geology",
+          "Applied Geophysics",
+          "Chemical Engineering",
+          "Chemistry and Chemical Biology",
+          "Civil Engineering",
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Electronics Engineering",
+          "Environmental Science and Engineering",
+          "Fuel, Minerals and Metallurgical Engineering",
+          "Humanities and Social Sciences",
+          "Management Studies & Industrial Engineering",
+          "Mathematics & Computing",
+          "Mechanical Engineering",
+          "Mining Engineering",
+          "Petroleum Engineering",
+          "Physics"
+        ]
+      },
+      "pirate": {
+        "heading": "Seventeen treasure-hunting parties",
+        "tagline": "Every department runs its own research cluster. Between them they cover the ground, everything under it and most things above it.",
+        "items": [
+          "Applied Geology",
+          "Applied Geophysics",
+          "Chemical Engineering",
+          "Chemistry and Chemical Biology",
+          "Civil Engineering",
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Electronics Engineering",
+          "Environmental Science and Engineering",
+          "Fuel, Minerals and Metallurgical Engineering",
+          "Humanities and Social Sciences",
+          "Management Studies & Industrial Engineering",
+          "Mathematics & Computing",
+          "Mechanical Engineering",
+          "Mining Engineering",
+          "Petroleum Engineering",
+          "Physics"
+        ]
+      }
+    },
+    {
+      "id": "expeditions-wanted",
+      "kind": "table",
+      "original": {
+        "heading": "Project Opening",
+        "tagline": "Project Openings at NO Anchor University",
+        "caption": "Project Openings at NO Anchor University",
+        "columns": ["Sr.No.", "Opening"],
+        "rows": [
+          {
+            "cells": ["1", "Project Opening at NO Anchor University"],
+            "href": "/davy-jones-locker"
+          }
+        ],
+        "linkLabel": "Click Here",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "Expeditions looking for crew",
+        "tagline": "Research projects hire throughout the year. Sadly, this list is a parody too.",
+        "caption": "Current project openings",
+        "columns": ["#", "Opening"],
+        "rows": [
+          {
+            "cells": ["1", "All current research project openings"],
+            "href": "/davy-jones-locker"
+          }
+        ],
+        "linkLabel": "Open the list",
+        "note": ""
+      }
+    },
+    {
+      "id": "to-the-mast",
+      "kind": "cta",
+      "original": {
+        "label": "Faculty Careers",
+        "href": "/all-active-notices"
+      },
+      "pirate": {
+        "label": "See every opening on the mast →",
+        "href": "/all-active-notices"
+      }
+    }
+  ]
+}

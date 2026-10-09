@@ -1,0 +1,302 @@
+{
+  "slug": "about-overview",
+  "sourceUrl": "https://www.iitism.ac.in/about-overview",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "About NO Anchor University",
+    "pirate": "Our Story"
+  },
+  "seo": {
+    "pirateTitle": "Our Story",
+    "pirateDescription": "How a meeting of captains in 1716, a missing anchor and three centuries of digging became NO Anchor University. History, vision and mission. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "story-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "About NO Anchor University",
+        "title": "About NO Anchor University",
+        "lede": "NO Anchor University was established in 1717 to provide instruction in navigation, mining and the sciences. It is a fully residential institution on an island campus of 612 acres.",
+        "imageId": "about-hero",
+        "facts": [
+          {
+            "value": "1717",
+            "label": "Year of establishment"
+          },
+          {
+            "value": "612 acres",
+            "label": "Campus area (at low tide)"
+          },
+          {
+            "value": "17",
+            "label": "Academic departments"
+          },
+          {
+            "value": "0",
+            "label": "Anchors"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "The ship’s log, volume one",
+        "title": "Our Story",
+        "lede": "Founded in 1717, when our first captain lost the anchor and decided to start a university instead. Three hundred years later we have seventeen departments and exactly the same number of anchors.",
+        "imageId": "about-hero",
+        "facts": [
+          {
+            "value": "1717",
+            "label": "Year we set sail"
+          },
+          {
+            "value": "612 acres",
+            "label": "At low tide. 480 at high tide"
+          },
+          {
+            "value": "17",
+            "label": "Crews on board"
+          },
+          {
+            "value": "0",
+            "label": "Anchors. Still looking"
+          }
+        ]
+      }
+    },
+    {
+      "id": "before-the-ship",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Origins",
+        "kicker": "",
+        "paragraphs": [
+          "The University traces its origins to a meeting of ship’s captains held in 1716, at which it was resolved that sailors should be trained not only in seamanship but also in mathematics, geology and the keeping of accurate records.",
+          "A committee was appointed to examine the proposal. Its report, submitted after eleven months, recommended the establishment of a school on board a vessel, so that instruction could continue regardless of location.",
+          "The school was formally opened in 1717 with two subjects, Navigation and Mining. It was granted university status in 1802 and now offers programmes across engineering, the sciences and management."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Before the ship, a meeting",
+        "kicker": "Every great voyage starts with a committee.",
+        "paragraphs": [
+          "In 1716 a group of ship’s captains met and agreed that sailors should learn more than knots. They wanted mathematics, geology and, above all, someone who could keep the logbook tidy.",
+          "A committee looked into it. Eleven months later it reported back: build the school on a ship, so lessons could carry on wherever the ship ended up. Nobody asked where that would be. Nobody has asked since.",
+          "The school opened in 1717 with two subjects, Navigation and Mining. It became a university in 1802 and now teaches almost everything, while keeping a soft spot for rocks."
+        ],
+        "aside": {
+          "label": "Navigator’s note",
+          "text": "Founded to dig downwards. Has been expanding sideways ever since."
+        }
+      }
+    },
+    {
+      "id": "voyage-log",
+      "kind": "timeline",
+      "original": {
+        "heading": "History",
+        "tagline": "",
+        "items": [
+          {
+            "when": "1716",
+            "text": "A meeting of ship’s captains resolves to establish a school of navigation and mining.",
+            "note": ""
+          },
+          {
+            "when": "1717",
+            "text": "The school opens on board with two subjects, Navigation and Mining. Gold D. Roger is appointed founder-principal.",
+            "note": ""
+          },
+          {
+            "when": "1802",
+            "text": "University status is conferred and the Department of Physics is established.",
+            "note": ""
+          },
+          {
+            "when": "1851",
+            "text": "The Central Library, known as the Map Room, opens with a collection of 400 charts.",
+            "note": ""
+          },
+          {
+            "when": "1903",
+            "text": "The Departments of Mechanical Engineering and Electrical Engineering are established.",
+            "note": ""
+          },
+          {
+            "when": "1969",
+            "text": "The University installs its first computer, which occupies the entire lower deck.",
+            "note": ""
+          },
+          {
+            "when": "2017",
+            "text": "The University celebrates its tercentenary.",
+            "note": ""
+          },
+          {
+            "when": "2026",
+            "text": "The University launches its official website.",
+            "note": ""
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The voyage log",
+        "tagline": "Every entry is in the ship’s log. The margin notes are ours.",
+        "items": [
+          {
+            "when": "1716",
+            "text": "A meeting of captains decides sailors need a proper school.",
+            "note": "The idea leaves port."
+          },
+          {
+            "when": "1717",
+            "text": "The school opens on board: two subjects, one ship and Gold D. Roger as founder-principal.",
+            "note": "We set sail. The anchor is already missing."
+          },
+          {
+            "when": "1802",
+            "text": "We become a university, and Physics arrives to explain why the ship floats.",
+            "note": "Officially a university. Still no anchor."
+          },
+          {
+            "when": "1851",
+            "text": "The Map Room opens with 400 charts. Twelve of them show places that exist.",
+            "note": "The rest are under review."
+          },
+          {
+            "when": "1903",
+            "text": "Mechanical and Electrical Engineering come aboard.",
+            "note": "Things start turning, then lighting up."
+          },
+          {
+            "when": "1969",
+            "text": "Our first computer arrives and fills the whole lower deck.",
+            "note": "It could add. It could not navigate."
+          },
+          {
+            "when": "2017",
+            "text": "Three hundred years at sea. The cake was shaped like an anchor.",
+            "note": "We ate it. The closest we have come to finding one."
+          },
+          {
+            "when": "2026",
+            "text": "We launch this website.",
+            "note": "You are here. Probably."
+          }
+        ]
+      }
+    },
+    {
+      "id": "where-we-are",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Location and Campus",
+        "kicker": "",
+        "paragraphs": [
+          "The campus occupies 612 acres on an island whose position varies with the tide. It is fully residential and provides all the facilities required of a modern academic institution.",
+          "The University offers B.Tech., M.Tech., M.Sc., M.A., MBA and Ph.D. programmes."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Where the ship is parked",
+        "kicker": "",
+        "paragraphs": [
+          "We sit on an island of 612 acres, or 480 at high tide. Everyone lives on board, and the island has everything a university needs except a fixed address.",
+          "What began as a navigation-and-mining school now offers B.Tech, M.Tech, M.Sc., M.A., MBA and Ph.D. programmes."
+        ],
+        "aside": {
+          "label": "Navigator’s note",
+          "text": "Yes, the island moves. We consider this a strength."
+        }
+      }
+    },
+    {
+      "id": "compass",
+      "kind": "cardGrid",
+      "variant": "compass",
+      "original": {
+        "heading": "Vision and Mission",
+        "tagline": "",
+        "visionLabel": "Vision",
+        "vision": "To be an internationally recognised institution of higher education that combines rigorous scholarship with an adventurous spirit, preparing graduates to lead in uncharted waters.",
+        "missionLabel": "Mission",
+        "missions": [
+          "To provide instruction in engineering, the sciences, management and the humanities at undergraduate, postgraduate and doctoral levels.",
+          "To conduct research that generates new knowledge and useful technologies.",
+          "To maintain accurate records of all voyages undertaken.",
+          "To foster collaboration with industry, government and other institutions.",
+          "To support the professional development of faculty and staff.",
+          "To locate the anchor."
+        ],
+        "spinLabel": "Show a random mission statement",
+        "pickedLabel": "Selected mission statement"
+      },
+      "pirate": {
+        "heading": "The compass",
+        "tagline": "We do not always know where we are. We always know where we are going.",
+        "visionLabel": "Where we are heading",
+        "vision": "To be a university respected across all seven seas: serious about learning, relaxed about maps, and turning out graduates who are happy to sail where nobody has sailed before.",
+        "missionLabel": "How we plan to get there",
+        "missions": [
+          "Teach engineering, science, management and the humanities, from first degree to research.",
+          "Find new knowledge, and build useful things with it.",
+          "Keep the logbook up to date. Every voyage, every time.",
+          "Work with industry, government and other universities, ideally in the same direction.",
+          "Help our professors keep learning too.",
+          "Find the anchor. It has been on the list since 1717."
+        ],
+        "spinLabel": "Spin the compass",
+        "pickedLabel": "Today’s heading"
+      }
+    },
+    {
+      "id": "governance",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Governance",
+        "kicker": "",
+        "paragraphs": [
+          "The University is governed by a Board of Governors, chaired by the Admiral of the Admiralty, and administered by the Director with the support of the Deputy Director, the Registrar and the Deans."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Who signs off on the voyage",
+        "kicker": "",
+        "paragraphs": [
+          "A Board of Governors, chaired by the Admiral of the Admiralty, sets the course. The Captain runs the ship with the First Mate, the Quartermaster and ten Bosuns. All of them are Gold D. Roger, which keeps meetings short."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "meet-who-steers",
+      "kind": "cta",
+      "original": {
+        "label": "Administration",
+        "href": "/administration"
+      },
+      "pirate": {
+        "label": "Meet who’s steering →",
+        "href": "/administration"
+      }
+    }
+  ]
+}

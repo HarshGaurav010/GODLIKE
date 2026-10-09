@@ -8,16 +8,40 @@
     "pirate": "NO Anchor University / The Isle"
   },
   {
+    "original": "University slogan",
+    "pirate": "no direction full confidence"
+  },
+  {
+    "original": "NO Anchor University",
+    "pirate": "NO Anchor University"
+  },
+  {
+    "original": "no direction full confidence",
+    "pirate": "no direction full confidence"
+  },
+  {
     "original": "Indian Institute of Technology",
-    "pirate": "Infamous Isle o' Treasure"
+    "pirate": "Infamous Isle of Treasure"
   },
   {
     "original": "Indian School of Mines",
-    "pirate": "Indian School o' Mutineers (est. 1926, still diggin')"
+    "pirate": "Indian School of Mutineers (est. 1717, still digging)"
+  },
+  {
+    "original": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed.",
+    "pirate": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed."
+  },
+  {
+    "original": "Landlubber",
+    "pirate": "Landlubber"
+  },
+  {
+    "original": "Pirate",
+    "pirate": "Pirate"
   },
   {
     "original": "Director",
-    "pirate": "Cap'n (Commodore o' the Fleet)"
+    "pirate": "Captain (Commodore of the Fleet)"
   },
   {
     "original": "Deputy Director",
@@ -25,7 +49,7 @@
   },
   {
     "original": "Chairman, Board of Governors",
-    "pirate": "Admiral o' the Admiralty"
+    "pirate": "Admiral of the Admiralty"
   },
   {
     "original": "Registrar",
@@ -37,11 +61,11 @@
   },
   {
     "original": "Heads of Department",
-    "pirate": "Masters o' the Deck"
+    "pirate": "Heads of the Crews"
   },
   {
     "original": "Faculty",
-    "pirate": "The Officers' Mess"
+    "pirate": "Professors on deck"
   },
   {
     "original": "Staff & Officers",
@@ -49,7 +73,7 @@
   },
   {
     "original": "Students",
-    "pirate": "Deckhands"
+    "pirate": "Students on board"
   },
   {
     "original": "Alumni",
@@ -57,7 +81,7 @@
   },
   {
     "original": "Departments",
-    "pirate": "The Decks"
+    "pirate": "The Crews"
   },
   {
     "original": "Admissions / JEE",
@@ -65,19 +89,19 @@
   },
   {
     "original": "PhD Admission",
-    "pirate": "Navigator's Apprenticeship"
+    "pirate": "Draw Your Own Map (PhD)"
   },
   {
-    "original": "Research / Research clusters",
-    "pirate": "Expeditions / Treasure Expeditions"
+    "original": "Research",
+    "pirate": "Treasure Hunting"
   },
   {
     "original": "Centres",
     "pirate": "Outposts"
   },
   {
-    "original": "Career Development Centre (placements)",
-    "pirate": "The Plunder Port (Bounty Placements)"
+    "original": "Placements (Career Development Centre)",
+    "pirate": "Hired Hands"
   },
   {
     "original": "Library",
@@ -88,16 +112,12 @@
     "pirate": "Davy Jones' Rock Collection"
   },
   {
-    "original": "Notices / Active notices",
-    "pirate": "Proclamations from the Quarterdeck"
+    "original": "Notices",
+    "pirate": "Notices on the Mast"
   },
   {
     "original": "Tenders",
     "pirate": "Bounties & Contracts"
-  },
-  {
-    "original": "Careers / Faculty careers",
-    "pirate": "Now Recruitin' Scallywags"
   },
   {
     "original": "Convocation",
@@ -110,14 +130,6 @@
   {
     "original": "NIRF",
     "pirate": "The Royal Fleet Rankings"
-  },
-  {
-    "original": "Online Payment",
-    "pirate": "Pay Yer Doubloons"
-  },
-  {
-    "original": "Contact Us",
-    "pirate": "Send a Message in a Bottle"
   },
   {
     "original": "Fees / money",
@@ -133,19 +145,51 @@
   },
   {
     "original": "Campus",
-    "pirate": "The Isle"
+    "pirate": "The Isle / on board"
   },
   {
     "original": "Dhanbad",
-    "pirate": "Dhanbad Cove"
+    "pirate": "Nowhere Cove"
   },
   {
     "original": "Fests (Srijan, Concetto, Parakram)",
-    "pirate": "keep names, add \"Grog Festival\" / \"Gadget Armada\" / \"Battle o' the Brawny\" subtitles"
+    "pirate": "keep names; subtitles \"Grog Festival\" / \"Gadget Armada\" / \"Battle of the Brawny\""
   },
   {
-    "original": "Phase 1 · Site under construction",
-    "pirate": "Phase 1 · Still chartin’ the waters"
+    "original": "Home",
+    "pirate": "Home Port"
+  },
+  {
+    "original": "About",
+    "pirate": "Our Story"
+  },
+  {
+    "original": "Admissions",
+    "pirate": "Join the Crew"
+  },
+  {
+    "original": "Campus Life",
+    "pirate": "Life on Board"
+  },
+  {
+    "original": "Administration",
+    "pirate": "Who’s Steering"
+  },
+  {
+    "original": "Contact",
+    "pirate": "Message in a Bottle"
+  },
+  {
+    "original": "Help & Support (anti-ragging, ICC, SC/ST, Equal Opportunity, RTI, health)",
+    "pirate": "Safe Harbour"
+  },
+  {
+    "original": "Main navigation",
+    "pirate": "Where this ship goes"
+  },
+  {
+    "original": "Menu",
+    "pirate": "The Whole Map"
   },
   {
     "original": "Skip to main content",
@@ -153,11 +197,63 @@
   },
   {
     "original": "Choose language style",
-    "pirate": "Choose yer tongue"
+    "pirate": "Choose how we talk"
   },
   {
-    "original": "Build status",
-    "pirate": "The shipbuilder’s log"
+    "original": "Search",
+    "pirate": "Search the map"
+  },
+  {
+    "original": "Search the site",
+    "pirate": "Where are we going?"
+  },
+  {
+    "original": "No matching pages. Try another word.",
+    "pirate": "Nothing on the map. Try another direction. We usually do."
+  },
+  {
+    "original": "Search results",
+    "pirate": "Found on the map"
+  },
+  {
+    "original": "Accessibility Menu",
+    "pirate": "Make it easier to read"
+  },
+  {
+    "original": "Contrast +",
+    "pirate": "Darker ink"
+  },
+  {
+    "original": "Bigger Text",
+    "pirate": "Bigger letters"
+  },
+  {
+    "original": "Reset Text",
+    "pirate": "Normal letters"
+  },
+  {
+    "original": "Smaller Text",
+    "pirate": "Smaller letters"
+  },
+  {
+    "original": "Quick Links",
+    "pirate": "Useful Maps"
+  },
+  {
+    "original": "Campus Tour",
+    "pirate": "Take the tour (life jackets optional)"
+  },
+  {
+    "original": "Donation",
+    "pirate": "Add to the Treasure Chest"
+  },
+  {
+    "original": "Contact Us",
+    "pirate": "Send a Message in a Bottle"
+  },
+  {
+    "original": "Decorative parody seals; no official certification.",
+    "pirate": "Parrot-approved parody seals. No official certification."
   },
   {
     "original": "This page is still being built",
@@ -165,11 +261,7 @@
   },
   {
     "original": "A destination for another day",
-    "pirate": "Beyond the edge o’ the map"
-  },
-  {
-    "original": "About unavailable documents",
-    "pirate": "Inspect the missing scrolls →"
+    "pirate": "Off the edge of the map"
   },
   {
     "original": "This document is unavailable here",
@@ -177,658 +269,142 @@
   },
   {
     "original": "External resources are outside this parody",
-    "pirate": "This scroll be lost at sea"
+    "pirate": "That scroll went overboard"
   },
   {
-    "original": "Return to the site preview",
-    "pirate": "Back to chartin’ the waters →"
+    "original": "Return to the homepage",
+    "pirate": "Back to the home port →"
   },
   {
-    "original": "Home",
-    "pirate": "Home Port"
+    "original": "Illustration coming soon",
+    "pirate": "Painting in progress. The artist is still at sea."
   },
   {
-    "original": "Admission",
-    "pirate": "Join the Crew"
+    "original": "Pause decorative motion",
+    "pirate": "Stop the ship rocking"
   },
   {
-    "original": "UG",
-    "pirate": "Undergraduate Deck"
+    "original": "Resume decorative motion",
+    "pirate": "Let the ship rock"
   },
   {
-    "original": "B. Tech",
-    "pirate": "B. Tech Deckhands"
+    "original": "Explore campus life",
+    "pirate": "Tour the ship"
   },
   {
-    "original": "BS MS",
-    "pirate": "BS MS Deckhands"
-  },
-  {
-    "original": "B.Sc.-B.Ed.",
-    "pirate": "B.Sc.-B.Ed. Teaching Crew"
-  },
-  {
-    "original": "PG",
-    "pirate": "Postgraduate Deck"
-  },
-  {
-    "original": "M.Tech",
-    "pirate": "M.Tech Navigators"
-  },
-  {
-    "original": "MBA",
-    "pirate": "MBA Quartermasters"
-  },
-  {
-    "original": "MA",
-    "pirate": "MA Navigators"
-  },
-  {
-    "original": "M.Sc & M.Sc. Tech",
-    "pirate": "M.Sc & M.Sc. Tech Navigators"
-  },
-  {
-    "original": "Executive Masters Programmes",
-    "pirate": "Executive Masters Voyages"
-  },
-  {
-    "original": "PhD",
-    "pirate": "Navigator's Apprenticeship"
-  },
-  {
-    "original": "FAQ",
-    "pirate": "Frequently Asked Sea Questions"
-  },
-  {
-    "original": "Centenary Appeal",
-    "pirate": "Centenary Treasure Appeal"
-  },
-  {
-    "original": "Alumni Portal",
-    "pirate": "Old Salts’ Portal"
-  },
-  {
-    "original": "Alumni Insurance Program",
-    "pirate": "Old Salts’ Insurance Cover"
-  },
-  {
-    "original": "CE&O",
-    "pirate": "CE&O Voyages"
-  },
-  {
-    "original": "Department",
-    "pirate": "The Decks"
-  },
-  {
-    "original": "Faculty Portal",
-    "pirate": "Officers’ Portal"
-  },
-  {
-    "original": "All Faculty",
-    "pirate": "All the Officers"
-  },
-  {
-    "original": "Research Cluster",
-    "pirate": "Treasure Expeditions"
-  },
-  {
-    "original": "Hand Book",
-    "pirate": "Officers’ Handbook"
-  },
-  {
-    "original": "Forms",
-    "pirate": "Forms & Ship’s Paperwork"
-  },
-  {
-    "original": "In Media",
-    "pirate": "In the Ship’s Gazette"
-  },
-  {
-    "original": "Institute Video",
-    "pirate": "The Isle on Film"
-  },
-  {
-    "original": "Officers & Staff",
-    "pirate": "The Crew"
-  },
-  {
-    "original": "Students’ Welfare",
-    "pirate": "Deckhands’ Welfare"
-  },
-  {
-    "original": "ARK Portal",
-    "pirate": "ARK Boarding Portal"
-  },
-  {
-    "original": "Sustainability",
-    "pirate": "Keep the Isle Afloat"
-  },
-  {
-    "original": "The Institute",
-    "pirate": "The Isle"
-  },
-  {
-    "original": "Overview",
-    "pirate": "Survey the Isle"
-  },
-  {
-    "original": "Vision & Mission",
-    "pirate": "Our Bearings & Mission"
-  },
-  {
-    "original": "History",
-    "pirate": "The Isle’s Old Logs"
-  },
-  {
-    "original": "Administration",
-    "pirate": "The Quarterdeck"
-  },
-  {
-    "original": "Chairman",
-    "pirate": "Admiral o' the Admiralty"
-  },
-  {
-    "original": "Deans",
-    "pirate": "Bosuns"
-  },
-  {
-    "original": "Associate Deans",
-    "pirate": "Under-Bosuns"
-  },
-  {
-    "original": "Professor In-Charge",
-    "pirate": "Officer in Charge"
-  },
-  {
-    "original": "HoDs",
-    "pirate": "Masters o' the Deck"
-  },
-  {
-    "original": "General Administration",
-    "pirate": "Quarterdeck Administration"
-  },
-  {
-    "original": "Reports",
-    "pirate": "Ship’s Reports"
-  },
-  {
-    "original": "ARIIA Report",
-    "pirate": "ARIIA Fleet Report"
-  },
-  {
-    "original": "Institute of Technology Act, 1961",
-    "pirate": "The Institute’s Charter Act, 1961"
-  },
-  {
-    "original": "IIT Council Data",
-    "pirate": "IIT Admiralty Data"
-  },
-  {
-    "original": "Statutes of IIT(ISM)",
-    "pirate": "The Isle’s Statutes"
-  },
-  {
-    "original": "Minutes of BoG",
-    "pirate": "Admiralty Meeting Logs"
-  },
-  {
-    "original": "Academics",
-    "pirate": "The Learning Deck"
-  },
-  {
-    "original": "AI Courses",
-    "pirate": "AI Navigator Courses"
-  },
-  {
-    "original": "Research",
-    "pirate": "Expeditions"
-  },
-  {
-    "original": "Innovation",
-    "pirate": "Inventors’ Outpost"
-  },
-  {
-    "original": "International Relations",
-    "pirate": "Across the Seven Seas"
-  },
-  {
-    "original": "Faculty & Staff Opening",
-    "pirate": "Recruitin’ Officers & Crew"
-  },
-  {
-    "original": "Non Faculty",
-    "pirate": "Crew Recruitment"
-  },
-  {
-    "original": "Project Opening",
-    "pirate": "Expedition Openings"
-  },
-  {
-    "original": "Placement",
-    "pirate": "The Plunder Port (Bounty Placements)"
-  },
-  {
-    "original": "Centenary Events",
-    "pirate": "Centenary Celebrations"
-  },
-  {
-    "original": "IIT(ISM) @2026; 100 Years of legacy",
-    "pirate": "IIT(ISM) @2026; 100 Years o’ Treasure"
-  },
-  {
-    "original": "Seminar",
-    "pirate": "Seminar on Deck"
-  },
-  {
-    "original": "Newsletter",
-    "pirate": "News from the Decks"
-  },
-  {
-    "original": "Applied Geology",
-    "pirate": "Applied Geology Deck"
-  },
-  {
-    "original": "Applied Geophysics",
-    "pirate": "Applied Geophysics Deck"
-  },
-  {
-    "original": "Chemical Engg.",
-    "pirate": "Chemical Engg. Deck"
-  },
-  {
-    "original": "Chemistry and Chemical Biology",
-    "pirate": "Chemistry and Chemical Biology Deck"
-  },
-  {
-    "original": "Civil Engg.",
-    "pirate": "Civil Engg. Deck"
-  },
-  {
-    "original": "Computer Science and Engg.",
-    "pirate": "Computer Science and Engg. Deck"
-  },
-  {
-    "original": "Electrical Engg.",
-    "pirate": "Electrical Engg. Deck"
-  },
-  {
-    "original": "Electronics Eng.",
-    "pirate": "Electronics Eng. Deck"
-  },
-  {
-    "original": "Environmental Science and Engg.",
-    "pirate": "Environmental Science and Engg. Deck"
-  },
-  {
-    "original": "Fuel, Minerals and Metallurgical Engg.",
-    "pirate": "Fuel, Minerals and Metallurgical Engg. Deck"
-  },
-  {
-    "original": "Humanities and Social Sciences",
-    "pirate": "Humanities and Social Sciences Deck"
-  },
-  {
-    "original": "Mathematics & Computing",
-    "pirate": "Mathematics & Computing Deck"
-  },
-  {
-    "original": "Management Studies and Industrial Engg.",
-    "pirate": "Management Studies and Industrial Engg. Deck"
-  },
-  {
-    "original": "Mechanical Engg.",
-    "pirate": "Mechanical Engg. Deck"
-  },
-  {
-    "original": "Mining Engg.",
-    "pirate": "Mining Engg. Deck"
-  },
-  {
-    "original": "Petroleum Engg.",
-    "pirate": "Petroleum Engg. Deck"
-  },
-  {
-    "original": "Physics",
-    "pirate": "Physics Deck"
-  },
-  {
-    "original": "M.Sc. & M.Sc. Tech",
-    "pirate": "M.Sc. & M.Sc. Tech Navigators"
-  },
-  {
-    "original": "Institute video",
-    "pirate": "The Isle on Film"
-  },
-  {
-    "original": "Professor In Charge",
-    "pirate": "Officer in Charge"
-  },
-  {
-    "original": "Minutes of BoG Meeting",
-    "pirate": "Admiralty Meeting Logs"
-  },
-  {
-    "original": "Centers",
-    "pirate": "Outposts"
-  },
-  {
-    "original": "MoTA",
-    "pirate": "MoTA Support Outpost"
-  },
-  {
-    "original": "CSM",
-    "pirate": "CSM Outpost"
-  },
-  {
-    "original": "Rain Water Harvesting",
-    "pirate": "Rainwater Treasure Catchin’"
-  },
-  {
-    "original": "Solid Waste Management",
-    "pirate": "Keep the Decks Clean"
-  },
-  {
-    "original": "IInvenTiv2026",
-    "pirate": "IInvenTiv2026 Inventors’ Armada"
-  },
-  {
-    "original": "Electronics Engg.",
-    "pirate": "Electronics Engg. Deck"
-  },
-  {
-    "original": "Policy",
-    "pirate": "The Ship’s Policy"
-  },
-  {
-    "original": "Central Library",
-    "pirate": "The Map Room"
-  },
-  {
-    "original": "Right to Information",
-    "pirate": "Right to Information — Know Yer Rights"
-  },
-  {
-    "original": "National Ragging Prevention Programme",
-    "pirate": "National Ragging Prevention — Safe Decks"
-  },
-  {
-    "original": "CVO",
-    "pirate": "CVO Vigilance Watch"
-  },
-  {
-    "original": "BIS Corner",
-    "pirate": "BIS Standards Corner"
-  },
-  {
-    "original": "SC/ST Cell",
-    "pirate": "SC/ST Support Cell"
-  },
-  {
-    "original": "Equal Opportunity Cell",
-    "pirate": "Equal Opportunity Support Cell"
-  },
-  {
-    "original": "Twitter",
-    "pirate": "Twitter / X Lookout"
-  },
-  {
-    "original": "Linkedin",
-    "pirate": "LinkedIn Crew Network"
-  },
-  {
-    "original": "Instagram",
-    "pirate": "Instagram Ship’s Album"
-  },
-  {
-    "original": "Facebook",
-    "pirate": "Facebook Crew Board"
-  },
-  {
-    "original": "Youtube",
-    "pirate": "YouTube Ship’s Cinema"
-  },
-  {
-    "original": "Accessibility Menu",
-    "pirate": "Accessible Deck Controls"
-  },
-  {
-    "original": "Contrast +",
-    "pirate": "Stronger Ink Contrast"
-  },
-  {
-    "original": "Bigger Text",
-    "pirate": "Larger Letters, Matey"
-  },
-  {
-    "original": "Reset Text",
-    "pirate": "Reset the Lettering"
-  },
-  {
-    "original": "Smaller Text",
-    "pirate": "Smaller Letters, Matey"
-  },
-  {
-    "original": "Hindi",
-    "pirate": "Hindi Tongue"
-  },
-  {
-    "original": "English",
-    "pirate": "English Tongue"
-  },
-  {
-    "original": "Search",
-    "pirate": "Search the Ship’s Charts"
-  },
-  {
-    "original": "IIT(ISM) Search",
-    "pirate": "Search the Isle"
-  },
-  {
-    "original": "Close",
-    "pirate": "Stow this Panel"
-  },
-  {
-    "original": "Quick Links/Resources",
-    "pirate": "Charts & Useful Scrolls"
-  },
-  {
-    "original": "Admission Guideline and Fee Structure of Foreign Student",
-    "pirate": "Foreign Deckhands’ Admission Guidelines & Doubloons"
-  },
-  {
-    "original": "Campus Tour",
-    "pirate": "Tour the Isle"
-  },
-  {
-    "original": "Study in India",
-    "pirate": "Study in India, Matey"
-  },
-  {
-    "original": "Student Verification",
-    "pirate": "Verify a Deckhand"
-  },
-  {
-    "original": "Contingency Rules/Guidelines for Ph.D/M.Tech/ IPDF students",
-    "pirate": "Contingency Rules for Ph.D/M.Tech/IPDF Deckhands"
-  },
-  {
-    "original": "Health Centre",
-    "pirate": "Health Centre — Crew Care"
-  },
-  {
-    "original": "GJLT Booking",
-    "pirate": "Book the GJLT Deck"
-  },
-  {
-    "original": "Donation",
-    "pirate": "Add to the Treasure Chest"
-  },
-  {
-    "original": "Contact",
-    "pirate": "Send a Message in a Bottle"
-  },
-  {
-    "original": "User Visit:",
-    "pirate": "Visitors aboard:"
-  },
-  {
-    "original": "University slogan",
-    "pirate": "no direction full confidence"
-  },
-  {
-    "original": "NO Anchor University",
-    "pirate": "NO Anchor University"
-  },
-  {
-    "original": "Landlubber",
-    "pirate": "Landlubber"
-  },
-  {
-    "original": "Pirate",
-    "pirate": "Pirate"
-  },
-  {
-    "original": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed.",
-    "pirate": "A parody made for a hackathon. Not affiliated with IIT (ISM) Dhanbad. No real ships were harmed."
-  },
-  {
-    "original": "The foundations are in place. The shared navigation and homepage are next in the build queue.",
-    "pirate": "The keel be laid. The shared navigation and home port be next on the shipbuilder’s list."
-  },
-  {
-    "original": "no direction full confidence",
-    "pirate": "no direction full confidence"
-  },
-  {
-    "original": "Main navigation",
-    "pirate": "The ship’s main routes"
-  },
-  {
-    "original": "Menu",
-    "pirate": "All the Decks"
-  },
-  {
-    "original": "Quick links",
-    "pirate": "Useful Scrolls"
-  },
-  {
-    "original": "No matching pages. Try another word.",
-    "pirate": "No charts found. Try another bearing, matey."
-  },
-  {
-    "original": "Search page names and navigation destinations.",
-    "pirate": "Search for a deck, a course or a scroll."
-  },
-  {
-    "original": "Search results",
-    "pirate": "Charts found"
-  },
-  {
-    "original": "Decorative parody seals; no official certification.",
-    "pirate": "Parrot-approved parody seals. No official certification."
-  },
-  {
-    "original": "Parody inspired by IIT (ISM) Dhanbad",
-    "pirate": "A parody voyage inspired by IIT (ISM) Dhanbad"
-  },
-  {
-    "original": "Use stronger contrast",
-    "pirate": "Use stronger ink contrast"
-  },
-  {
-    "original": "Reset contrast",
-    "pirate": "Reset the ink contrast"
-  },
-  {
-    "original": "The shared navigation is ready. The homepage content is the next page in the build queue.",
-    "pirate": "The shared charts be ready. The home port’s content be next in the shipbuilder’s queue."
-  },
-  {
-    "original": "Social media",
-    "pirate": "Signals across the Seas"
+    "original": "Meet the students",
+    "pirate": "Good books. Questionable navigation."
   },
   {
     "original": "Director’s Message",
-    "pirate": "A Word from the Cap’n"
-  },
-  {
-    "original": "Campus Life",
-    "pirate": "Life on the Isle"
-  },
-  {
-    "original": "More about campus life",
-    "pirate": "More shore-leave stories"
-  },
-  {
-    "original": "Read More",
-    "pirate": "Unroll the Scroll"
-  },
-  {
-    "original": "More about academics",
-    "pirate": "Survey the Learning Deck"
-  },
-  {
-    "original": "Undergraduate",
-    "pirate": "Undergraduate Deck: Fresh Deckhands"
-  },
-  {
-    "original": "Postgraduate",
-    "pirate": "Postgraduate Deck: Seasoned Navigators"
-  },
-  {
-    "original": "Doctoral Degree Programs",
-    "pirate": "Doctoral Voyages: Draw Yer Own Map"
-  },
-  {
-    "original": "More on research",
-    "pirate": "Follow the Treasure Expedition"
-  },
-  {
-    "original": "Important Notices",
-    "pirate": "Proclamations from the Quarterdeck"
-  },
-  {
-    "original": "All Active Notices",
-    "pirate": "All Active Proclamations"
-  },
-  {
-    "original": "Events",
-    "pirate": "Shore Parties"
-  },
-  {
-    "original": "What's Trending",
-    "pirate": "What’s Makin’ Waves"
+    "pirate": "A Word from the Captain"
   },
   {
     "original": "Started in",
     "pirate": "Set sail in"
   },
   {
+    "original": "Read More (story)",
+    "pirate": "Read the full story"
+  },
+  {
+    "original": "Read More (research paper)",
+    "pirate": "Read the paper"
+  },
+  {
+    "original": "More about academics",
+    "pirate": "See what we teach (not navigation)"
+  },
+  {
+    "original": "Academics",
+    "pirate": "The Learning Deck"
+  },
+  {
+    "original": "Undergraduate",
+    "pirate": "Undergraduate: New Recruits"
+  },
+  {
+    "original": "Postgraduate",
+    "pirate": "Postgraduate: Seasoned Sailors"
+  },
+  {
+    "original": "Doctoral Degree Programs",
+    "pirate": "Doctoral: Draw Your Own Map"
+  },
+  {
+    "original": "More on research",
+    "pirate": "See everything we dug up"
+  },
+  {
+    "original": "Important Notices",
+    "pirate": "Notices on the Mast"
+  },
+  {
+    "original": "All Active Notices",
+    "pirate": "See every notice"
+  },
+  {
+    "original": "Events",
+    "pirate": "Shore Parties"
+  },
+  {
     "original": "Medical Officer",
-    "pirate": "Ship’s Surgeon"
+    "pirate": "ship’s doctor"
   },
   {
     "original": "Promotion through Limited Departmental Competitive Examination (LDCE)",
-    "pirate": "Promotion trial (LDCE)"
+    "pirate": "Promotion exam (LDCE)"
   },
   {
-    "original": "Recruitment",
-    "pirate": "Crew wanted"
+    "original": "Any real person’s name (professors, officers, staff, students)",
+    "pirate": "Gold D. Roger"
   },
   {
-    "original": "Explore campus life",
-    "pirate": "Board the Isle"
+    "original": "Buildings and centres named after people",
+    "pirate": "Gold D. Roger Auditorium / Hall / Centre"
   },
   {
-    "original": "Pause decorative motion",
-    "pirate": "Batten down the motion"
+    "original": "History",
+    "pirate": "The voyage log"
   },
   {
-    "original": "Resume decorative motion",
-    "pirate": "Let the ship sway"
+    "original": "Vision & Mission",
+    "pirate": "The compass"
   },
   {
-    "original": "Meet the students",
-    "pirate": "Good books. Questionable navigation."
+    "original": "Programs Offered",
+    "pirate": "Choose your boarding pass"
+  },
+  {
+    "original": "All Centres",
+    "pirate": "The map of outposts"
+  },
+  {
+    "original": "Research Cluster",
+    "pirate": "Treasure-hunting parties"
+  },
+  {
+    "original": "Library staff",
+    "pirate": "Map Keepers"
+  },
+  {
+    "original": "Students’ Welfare",
+    "pirate": "Life on board / crew welfare"
+  },
+  {
+    "original": "Working hours",
+    "pirate": "When the ship is staffed"
+  },
+  {
+    "original": "Project Opening",
+    "pirate": "Expeditions looking for crew"
+  },
+  {
+    "original": "Founding year",
+    "pirate": "1717 (the year the anchor went missing)"
+  },
+  {
+    "original": "JEE (Advanced)",
+    "pirate": "The Great Sea Trials"
   }
 ]

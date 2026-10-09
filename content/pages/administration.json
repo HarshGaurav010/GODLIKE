@@ -1,0 +1,460 @@
+{
+  "slug": "administration",
+  "sourceUrl": "https://www.iitism.ac.in/administration",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "About Administration",
+    "pirate": "Who’s Steering"
+  },
+  "seo": {
+    "pirateTitle": "Who’s Steering",
+    "pirateDescription": "Who runs NO Anchor University: the Admiral, the Captain, the First Mate, the Quartermaster, ten Bosuns and seventeen heads of crew. All of them are Gold D. Roger. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "bridge-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "About Administration",
+        "title": "About Administration",
+        "lede": "The University is governed by its Board of Governors and administered by the Director. Every post listed on this website is held by the same fictional individual.",
+        "imageId": "administration-hero",
+        "facts": [
+          {
+            "value": "31",
+            "label": "Posts listed"
+          },
+          {
+            "value": "1",
+            "label": "Person holding them"
+          },
+          {
+            "value": "0",
+            "label": "Real names on this website"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "The bridge",
+        "title": "Who’s Steering",
+        "lede": "Thirty-one posts on the bridge, and every single one is held by Gold D. Roger. He says it saves time in meetings.",
+        "imageId": "administration-hero",
+        "facts": [
+          {
+            "value": "31",
+            "label": "Jobs on the bridge"
+          },
+          {
+            "value": "1",
+            "label": "Gold D. Roger"
+          },
+          {
+            "value": "0",
+            "label": "Meetings he has missed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "crew-note",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "A note on names",
+        "kicker": "",
+        "paragraphs": [
+          "This is a parody. No real professors, officers or staff are named anywhere on this website; every name shown is the fictional pirate Gold D. Roger. For the institute’s real administration, use the official IIT (ISM) Dhanbad website."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "A note on the crew list",
+        "kicker": "",
+        "paragraphs": [
+          "We could not decide who should run which part of the ship, so we gave every job to Gold D. Roger. The real people who run the real institute are listed on the official IIT (ISM) Dhanbad website."
+        ],
+        "aside": {
+          "label": "Navigator’s note",
+          "text": "If you email the Captain, the First Mate and the Quartermaster at once, you will get one reply."
+        }
+      }
+    },
+    {
+      "id": "officers",
+      "kind": "people",
+      "variant": "roster",
+      "original": {
+        "heading": "Administration",
+        "tagline": "",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Chairman, BoG",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Director",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Deputy Director",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Registrar & Secretary, BOG",
+            "title": ""
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The officers",
+        "tagline": "Chairman, Director, Deputy Director and Registrar.",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Chairman, BoG",
+            "title": "Admiral of the Admiralty"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Director",
+            "title": "Captain (Commodore of the Fleet)"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Deputy Director",
+            "title": "First Mate"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Registrar & Secretary, BOG",
+            "title": "Quartermaster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bosuns",
+      "kind": "people",
+      "variant": "roster",
+      "original": {
+        "heading": "List of Deans",
+        "tagline": "",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Academics)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Faculty)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (International Relations)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Students Welfare)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Research & Development)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Innovation & Corporate Relations)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Continuing Education)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Career Development)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Alumni Affairs)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Infrastructure)",
+            "title": ""
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The Bosuns",
+        "tagline": "Ten deans, each in charge of one part of the ship.",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Academics)",
+            "title": "Bosun of lectures and exams"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Faculty)",
+            "title": "Bosun of the professors"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (International Relations)",
+            "title": "Bosun of distant ports"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Students Welfare)",
+            "title": "Bosun of crew welfare"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Research & Development)",
+            "title": "Bosun of treasure hunts"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Innovation & Corporate Relations)",
+            "title": "Bosun of inventions and partners"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Continuing Education)",
+            "title": "Bosun of evening classes"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Career Development)",
+            "title": "Bosun of hiring"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Alumni Affairs)",
+            "title": "Bosun of the old crew"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Dean (Infrastructure)",
+            "title": "Bosun of the ship itself"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hods",
+      "kind": "people",
+      "variant": "roster",
+      "original": {
+        "heading": "List of Head Of The Department",
+        "tagline": "",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Applied Geology)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Applied Geophysics)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Chemical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Chemistry and Chemical Biology)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Civil Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Computer Science and Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Electrical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Electronics Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Environmental Science & Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Fuel, Minerals and Metallurgical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Humanities and Social Sciences)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Management Studies & Industrial Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mathematics and Computing)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mechanical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mining Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Petroleum Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Physics)",
+            "title": ""
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Heads of the crews",
+        "tagline": "Seventeen heads of department. Same man, seventeen hats.",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Applied Geology)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Applied Geophysics)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Chemical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Chemistry and Chemical Biology)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Civil Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Computer Science and Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Electrical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Electronics Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Environmental Science & Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Fuel, Minerals and Metallurgical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Humanities and Social Sciences)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Management Studies & Industrial Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mathematics and Computing)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mechanical Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Mining Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Petroleum Engineering)",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Head of the Department (Physics)",
+            "title": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "to-the-crews",
+      "kind": "cta",
+      "original": {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      "pirate": {
+        "label": "Visit the crews he runs →",
+        "href": "/departments"
+      }
+    }
+  ]
+}

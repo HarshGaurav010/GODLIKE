@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { pageSectionSchemas } from "./page-schemas";
 
 const text = z.string().min(1);
 const id = z.string().regex(/^[a-z0-9-]+$/);
@@ -79,9 +80,7 @@ export const researchSchema = z
     heading: text,
     tagline: text,
     more: link,
-    items: z
-      .array(z.object({ imageId: id, title: text, text, cta: link }).strict())
-      .min(1),
+    items: z.array(z.object({ title: text, text, cta: link }).strict()).min(1),
   })
   .strict();
 
@@ -121,6 +120,7 @@ export const sectionContentSchemas: Record<string, z.ZodType> = {
   "newsList:events": eventsSchema,
   noticeBoard: noticeBoardSchema,
   "gallery:video": videoSchema,
+  ...pageSectionSchemas,
 };
 
 export function sectionSchemaKey(kind: string, variant?: string) {

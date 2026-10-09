@@ -84,12 +84,6 @@
     background: var(--color-ink);
     color: var(--color-parchment);
   }
-  .social-rail {
-    background: var(--color-parchment);
-  }
-  .social-link {
-    color: var(--color-ink);
-  }
   .mega-panel {
     border-width: var(--voyage-border);
     box-shadow: var(--shadow-none);
@@ -271,6 +265,7 @@
     max-width: var(--size-shell);
     margin-block: var(--space-none);
     padding-block: var(--space-6);
+    padding-inline: var(--space-shell);
     border: none;
     border-top: var(--border-width) dashed var(--color-rule);
     border-radius: var(--space-none);
@@ -435,19 +430,71 @@
     font-size: var(--font-size-card-title);
     text-transform: uppercase;
   }
+  /* Research: text cards that rise like dominoes as the band scrolls. */
+  .domino-gallery[data-motion="scroll"] {
+    position: relative;
+    height: calc(100svh + var(--domino-scroll-length));
+  }
+  .domino-gallery[data-motion="scroll"] .domino-stage {
+    position: sticky;
+    top: var(--domino-sticky-top);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-6);
+    height: calc(100svh - var(--domino-sticky-top));
+  }
+  .domino-row {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(var(--size-domino-card-min), 1fr)
+    );
+    gap: var(--space-6);
+    width: var(--size-full);
+    max-width: var(--size-shell);
+    margin: var(--space-none) auto;
+    padding: var(--space-none) var(--space-shell);
+    list-style: none;
+    perspective: var(--domino-perspective);
+    perspective-origin: var(--domino-perspective-origin);
+  }
+  .domino-slot {
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+  }
+  .domino-card {
+    flex: var(--layout-one);
+    padding: var(--space-5);
+    border: var(--border-width) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+    box-shadow: var(--domino-card-shadow);
+    transform-origin: 50% 100%;
+    backface-visibility: hidden;
+  }
+  /* A keyboard user always sees the card they are on. */
+  .domino-card:focus-within {
+    transform: none !important;
+  }
+  .domino-shadow {
+    position: absolute;
+    inset-inline: var(--space-2);
+    bottom: calc(-1 * var(--space-2));
+    height: var(--space-3);
+    border-radius: var(--radius-circle);
+    background: var(--domino-floor-shadow);
+    filter: blur(var(--domino-shadow-blur));
+    opacity: calc(0.25 + var(--fall, 1) * 0.5);
+    transform: scaleX(calc(0.6 + var(--fall, 1) * 0.4));
+    pointer-events: none;
+  }
   .research-card {
-    border-bottom: var(--border-width) solid var(--color-rule);
+    display: flex;
+    flex-direction: column;
     gap: var(--space-4);
-  }
-  .research-card-art {
-    height: auto;
-    aspect-ratio: var(--research-art-ratio);
-    object-fit: cover;
-    object-position: center;
-    transition: transform var(--duration-reveal);
-  }
-  .research-card:hover .research-card-art {
-    transform: translateY(var(--motion-lift));
+    height: var(--size-full);
   }
   .research-card h3,
   .event-card h3 {
@@ -550,6 +597,143 @@
       transform: rotate(var(--motion-turn));
     }
   }
+  /* Intro voyage: hidden unless the pre-paint script marks it as playing. */
+  .intro-voyage {
+    display: none;
+  }
+  :root[data-intro="playing"] .intro-voyage {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: var(--layer-intro);
+    overflow: hidden;
+    cursor: pointer;
+    /* Failsafe: never leave the site covered if the script stalls. */
+    animation: intro-failsafe 1ms linear var(--intro-failsafe) forwards;
+  }
+  .intro-curtain {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      var(--intro-sky),
+      var(--intro-sea) 70%,
+      var(--intro-wave)
+    );
+    will-change: transform;
+  }
+  /* A soft seam so the reveal reads as parting water, not a hard wipe. */
+  .intro-curtain::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    right: 100%;
+    width: var(--intro-seam-soft);
+    background: linear-gradient(
+      to right,
+      var(--color-transparent),
+      var(--intro-sky)
+    );
+  }
+  .intro-waves {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: var(--intro-wave-height);
+    background:
+      radial-gradient(
+          circle at 50% 0,
+          var(--color-transparent) 62%,
+          var(--intro-wave) 64%
+        )
+        0 0 / 5rem 2.5rem repeat-x,
+      linear-gradient(var(--color-transparent) 2.4rem, var(--intro-wave) 0);
+    opacity: 0.7;
+    animation: intro-waves var(--duration-intro-waves) linear infinite;
+  }
+  .intro-waves-front {
+    height: calc(var(--intro-wave-height) * 0.6);
+    opacity: 1;
+    animation-duration: calc(var(--duration-intro-waves) * 0.7);
+    animation-direction: reverse;
+  }
+  .intro-ship {
+    position: absolute;
+    left: 0;
+    bottom: var(--intro-waterline);
+    width: var(--intro-ship-width);
+    transform: translate3d(-100%, 0, 0);
+    transform-origin: 50% 85%;
+    will-change: transform;
+  }
+  .intro-ship-art {
+    display: block;
+    width: var(--size-full);
+    height: auto;
+    user-select: none;
+  }
+  .intro-ship-art[data-mirror] {
+    transform: scaleX(-1);
+  }
+  /* Foam along the waterline hides the cut-out's lower edge. */
+  .intro-ship-wake {
+    position: absolute;
+    inset-inline: 2%;
+    bottom: -3%;
+    height: 9%;
+    border-radius: var(--radius-circle);
+    background: radial-gradient(
+      ellipse at 50% 40%,
+      var(--intro-foam),
+      var(--color-transparent) 70%
+    );
+    opacity: 0.55;
+    filter: blur(4px);
+  }
+  @keyframes intro-waves {
+    to {
+      background-position-x: 5rem, 0;
+    }
+  }
+  @keyframes intro-failsafe {
+    to {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  /* Hero barrels sit behind the hero's content and never take input. */
+  .home-hero {
+    position: relative;
+    isolation: isolate;
+  }
+  .home-hero > :not(.hero-barrels) {
+    position: relative;
+    z-index: 1;
+  }
+  .hero-barrels {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .hero-barrel,
+  .hero-barrel-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+  }
+  .hero-barrel {
+    user-select: none;
+  }
+  .hero-barrel-shadow {
+    border-radius: var(--radius-circle);
+    background: radial-gradient(
+      var(--barrel-shadow),
+      var(--color-transparent) 70%
+    );
+  }
   @media (min-width: 768px) {
     .ranking-groups {
       grid-template-columns: var(--ranking-columns);
@@ -602,6 +786,9 @@
     *::after {
       animation: none !important;
       transition: none !important;
+    }
+    .intro-voyage {
+      display: none !important;
     }
   }
   :root[data-contrast="high"] .hero-outline {

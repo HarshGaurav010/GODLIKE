@@ -1,0 +1,1004 @@
+{
+  "slug": "admissions",
+  "sourceUrl": "https://www.iitism.ac.in/jeea",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Admissions",
+    "pirate": "Join the Crew"
+  },
+  "seo": {
+    "pirateTitle": "Join the Crew",
+    "pirateDescription": "Every way on board NO Anchor University: B.Tech through the Great Sea Trials, M.Sc., MBA, M.A., Ph.D. and executive programmes. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "crew-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Admissions 2026",
+        "title": "Admissions",
+        "lede": "Undergraduate, postgraduate, doctoral and executive programmes. Admission is through the Great Sea Trials and the University’s own selection procedures.",
+        "imageId": "admissions-hero",
+        "facts": [
+          {
+            "value": "18",
+            "label": "Undergraduate programmes"
+          },
+          {
+            "value": "1,200",
+            "label": "First-year seats"
+          },
+          {
+            "value": "First high tide of August",
+            "label": "Reporting date"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Now boarding",
+        "title": "Join the Crew",
+        "lede": "Pick your boarding pass. Every way on board goes through an exam, a deadline and a form. The parrot checks the forms, so please write clearly.",
+        "imageId": "admissions-hero",
+        "facts": [
+          {
+            "value": "18",
+            "label": "Undergraduate programmes"
+          },
+          {
+            "value": "1,200",
+            "label": "Hammocks for new students"
+          },
+          {
+            "value": "First high tide of August",
+            "label": "Report on board, with luggage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boarding-passes",
+      "kind": "cardGrid",
+      "variant": "tickets",
+      "original": {
+        "heading": "Explore Programmes",
+        "tagline": "",
+        "cards": [
+          {
+            "code": "UG",
+            "title": "B.Tech., Integrated BS-MS and Dual Degree",
+            "via": "The Great Sea Trials 2026",
+            "date": "Reporting: first high tide of August",
+            "text": "18 undergraduate programmes across engineering, sciences and management.",
+            "cta": {
+              "label": "Programmes Offered",
+              "href": "#ug-programmes"
+            }
+          },
+          {
+            "code": "M.Sc",
+            "title": "M.Sc. and M.Sc. Tech",
+            "via": "Postgraduate Entrance Test 2026",
+            "date": "Classes begin: second week of August",
+            "text": "M.Sc. Chemistry, M.Sc. Physics, M.Sc. Mathematics & Computing, M.Sc. Tech. Applied Geophysics and M.Sc. Tech. Applied Geology.",
+            "cta": {
+              "label": "Admission 2026",
+              "href": "#msc-dates"
+            }
+          },
+          {
+            "code": "MBA",
+            "title": "MBA and MBA (Business Analytics)",
+            "via": "Online application and personal interview",
+            "date": "Applications close: end of the dry season",
+            "text": "Offered by the Department of Management Studies and Industrial Engineering.",
+            "cta": {
+              "label": "Procedure",
+              "href": "#mba-dates"
+            }
+          },
+          {
+            "code": "M.A.",
+            "title": "M.A. in Digital Humanities",
+            "via": "Written test on campus",
+            "date": "Semester begins: second week of August",
+            "text": "Results of the 2026 written test have been declared. Selected candidates may download their offer letters.",
+            "cta": {
+              "label": "Schedule for M.A. Admission",
+              "href": "#ma-dates"
+            }
+          },
+          {
+            "code": "PhD",
+            "title": "Ph.D. Admission",
+            "via": "Regular, externally funded or part-time",
+            "date": "Applications accepted throughout the year",
+            "text": "Candidates may apply at any time according to their eligibility and preferred mode.",
+            "cta": {
+              "label": "Ph.D. Admission",
+              "href": "#phd-modes"
+            }
+          },
+          {
+            "code": "EXEC",
+            "title": "Executive Masters Programmes",
+            "via": "For working professionals",
+            "date": "Two-year Executive M.Tech.",
+            "text": "Executive M.Tech. in Petroleum Engineering, Artificial Intelligence & Data Science and Mechanical Engineering, and an Executive MBA.",
+            "cta": {
+              "label": "Executive Masters Programmes",
+              "href": "#executive"
+            }
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Choose your boarding pass",
+        "tagline": "The gate numbers are decorative. The exams are not.",
+        "cards": [
+          {
+            "code": "UG",
+            "title": "B.Tech, BS-MS and the dual degree",
+            "via": "Through the Great Sea Trials 2026",
+            "date": "Report on board: first high tide of August",
+            "text": "18 programmes across engineering, sciences and management, including two new ones for people who really like rocks.",
+            "cta": {
+              "label": "See all 18",
+              "href": "#ug-programmes"
+            }
+          },
+          {
+            "code": "M.Sc",
+            "title": "M.Sc. and M.Sc. Tech",
+            "via": "Through the Postgraduate Entrance Test",
+            "date": "Classes start: second week of August",
+            "text": "Chemistry, Physics, Maths & Computing, and M.Sc. Tech in Applied Geophysics or Applied Geology.",
+            "cta": {
+              "label": "See the dates",
+              "href": "#msc-dates"
+            }
+          },
+          {
+            "code": "MBA",
+            "title": "MBA and MBA (Business Analytics)",
+            "via": "Online form, then an interview",
+            "date": "Applications close when the dry season ends",
+            "text": "From the Department of Management Studies and Industrial Engineering. Learn to budget a voyage before it sinks.",
+            "cta": {
+              "label": "See the schedule",
+              "href": "#mba-dates"
+            }
+          },
+          {
+            "code": "M.A.",
+            "title": "M.A. in Digital Humanities",
+            "via": "A written test, held on deck",
+            "date": "Semester starts: second week of August",
+            "text": "Results are out. If you got in, your offer letter is waiting. If the parrot ate it, ask for another.",
+            "cta": {
+              "label": "See the schedule",
+              "href": "#ma-dates"
+            }
+          },
+          {
+            "code": "PhD",
+            "title": "Ph.D.: draw your own map",
+            "via": "Regular, externally funded or part-time",
+            "date": "Apply any time of year",
+            "text": "Pick your mode carefully: an application cannot be moved from one mode to another later.",
+            "cta": {
+              "label": "Compare the modes",
+              "href": "#phd-modes"
+            }
+          },
+          {
+            "code": "EXEC",
+            "title": "Executive M.Tech and Executive MBA",
+            "via": "For working professionals",
+            "date": "Two-year Executive M.Tech",
+            "text": "Executive M.Tech in Petroleum Engineering, AI & Data Science or Mechanical Engineering, plus an Executive MBA. Keep the day job.",
+            "cta": {
+              "label": "Read more",
+              "href": "#executive"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "read-before-boarding",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Important Notice",
+        "kicker": "",
+        "paragraphs": [
+          "All new students must be able to swim 50 metres. A swimming test will be held on the day of reporting.",
+          "Full tuition fee waivers are available to the ten highest-ranked candidates in the Great Sea Trials 2026.",
+          "A five-year dual degree, B.Tech. in Mining Engineering with an MBA in Treasure Logistics, will be offered from 2026 with an intake of 60.",
+          "All students reporting for admission must submit a medical certificate. Seasickness is not a ground for refusal of admission."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Read this before you board",
+        "kicker": "",
+        "paragraphs": [
+          "Everyone must be able to swim 50 metres. There is a test on reporting day. There is also a lifeboat, but it is not part of the test.",
+          "Full fee waiver for the top ten candidates in the Great Sea Trials 2026.",
+          "New: a five-year dual degree with 60 seats, a B.Tech in Mining Engineering plus an MBA in Treasure Logistics. Dig it up, then ship it.",
+          "Bring a medical certificate. Seasickness will not stop you getting in. It may stop you enjoying the first week."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "ug-dates",
+      "kind": "table",
+      "original": {
+        "heading": "Admission Timeline",
+        "tagline": "Key dates for Great Sea Trials 2026 candidates",
+        "caption": "Admission Timeline",
+        "columns": ["Activity", "Date"],
+        "rows": [
+          {
+            "cells": [
+              "Online Semester Fees & Registration",
+              "The week before the first high tide of August"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Physical Reporting", "First high tide of August"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "B.Tech key dates",
+        "tagline": "For Great Sea Trials 2026 candidates.",
+        "caption": "B.Tech admission dates, 2026",
+        "columns": ["What", "When"],
+        "rows": [
+          {
+            "cells": [
+              "Pay semester fees and register online",
+              "The week before the first high tide of August"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Report in person on board",
+              "First high tide of August. Check the tide tables"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      }
+    },
+    {
+      "id": "ug-programmes",
+      "kind": "table",
+      "original": {
+        "heading": "Programmes Offered",
+        "tagline": "18 undergraduate programmes across engineering, sciences and management",
+        "caption": "Undergraduate programmes offered",
+        "columns": ["#", "Branch", "Programme"],
+        "rows": [
+          {
+            "cells": ["1", "Chemical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["2", "Civil Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "3",
+              "Computer Science and Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["4", "Electrical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "5",
+              "Electronics and Communication Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["6", "Engineering Physics", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["7", "Environmental Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["8", "Mechanical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["9", "Geological Engineering NEW", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["10", "Geophysical Technology NEW", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["11", "Mining Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["12", "Mining Machinery Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["13", "Petroleum Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "14",
+              "Mineral and Metallurgical Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["15", "Mathematics and Computing", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["16", "Physical Science", "5 Years, Integrated BS-MS"],
+            "href": ""
+          },
+          {
+            "cells": ["17", "Chemical Science", "5 Years, Integrated BS-MS"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "18",
+              "B.Tech. Mining Engineering + MBA Treasure Logistics",
+              "5 Years, Dual Degree B.Tech. & MBA"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "Candidates must be able to distinguish port from starboard. Remedial instruction is provided during orientation."
+      },
+      "pirate": {
+        "heading": "All 18 undergraduate programmes",
+        "tagline": "Geological Engineering and Geophysical Technology are new this year.",
+        "caption": "Undergraduate programmes and their length",
+        "columns": ["#", "Branch", "Programme"],
+        "rows": [
+          {
+            "cells": ["1", "Chemical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["2", "Civil Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "3",
+              "Computer Science and Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["4", "Electrical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "5",
+              "Electronics and Communication Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["6", "Engineering Physics", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["7", "Environmental Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["8", "Mechanical Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["9", "Geological Engineering NEW", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["10", "Geophysical Technology NEW", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["11", "Mining Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["12", "Mining Machinery Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["13", "Petroleum Engineering", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": [
+              "14",
+              "Mineral and Metallurgical Engineering",
+              "4 Years, B.Tech."
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["15", "Mathematics and Computing", "4 Years, B.Tech."],
+            "href": ""
+          },
+          {
+            "cells": ["16", "Physical Science", "5 Years, Integrated BS-MS"],
+            "href": ""
+          },
+          {
+            "cells": ["17", "Chemical Science", "5 Years, Integrated BS-MS"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "18",
+              "B.Tech. Mining Engineering + MBA Treasure Logistics",
+              "5 Years, Dual Degree B.Tech. & MBA"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "You need to know port from starboard. If you don’t, orientation week will sort you out. Probably."
+      }
+    },
+    {
+      "id": "msc-dates",
+      "kind": "table",
+      "original": {
+        "heading": "M.Sc. and M.Sc. Tech Admission",
+        "tagline": "Admission 2026",
+        "caption": "Admission 2026",
+        "columns": ["Activity", "Date"],
+        "rows": [
+          {
+            "cells": [
+              "Online Fee Payment and Registration",
+              "First week of August"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Physical Reporting and Document Verification",
+              "Second Monday of August"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Commencement of Classes", "Second week of August"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "International candidates are requested to contact the Dean (International Relations)."
+      },
+      "pirate": {
+        "heading": "M.Sc. and M.Sc. Tech: the dates",
+        "tagline": "Admission 2026, through the Postgraduate Entrance Test.",
+        "caption": "M.Sc. and M.Sc. Tech dates, 2026",
+        "columns": ["What", "When"],
+        "rows": [
+          {
+            "cells": ["Pay fees and register online", "First week of August"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Report in person and have documents checked",
+              "Second Monday of August"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Classes begin", "Second week of August"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "International candidates should contact the Dean (International Relations). The Dean is, of course, Gold D. Roger."
+      }
+    },
+    {
+      "id": "msc-programmes",
+      "kind": "table",
+      "original": {
+        "heading": "Programmes Offered",
+        "tagline": "",
+        "caption": "Programmes Offered",
+        "columns": ["Name of Programme", "Department Offering the Programme"],
+        "rows": [
+          {
+            "cells": [
+              "M.Sc. Chemistry",
+              "Department of Chemistry and Chemical Biology"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["M.Sc. Physics", "Department of Physics"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Mathematics & Computing",
+              "Department of Mathematics & Computing"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Tech. Applied Geophysics",
+              "Department of Applied Geophysics"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Tech. Applied Geology",
+              "Department of Applied Geology"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "M.Sc. and M.Sc. Tech programmes",
+        "tagline": "",
+        "caption": "M.Sc. programmes and their departments",
+        "columns": ["Programme", "Department"],
+        "rows": [
+          {
+            "cells": [
+              "M.Sc. Chemistry",
+              "Department of Chemistry and Chemical Biology"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["M.Sc. Physics", "Department of Physics"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Mathematics & Computing",
+              "Department of Mathematics & Computing"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Tech. Applied Geophysics",
+              "Department of Applied Geophysics"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "M.Sc. Tech. Applied Geology",
+              "Department of Applied Geology"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      }
+    },
+    {
+      "id": "mba-dates",
+      "kind": "table",
+      "original": {
+        "heading": "MBA and MBA (Business Analytics): Admissions 2026–27",
+        "tagline": "Online applications close at the end of the dry season.",
+        "caption": "Procedure and dates",
+        "columns": ["Procedure", "Date"],
+        "rows": [
+          {
+            "cells": [
+              "Online Application Form Begins",
+              "Start of the dry season"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Last Date of Online Application",
+              "End of the dry season"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Personal Interview", "Four rounds, weather permitting"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Declaration of Admission Results",
+              "Waiting list for MBA"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Declaration of Admission Results",
+              "Waiting list for MBA (Business Analytics)"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Reporting on Campus", "To be notified"],
+            "href": ""
+          },
+          {
+            "cells": ["Commencement of Semester", "To be notified"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "MBA and MBA (Business Analytics): the schedule",
+        "tagline": "Applications close when the dry season ends. Nobody is sure exactly when that is.",
+        "caption": "MBA admission schedule, 2026–27",
+        "columns": ["Step", "When"],
+        "rows": [
+          {
+            "cells": ["Online application opens", "Start of the dry season"],
+            "href": ""
+          },
+          {
+            "cells": ["Online application closes", "End of the dry season"],
+            "href": ""
+          },
+          {
+            "cells": ["Personal interviews", "Four rounds, weather permitting"],
+            "href": ""
+          },
+          {
+            "cells": ["Admission results", "Waiting list for MBA"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Admission results",
+              "Waiting list for MBA (Business Analytics)"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Report on campus", "To be announced"],
+            "href": ""
+          },
+          {
+            "cells": ["First semester begins", "To be announced"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      }
+    },
+    {
+      "id": "ma-dates",
+      "kind": "table",
+      "original": {
+        "heading": "Schedule for M.A. Admission",
+        "tagline": "Admission portal (2026–27), M.A. in Digital Humanities, Department of Humanities and Social Sciences.",
+        "caption": "Schedule for M.A. admission",
+        "columns": ["Procedure", "Date"],
+        "rows": [
+          {
+            "cells": [
+              "Online Application Form available",
+              "First full moon of spring to first full moon of summer"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Issue of admit card for written test",
+              "One week before the test"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Written test on campus",
+              "The first calm Sunday of summer"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Announcement of merit list",
+              "One week after the test (tentative)"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Payment of admission fee",
+              "Within five days of the merit list"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Physical reporting", "To be notified"],
+            "href": ""
+          },
+          {
+            "cells": ["Commencement of semester", "Second week of August"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Submission of graduation certificate (appearing candidates only)",
+              "End of September"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "Dates may be changed owing to weather. The written test will be held in person on campus."
+      },
+      "pirate": {
+        "heading": "M.A. in Digital Humanities: the schedule",
+        "tagline": "From the Department of Humanities and Social Sciences.",
+        "caption": "M.A. admission schedule, 2026–27",
+        "columns": ["Step", "When"],
+        "rows": [
+          {
+            "cells": [
+              "Online applications open",
+              "First full moon of spring to first full moon of summer"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Admit cards issued", "A week before the test"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Written test, on deck",
+              "The first calm Sunday of summer"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Merit list announced",
+              "A week after the test (roughly)"
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Pay the admission fee",
+              "Within five days of the merit list"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Report on campus", "To be announced"],
+            "href": ""
+          },
+          {
+            "cells": ["Semester begins", "Second week of August"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Graduation certificate due (if you were still appearing)",
+              "End of September"
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "Dates can move with the weather. The written test is held in person, on deck, ideally on dry paper."
+      }
+    },
+    {
+      "id": "phd-modes",
+      "kind": "table",
+      "original": {
+        "heading": "Ph.D. Admission",
+        "tagline": "Applications made under one mode of Ph.D. admission cannot be transferred to another mode.",
+        "caption": "Modes of Ph.D. admission",
+        "columns": ["Mode", "Details"],
+        "rows": [
+          {
+            "cells": [
+              "Ph.D. (Regular) with Institute Assistantship",
+              "Full-time Ph.D. with an Institute Assistantship for candidates selected through the University’s procedure."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Ph.D. (Externally Funded)",
+              "For candidates holding a national-level research fellowship."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Ph.D. (Part Time)",
+              "For working professionals with at least two years of experience."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Ph.D. (Joint Voyage)",
+              "Jointly supervised with a partner university. Candidates spend at least one semester at sea."
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "Ph.D.: four ways to start drawing your own map",
+        "tagline": "Apply any time of year. An application made in one mode cannot be moved to another.",
+        "caption": "Ph.D. admission modes",
+        "columns": ["Mode", "Who it is for"],
+        "rows": [
+          {
+            "cells": [
+              "Regular, with Institute Assistantship",
+              "Full-time Ph.D. for candidates selected through our own procedure, with an Institute Assistantship."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Externally funded",
+              "For candidates who already hold a national research fellowship."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Part-time",
+              "For working professionals with at least two years of experience."
+            ],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Joint Voyage",
+              "Co-supervised with a partner university. At least one semester is spent at sea, which is excellent for focus and terrible for Wi-Fi."
+            ],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      }
+    },
+    {
+      "id": "executive",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Executive Masters Programmes",
+        "kicker": "",
+        "paragraphs": [
+          "The Executive Masters Programmes are designed for working professionals from government, industry and academia who wish to pursue advanced study while remaining in employment.",
+          "The two-year Executive M.Tech. is offered in Petroleum Engineering, Artificial Intelligence & Data Science and Mechanical Engineering.",
+          "The Executive MBA develops leadership, strategic thinking and business acumen for working executives.",
+          "International candidates may contact the Dean (International Relations)."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Executive programmes: keep the day job",
+        "kicker": "",
+        "paragraphs": [
+          "The two-year Executive M.Tech is for working professionals from government, industry and universities who want advanced study without leaving their jobs.",
+          "Three are on offer: Petroleum Engineering, Artificial Intelligence & Data Science, and Mechanical Engineering.",
+          "The Executive MBA is built for working executives: leadership, strategy and business sense, taught around a full-time job.",
+          "International candidates can contact the Dean (International Relations)."
+        ],
+        "aside": {
+          "label": "Navigator’s note",
+          "text": "Studying while working is like sailing while fixing the sails. Plenty of our crew manage it."
+        }
+      }
+    },
+    {
+      "id": "real-questions",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Admission Enquiries",
+        "kicker": "",
+        "paragraphs": [
+          "This is a parody website. For any query related to admission, please use the official IIT (ISM) Dhanbad website."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Real questions about admission?",
+        "kicker": "",
+        "paragraphs": [
+          "This ship is a parody and cannot answer admission questions. For anything real, use the official IIT (ISM) Dhanbad website."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "to-safe-harbour",
+      "kind": "cta",
+      "original": {
+        "label": "Anti Ragging",
+        "href": "/safe-harbour#anti-ragging"
+      },
+      "pirate": {
+        "label": "Anti-ragging affidavit: how to file it →",
+        "href": "/safe-harbour#anti-ragging"
+      }
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+/* Inner pages: About, Admissions, Departments, Research, Placements,
+   Campus Life, Administration, Notices, Contact and Safe Harbour. */
+@layer voyage {
+  .page-main {
+    padding-block-end: var(--space-block);
+  }
+  .page-block {
+    padding-block: var(--space-8);
+    border-top: var(--border-width) dashed var(--color-rule);
+  }
+
+  /* Hero */
+  .page-hero {
+    padding-block: var(--space-8) var(--space-7);
+  }
+  .page-hero-inner {
+    display: grid;
+    gap: var(--space-7);
+    align-items: center;
+  }
+  .page-hero-copy {
+    display: grid;
+    gap: var(--space-4);
+    max-width: var(--size-page-hero-copy);
+  }
+  .page-hero h1 {
+    font-size: var(--font-size-page-title);
+    font-weight: var(--font-weight-heavy);
+    letter-spacing: var(--letter-spacing-heading);
+    line-height: var(--line-height-heading);
+  }
+  .page-hero-lede {
+    font-size: var(--font-size-body-large);
+    color: var(--color-muted);
+    max-width: var(--size-reading);
+  }
+  .page-hero-art {
+    width: var(--size-full);
+    height: auto;
+    border-radius: var(--radius-panel);
+  }
+  .page-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-block-start: var(--space-3);
+  }
+  .page-facts > div {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--space-1);
+    min-width: var(--size-fact);
+    padding: var(--space-4) var(--space-5);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+  }
+  .page-facts dd {
+    font-family: var(--font-display);
+    font-size: var(--font-size-fact);
+    font-weight: var(--font-weight-heavy);
+    line-height: var(--line-height-fact);
+    color: var(--color-copper);
+  }
+  .page-facts dt {
+    font-size: var(--font-size-small);
+    color: var(--color-muted);
+  }
+
+  /* Story with an optional margin note */
+  .story {
+    display: grid;
+    gap: var(--space-6);
+  }
+  .story-body {
+    display: grid;
+    gap: var(--space-4);
+    max-width: var(--size-reading);
+    font-size: var(--font-size-body-large);
+  }
+  .story-aside {
+    align-self: start;
+    padding: var(--space-5);
+    border-left: var(--voyage-border) solid var(--color-copper);
+    background: var(--color-paper);
+    transform: rotate(var(--motion-rock));
+  }
+  .story-aside strong {
+    display: block;
+    margin-block-end: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    text-transform: uppercase;
+    color: var(--color-copper);
+  }
+
+  /* Voyage log (timeline) */
+  .voyage-log {
+    position: relative;
+    display: grid;
+    gap: var(--space-5);
+    padding-inline-start: var(--space-7);
+    list-style: none;
+  }
+  .voyage-log::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    left: var(--space-3);
+    border-left: var(--voyage-border) dashed var(--color-copper);
+  }
+  .voyage-entry {
+    position: relative;
+    display: grid;
+    gap: var(--space-2) var(--space-6);
+  }
+  .voyage-entry::before {
+    content: "";
+    position: absolute;
+    top: var(--space-2);
+    left: calc(var(--space-7) * -1 + var(--space-1));
+    width: var(--space-4);
+    height: var(--space-4);
+    border: var(--voyage-border) solid var(--color-copper);
+    border-radius: var(--radius-circle);
+    background: var(--color-parchment);
+  }
+  .voyage-when {
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-heavy);
+    color: var(--color-copper);
+  }
+  .voyage-body {
+    display: grid;
+    gap: var(--space-1);
+    max-width: var(--size-reading);
+  }
+  .voyage-note {
+    color: var(--color-muted);
+    font-style: italic;
+  }
+
+  /* Compass */
+  .compass-layout {
+    display: grid;
+    gap: var(--space-7);
+    align-items: start;
+  }
+  .compass-vision p {
+    font-size: var(--font-size-body-large);
+  }
+  .compass-vision h3,
+  .compass-missions h3 {
+    margin-block-end: var(--space-3);
+    color: var(--color-copper);
+  }
+  .compass-dial-wrap {
+    display: grid;
+    justify-items: center;
+    gap: var(--space-4);
+    text-align: center;
+  }
+  .compass-dial {
+    position: relative;
+    width: var(--size-compass);
+    aspect-ratio: 1;
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-circle);
+    background: radial-gradient(
+      circle,
+      var(--color-paper) 55%,
+      var(--color-parchment) 56%
+    );
+  }
+  .compass-point {
+    position: absolute;
+    font-family: var(--font-display);
+    font-weight: var(--font-weight-heavy);
+    color: var(--color-muted);
+  }
+  .compass-n {
+    top: var(--space-2);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .compass-s {
+    bottom: var(--space-2);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .compass-e {
+    right: var(--space-3);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .compass-w {
+    left: var(--space-3);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .compass-needle {
+    position: absolute;
+    inset: 15%;
+    transition: transform var(--duration-compass) var(--ease-voyage);
+  }
+  .compass-needle::before,
+  .compass-needle::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: var(--space-3);
+    height: 50%;
+    transform: translateX(-50%);
+  }
+  .compass-needle::before {
+    top: 0;
+    background: var(--color-copper);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+  .compass-needle::after {
+    bottom: 0;
+    background: var(--color-ink);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+  .compass-result {
+    min-height: calc(var(--space-7) * 2);
+    max-width: var(--size-compass-text);
+  }
+  .compass-missions ol {
+    display: grid;
+    gap: var(--space-2);
+    padding-inline-start: var(--space-5);
+  }
+  .compass-missions li {
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-small);
+    transition: background var(--duration-fast);
+  }
+  .compass-missions li[data-picked] {
+    background: var(--color-copper);
+    color: var(--color-on-accent);
+  }
+
+  /* Boarding passes */
+  .ticket-grid {
+    display: grid;
+    gap: var(--space-5);
+    list-style: none;
+  }
+  .ticket {
+    display: grid;
+    grid-template-columns: var(--ticket-columns);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+    overflow: hidden;
+    transition: transform var(--duration-fast) var(--ease-voyage);
+  }
+  .ticket:hover {
+    transform: translateY(var(--motion-lift)) rotate(var(--motion-rock-back));
+  }
+  .ticket-stub {
+    display: grid;
+    place-items: center;
+    padding: var(--space-4) var(--space-2);
+    border-right: var(--voyage-border) dashed var(--color-rule);
+    background: var(--color-copper);
+    color: var(--color-on-accent);
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-heavy);
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    letter-spacing: var(--letter-spacing-label);
+  }
+  .ticket-body {
+    display: grid;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    align-content: start;
+  }
+  .ticket-via {
+    font-weight: var(--font-weight-bold);
+  }
+  .ticket-date {
+    font-size: var(--font-size-small);
+    color: var(--color-muted);
+  }
+  .ticket-cta {
+    margin-block-start: var(--space-2);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-copper);
+  }
+
+  /* Filters (crews, notices) */
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+    margin-block-end: var(--space-6);
+  }
+  .filter-chip {
+    min-height: var(--size-touch);
+    padding: var(--space-2) var(--space-4);
+    border: var(--border-width) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-transparent);
+    color: var(--color-ink);
+    font-weight: var(--font-weight-bold);
+    cursor: pointer;
+  }
+  .filter-chip[aria-pressed="true"] {
+    background: var(--color-ink);
+    color: var(--color-parchment);
+  }
+  .filter-count {
+    margin-inline-start: auto;
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+
+  /* Crew cards */
+  .crew-grid {
+    display: grid;
+    grid-template-columns: var(--crew-columns);
+    gap: var(--space-4);
+    list-style: none;
+  }
+  .crew-card {
+    position: relative;
+    display: grid;
+    align-content: start;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+  }
+  .crew-flag {
+    display: grid;
+    place-items: center;
+    width: var(--size-touch);
+    height: var(--size-touch);
+    border-radius: var(--radius-small);
+    background: var(--color-sea);
+    color: var(--color-on-accent);
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-heavy);
+  }
+  .crew-group {
+    font-size: var(--font-size-label);
+    letter-spacing: var(--letter-spacing-label);
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  /* Treasure map */
+  .treasure-layout {
+    display: grid;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  .treasure-map {
+    position: relative;
+    min-height: var(--size-treasure-map);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background:
+      radial-gradient(
+        circle at 30% 40%,
+        var(--color-paper),
+        var(--color-transparent) 60%
+      ),
+      var(--color-parchment);
+    overflow: hidden;
+  }
+  .treasure-route {
+    position: absolute;
+    inset: 0;
+    width: var(--size-full);
+    height: var(--size-full);
+  }
+  .treasure-route polyline {
+    fill: none;
+    stroke: var(--color-copper);
+    stroke-width: var(--voyage-border);
+    stroke-dasharray: var(--treasure-dash);
+    vector-effect: non-scaling-stroke;
+  }
+  .treasure-pin {
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    min-width: var(--size-touch);
+    min-height: var(--size-touch);
+    padding: var(--space-1);
+    border: none;
+    background: var(--color-transparent);
+    color: var(--color-copper);
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-heavy);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform var(--duration-fast) var(--ease-voyage);
+  }
+  .treasure-pin:hover,
+  .treasure-pin[aria-pressed="true"] {
+    transform: translate(-50%, -50%) scale(var(--treasure-pin-zoom));
+    color: var(--color-ink);
+  }
+  .treasure-pin-label {
+    font-size: var(--font-size-label);
+    letter-spacing: var(--letter-spacing-label);
+  }
+  .treasure-hint {
+    position: absolute;
+    left: var(--space-4);
+    bottom: var(--space-3);
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+    font-style: italic;
+  }
+  .treasure-panel {
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-6);
+    border: var(--voyage-border) solid var(--color-copper);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+  }
+
+  /* Lists */
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    list-style: none;
+  }
+  .chip-list li {
+    padding: var(--space-2) var(--space-4);
+    border: var(--border-width) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+  }
+  .bullet-list {
+    display: grid;
+    gap: var(--space-2);
+    max-width: var(--size-reading);
+    padding-inline-start: var(--space-5);
+    list-style: disc;
+  }
+
+  /* Tables */
+  .table-scroll {
+    max-width: var(--size-full);
+    overflow-x: auto;
+  }
+  .data-table {
+    width: var(--size-full);
+    border-collapse: collapse;
+  }
+  .data-table caption {
+    margin-block-end: var(--space-3);
+    text-align: left;
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+  .data-table th,
+  .data-table td {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: var(--border-width) solid var(--color-rule);
+    text-align: left;
+    vertical-align: top;
+  }
+  .data-table th {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-label);
+  }
+  .data-table a {
+    color: var(--color-copper);
+    font-weight: var(--font-weight-bold);
+    white-space: nowrap;
+  }
+  .table-note {
+    margin-block-start: var(--space-4);
+    max-width: var(--size-reading);
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+
+  /* Notices on the mast */
+  .notice-tools {
+    display: grid;
+    gap: var(--space-2);
+    max-width: var(--size-notice-search);
+    margin-block-end: var(--space-4);
+  }
+  .notice-tools label {
+    font-weight: var(--font-weight-bold);
+  }
+  .notice-tools input {
+    min-height: var(--size-touch);
+    padding: var(--space-2) var(--space-4);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-small);
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .mast-list {
+    display: grid;
+    gap: var(--space-3);
+    list-style: none;
+  }
+  .mast-item {
+    display: grid;
+    grid-template-columns: var(--mast-columns);
+    gap: var(--space-4);
+    align-items: center;
+    padding: var(--space-4) var(--space-5);
+    border: var(--border-width) solid var(--color-rule);
+    border-radius: var(--radius-small);
+    background: var(--color-paper);
+  }
+  .mast-tag {
+    font-size: var(--font-size-label);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-label);
+    text-transform: uppercase;
+    color: var(--color-copper);
+  }
+  .mast-meta {
+    margin-block-start: var(--space-1);
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+  .mast-item a {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-copper);
+  }
+  .mast-empty {
+    color: var(--color-muted);
+    font-style: italic;
+  }
+
+  /* People */
+  .roster {
+    display: grid;
+    grid-template-columns: var(--roster-columns);
+    gap: var(--space-4);
+    list-style: none;
+  }
+  .roster-card {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-5);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+  }
+  .roster-badge {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: var(--size-roster-badge);
+    height: var(--size-roster-badge);
+    border: var(--voyage-border) dashed var(--color-copper);
+    border-radius: var(--radius-circle);
+    font-family: var(--font-display);
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-heavy);
+    color: var(--color-copper);
+  }
+  .roster-title {
+    font-size: var(--font-size-label);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-label);
+    text-transform: uppercase;
+    color: var(--color-copper);
+  }
+  .roster-role {
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+  .letter {
+    display: grid;
+    gap: var(--space-4);
+    max-width: var(--size-reading);
+    padding: var(--space-6);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+  }
+  .letter blockquote {
+    display: grid;
+    gap: var(--space-3);
+    font-size: var(--font-size-body-large);
+  }
+  .letter-closing {
+    font-style: italic;
+  }
+  .letter figcaption {
+    display: grid;
+    gap: var(--space-1);
+  }
+  .letter figcaption span {
+    color: var(--color-muted);
+    font-size: var(--font-size-small);
+  }
+
+  /* Contacts and help */
+  .contact-grid,
+  .help-grid {
+    display: grid;
+    grid-template-columns: var(--contact-columns);
+    gap: var(--space-4);
+  }
+  .help-grid {
+    grid-template-columns: var(--help-columns);
+  }
+  .contact-card,
+  .help-card {
+    display: grid;
+    align-content: start;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    border: var(--voyage-border) solid var(--color-rule);
+    border-radius: var(--radius-panel);
+    background: var(--color-paper);
+  }
+  .help-purpose {
+    font-weight: var(--font-weight-bold);
+  }
+  .help-contacts {
+    display: grid;
+    gap: var(--space-1);
+    padding-block-start: var(--space-3);
+    border-top: var(--border-width) dashed var(--color-rule);
+    font-size: var(--font-size-small);
+  }
+  .help-link {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-copper);
+  }
+  .page-main [data-section-kind="cta"] {
+    padding-block: var(--space-6);
+    text-align: center;
+  }
+
+  @media (min-width: 64rem) {
+    .page-hero-with-art .page-hero-inner {
+      grid-template-columns: var(--page-hero-columns);
+    }
+    .story-with-aside {
+      grid-template-columns: var(--story-columns);
+    }
+    .voyage-entry {
+      grid-template-columns: var(--voyage-columns-log);
+    }
+    .compass-layout {
+      grid-template-columns: var(--compass-columns);
+    }
+    .ticket-grid {
+      grid-template-columns: var(--ticket-grid-columns);
+    }
+    .treasure-layout {
+      grid-template-columns: var(--treasure-columns);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .compass-needle,
+    .ticket,
+    .treasure-pin {
+      transition: none;
+    }
+  }
+}

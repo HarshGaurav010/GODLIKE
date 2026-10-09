@@ -6,6 +6,7 @@ import type { Json } from "@/content/types";
 import { useReducedMotion } from "@/components/content/useReducedMotion";
 import { PirateFigure } from "./PirateFigure";
 import { useSectionContext } from "./SectionContext";
+import { HeroBarrels } from "@/components/motion/HeroBarrels";
 
 export function Hero({
   id,
@@ -64,6 +65,7 @@ export function Hero({
       aria-labelledby={`${id}-heading`}
       data-section-kind="hero"
     >
+      <HeroBarrels />
       <div className="home-hero-panel shell-container">
         <p className="eyebrow">{t("homeIntro")}</p>
         <h1 id={`${id}-heading`}>

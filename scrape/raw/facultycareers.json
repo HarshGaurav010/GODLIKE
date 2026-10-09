@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.iitism.ac.in/facultycareers",
+  "fetchedAt": "2026-10-09T10:51:36.098Z",
+  "via": "direct-html (no Firecrawl key available)",
+  "title": "",
+  "markdown": "# Faculty Careers\n\nFaculty Openings At IIT(ISM)\n\n| Sr.No. | Opening | View |\n\n| 1A | **Faculty positions** | [Click Here](https://www.iitism.ac.in/faculty-positions) |\n\n| 1C | **Faculty positions Department-wise Specialization** | [Click Here](https://people.iitism.ac.in/~download/estt/faculty/Department-Wise-Specialization.pdf) |\n\n| Sr.No. | Information | View |\n\n| 1 | Posts identified for persons with benchmark disabilities | [Click Here](https://people.iitism.ac.in/~download/estt/rules/nfr-Posts-Indentified-for-PwD.pdf) |",
+  "links": [
+    {
+      "text": "Click Here",
+      "href": "https://www.iitism.ac.in/faculty-positions"
+    },
+    {
+      "text": "Click Here",
+      "href": "https://people.iitism.ac.in/~download/estt/faculty/Department-Wise-Specialization.pdf"
+    },
+    {
+      "text": "Click Here",
+      "href": "https://people.iitism.ac.in/~download/estt/rules/nfr-Posts-Indentified-for-PwD.pdf"
+    }
+  ],
+  "images": [
+    {
+      "src": " https://www.iitism.ac.in/storage/files/inner-banner-01.jpg",
+      "alt": ""
+    }
+  ]
+}

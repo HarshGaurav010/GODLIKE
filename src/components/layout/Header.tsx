@@ -16,7 +16,7 @@ import { SiteSearch } from "./SiteSearch";
 import { Icon } from "./Icons";
 import { SafeNavLink } from "./SafeNavLink";
 
-type Panel = "menu" | "search" | "quick" | "accessibility" | null;
+type Panel = "menu" | "search" | "accessibility" | null;
 export function Header({
   content,
   ui,
@@ -32,17 +32,10 @@ export function Header({
 }) {
   const { mode } = useLanguage();
   const data = content[mode];
-  // Keep the complete source navigation in the all-decks panel.
-  const primaryIds = [
-    "desktop-0-0",
-    "desktop-1-0",
-    "desktop-1-1",
-    "desktop-0-1",
-    "desktop-1-2",
-  ];
-  const primaryItems = primaryIds
-    .map((id) => data.desktopRows.flat().find((item) => item.id === id)!)
-    .filter(Boolean);
+  // The desktop row shows the primary items; the menu panel lists them all.
+  const primaryItems = data.nav.filter((item) =>
+    data.primaryIds.includes(item.id),
+  );
   const t = (key: string) => ui[key][mode];
   const [panel, setPanel] = useState<Panel>(null);
   const [contrast, setContrast] = useState(false);
@@ -73,9 +66,7 @@ export function Header({
       ? t("menu")
       : panel === "search"
         ? data.search.title
-        : panel === "accessibility"
-          ? data.accessibility.heading
-          : data.quickHeading;
+        : data.accessibility.heading;
   function accessibilityAction(id: string) {
     if (id === "changeColor") setContrast((value) => !value);
     else if (id === "btn-increase") setTextSize("large");
@@ -90,7 +81,6 @@ export function Header({
       <header className="site-header" data-section="global-header">
         <div className="site-topbar">
           <div className="shell-container topbar-inner">
-            <span className="hidden md:block">{t("sourceIdentity")}</span>
             <LandlubberToggle
               label={t("language")}
               originalLabel={t("originalMode")}
@@ -117,15 +107,6 @@ export function Header({
             </button>
             <button
               type="button"
-              className="icon-button"
-              aria-label={t("quickLinks")}
-              aria-haspopup="dialog"
-              onClick={() => setPanel("quick")}
-            >
-              <Icon kind="links" />
-            </button>
-            <button
-              type="button"
               className="icon-button mobile-menu-toggle"
               aria-label={t("menu")}
               aria-haspopup="dialog"
@@ -136,19 +117,6 @@ export function Header({
           </div>
         </div>
       </header>
-      <nav className="social-rail hidden lg:flex" aria-label={t("socialNav")}>
-        {data.socialLinks.map((item, index) => (
-          <SafeNavLink
-            key={item.id}
-            href={item.href}
-            builtRoutes={builtRoutes}
-            className="social-link"
-          >
-            <span aria-hidden="true">{["X", "in", "ig", "f", "▶"][index]}</span>
-            <span className="sr-only">{item.label}</span>
-          </SafeNavLink>
-        ))}
-      </nav>
       <button
         type="button"
         className="accessibility-toggle icon-button"
@@ -168,7 +136,7 @@ export function Header({
           <>
             <SiteSearch {...searchProps} />
             <MobileNav
-              items={data.mobileItems}
+              items={data.nav}
               builtRoutes={builtRoutes}
               onNavigate={close}
               label={t("mainNav")}
@@ -176,26 +144,6 @@ export function Header({
           </>
         ) : null}
         {panel === "search" ? <SiteSearch {...searchProps} /> : null}
-        {panel === "quick" ? (
-          <>
-            <Brand name={t("brand")} slogan={t("slogan")} image={crest} />
-            <nav aria-label={data.quickHeading} className="quick-link-panel">
-              <ul>
-                {data.quickLinks.map((item) => (
-                  <li key={item.id}>
-                    <SafeNavLink
-                      href={item.href}
-                      builtRoutes={builtRoutes}
-                      onNavigate={close}
-                    >
-                      {item.label}
-                    </SafeNavLink>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </>
-        ) : null}
         {panel === "accessibility" ? (
           <div className="accessibility-controls">
             {data.accessibility.controls.map((control) =>

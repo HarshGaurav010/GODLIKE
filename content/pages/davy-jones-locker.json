@@ -8,7 +8,7 @@
   },
   "seo": {
     "pirateTitle": "Davy Jones’ Locker",
-    "pirateDescription": "External documents, logins and links stay out of this hackathon parody. This scroll be lost at sea."
+    "pirateDescription": "Documents, logins and outside links stay out of this hackathon parody. That scroll went overboard."
   },
   "sections": [
     {
@@ -22,10 +22,10 @@
         ]
       },
       "pirate": {
-        "heading": "This scroll be lost at sea",
+        "heading": "That scroll went overboard",
         "paragraphs": [
-          "Ye followed a document, login or external resource from the original site. Those scrolls stay outside this parody; the kraken has strict filing policies.",
-          "For official scrolls or services, sail directly to the institute’s official website. This hackathon ship cannot take applications, doubloons or service requests."
+          "You clicked a document, login or outside link from the real website. We do not carry those on this ship. A sea monster runs the filing department and it does not share.",
+          "For official documents and services, please visit the institute’s official website. This parody cannot take applications, payments or requests."
         ]
       }
     },
@@ -33,12 +33,12 @@
       "id": "uncharted-link",
       "kind": "cta",
       "original": {
-        "label": "Return to the site preview",
-        "href": "/uncharted"
+        "label": "Return to the homepage",
+        "href": "/"
       },
       "pirate": {
-        "label": "Back to chartin’ the waters →",
-        "href": "/uncharted"
+        "label": "Back to the home port →",
+        "href": "/"
       }
     }
   ]

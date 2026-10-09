@@ -5,7 +5,7 @@
   },
   "phase": {
     "original": "Phase 1 · Site under construction",
-    "pirate": "Phase 1 · Still chartin’ the waters"
+    "pirate": "Phase 1 · Still drawing the map"
   },
   "skip": {
     "original": "Skip to main content",
@@ -13,7 +13,7 @@
   },
   "language": {
     "original": "Choose language style",
-    "pirate": "Choose yer tongue"
+    "pirate": "Choose how we talk"
   },
   "originalMode": {
     "original": "Landlubber",
@@ -29,11 +29,7 @@
   },
   "pageStatus": {
     "original": "Build status",
-    "pirate": "The shipbuilder’s log"
-  },
-  "status": {
-    "original": "The foundations are in place. The shared navigation and homepage are next in the build queue.",
-    "pirate": "The keel be laid. The shared navigation and home port be next on the shipbuilder’s list."
+    "pirate": "Shipbuilder’s log"
   },
   "slogan": {
     "original": "no direction full confidence",
@@ -41,70 +37,58 @@
   },
   "mainNav": {
     "original": "Main navigation",
-    "pirate": "The ship’s main routes"
+    "pirate": "Where this ship goes"
   },
   "menu": {
     "original": "Menu",
-    "pirate": "All the Decks"
-  },
-  "quickLinks": {
-    "original": "Quick links",
-    "pirate": "Useful Scrolls"
+    "pirate": "The Whole Map"
   },
   "closePanel": {
     "original": "Close",
-    "pirate": "Stow this Panel"
+    "pirate": "Close"
   },
   "openSearch": {
     "original": "Search",
-    "pirate": "Search the Ship’s Charts"
+    "pirate": "Search the map"
   },
   "searchEmpty": {
     "original": "No matching pages. Try another word.",
-    "pirate": "No charts found. Try another bearing, matey."
+    "pirate": "Nothing on the map. Try another direction. We usually do."
   },
   "searchHint": {
     "original": "Search page names and navigation destinations.",
-    "pirate": "Search for a deck, a course or a scroll."
+    "pirate": "Type a page name. We will pretend we knew where it was all along."
   },
   "searchResults": {
     "original": "Search results",
-    "pirate": "Charts found"
+    "pirate": "Found on the map"
   },
   "accessibility": {
     "original": "Accessibility Menu",
-    "pirate": "Accessible Deck Controls"
+    "pirate": "Make it easier to read"
   },
   "parodyBadge": {
     "original": "Decorative parody seals; no official certification.",
     "pirate": "Parrot-approved parody seals. No official certification."
   },
-  "sourceIdentity": {
-    "original": "Parody inspired by IIT (ISM) Dhanbad",
-    "pirate": "A parody voyage inspired by IIT (ISM) Dhanbad"
-  },
   "enableContrast": {
     "original": "Use stronger contrast",
-    "pirate": "Use stronger ink contrast"
+    "pirate": "Use darker ink"
   },
   "resetContrast": {
     "original": "Reset contrast",
-    "pirate": "Reset the ink contrast"
+    "pirate": "Reset the ink"
   },
   "draftStatus": {
-    "original": "The shared navigation is ready. The homepage content is the next page in the build queue.",
-    "pirate": "The shared charts be ready. The home port’s content be next in the shipbuilder’s queue."
-  },
-  "socialNav": {
-    "original": "Social media",
-    "pirate": "Signals across the Seas"
+    "original": "The homepage is built. The remaining pages are in the build queue.",
+    "pirate": "Home is built. The other ten pages are still somewhere over the horizon."
   },
   "artPending": {
     "original": "Illustration coming soon",
-    "pirate": "Paintin’ in progress. The artist be at sea."
+    "pirate": "Painting in progress. The artist is still at sea."
   },
   "homeIntro": {
-    "original": "A pirate parody of the IIT (ISM) Dhanbad homepage",
+    "original": "Welcome to NO Anchor University.",
     "pirate": "Welcome aboard. Mind the missing anchor."
   },
   "voyageShip": {
@@ -113,7 +97,7 @@
   },
   "voyageCampus": {
     "original": "Explore campus",
-    "pirate": "Dhanbad Cove, charted at last"
+    "pirate": "Nowhere Cove, charted at last"
   },
   "voyageCrew": {
     "original": "Meet the students",
@@ -133,14 +117,14 @@
   },
   "voyageExplore": {
     "original": "Explore campus life",
-    "pirate": "Board the Isle"
+    "pirate": "Tour the ship"
   },
   "voyagePause": {
     "original": "Pause decorative motion",
-    "pirate": "Batten down the motion"
+    "pirate": "Stop the ship rocking"
   },
   "voyageResume": {
     "original": "Resume decorative motion",
-    "pirate": "Let the ship sway"
+    "pirate": "Let the ship rock"
   }
 }

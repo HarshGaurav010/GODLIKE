@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @import "../styles/tokens.css";
 @import "../styles/voyage.css";
+@import "../styles/pages.css";
 
 @layer components {
   * {
@@ -208,7 +209,7 @@
     flex-wrap: wrap;
     gap: var(--space-2);
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-block: var(--space-2);
   }
   .site-header-inner {
@@ -351,27 +352,6 @@
     border-bottom: var(--border-width) solid var(--color-rule);
     padding-bottom: var(--space-2);
   }
-  .social-rail {
-    position: fixed;
-    top: var(--position-rail);
-    left: var(--space-none);
-    z-index: var(--layer-tools);
-    flex-direction: column;
-    border: var(--border-width) solid var(--color-rule);
-    background: var(--color-paper);
-  }
-  .social-link {
-    display: grid;
-    place-items: center;
-    width: var(--size-touch);
-    min-height: var(--size-touch);
-    text-decoration: none;
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-bold);
-  }
-  .social-link + .social-link {
-    border-top: var(--border-width) solid var(--color-rule);
-  }
   .accessibility-toggle {
     position: fixed;
     right: var(--space-3);
@@ -436,7 +416,6 @@
     font-size: var(--font-size-small);
   }
   .site-search li a,
-  .quick-link-panel a,
   .mobile-nav a {
     display: block;
     min-height: var(--size-touch);
@@ -457,9 +436,6 @@
   .mobile-branch > ul {
     padding-inline-start: var(--space-4);
     border-inline-start: var(--size-border-mark) solid var(--color-rule);
-  }
-  .quick-link-panel {
-    margin-top: var(--space-5);
   }
   .accessibility-controls {
     display: flex;
@@ -521,7 +497,6 @@
     height: auto;
   }
   .footer-badge-note,
-  .footer-visit,
   .parody-notice {
     color: var(--color-muted);
     font-size: var(--font-size-small);
@@ -764,16 +739,11 @@
     flex: var(--layout-one);
   }
   .story-card-art,
-  .research-card-art,
   .event-card-art,
   .academic-tile-art {
     width: var(--size-full);
     height: auto;
     border-radius: var(--radius-panel);
-  }
-  .research-card-art {
-    max-height: var(--size-research-art);
-    object-fit: cover;
   }
   .research-card h3,
   .event-card h3 {

@@ -1,0 +1,232 @@
+{
+  "slug": "safe-harbour",
+  "sourceUrl": "https://www.iitism.ac.in/icc-1",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Help & Support Cells",
+    "pirate": "Safe Harbour"
+  },
+  "seo": {
+    "pirateTitle": "Safe Harbour",
+    "pirateDescription": "Help and support: Internal Complaints Committee, anti-ragging, SC/ST Cell, Equal Opportunity Cell, Right to Information and health. Plain guidance, no jokes. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "harbour-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Help & Support Cells",
+        "title": "Help & Support Cells",
+        "lede": "Internal Complaints Committee, anti-ragging, SC/ST Cell, Equal Opportunity Cell, Right to Information and the Health Centre.",
+        "imageId": "safe-harbour-hero",
+        "facts": []
+      },
+      "pirate": {
+        "eyebrow": "Help and support",
+        "title": "Safe Harbour",
+        "lede": "If something is wrong, this page explains who can help and how. There are no jokes below this line.",
+        "imageId": "safe-harbour-hero",
+        "facts": []
+      }
+    },
+    {
+      "id": "real-help",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Getting real help",
+        "kicker": "",
+        "paragraphs": [
+          "This website is a parody and cannot receive complaints or requests. To contact any of the cells below, use the official IIT (ISM) Dhanbad website at www.iitism.ac.in, where current members and contact details are listed."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Getting real help",
+        "kicker": "",
+        "paragraphs": [
+          "This website is a parody and cannot receive complaints or requests. To reach any of the cells below, use the official IIT (ISM) Dhanbad website at www.iitism.ac.in, where their current members and contact details are listed."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "support-cells",
+      "kind": "cardGrid",
+      "variant": "help",
+      "original": {
+        "heading": "Help & Support Cells",
+        "tagline": "",
+        "contactsLabel": "How to contact",
+        "cards": [
+          {
+            "id": "icc",
+            "name": "Internal Complaints Committee (ICC)",
+            "purpose": "Indian universities must have an Internal Complaints Committee to handle complaints of sexual harassment against women employees and students.",
+            "details": [
+              "Complaints can be made to the committee in writing or by email.",
+              "Any member of the committee can help you lodge a complaint.",
+              "Sexual harassment is an offence under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "anti-ragging",
+            "name": "Anti-ragging",
+            "purpose": "Ragging is prohibited. Every new student, and their parent or guardian, must submit an anti-ragging undertaking.",
+            "details": [
+              "Fill in the online undertaking on the national anti-ragging website, www.antiragging.in.",
+              "If you face ragging, you can contact the National Anti-Ragging Helpline on 1800-180-5522, as well as your institution’s anti-ragging committee."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "sc-st-cell",
+            "name": "SC/ST Cell",
+            "purpose": "Universities maintain an SC/ST Cell to look into complaints of discrimination and to support students and staff from Scheduled Castes and Scheduled Tribes.",
+            "details": [
+              "Complaints are inquired into confidentially.",
+              "People who complain, and witnesses, must not be victimised for doing so."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "equal-opportunity-cell",
+            "name": "Equal Opportunity Cell",
+            "purpose": "Equal Opportunity Cells oversee policies and programmes for disadvantaged groups and offer guidance on academic, financial and social matters.",
+            "details": [
+              "They monitor the implementation of reservation policy in admissions and recruitment.",
+              "They oversee welfare schemes for disadvantaged groups."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "right-to-information",
+            "name": "Right to Information (RTI)",
+            "purpose": "Publicly funded institutions in India are covered by the Right to Information Act, 2005.",
+            "details": [
+              "Any citizen of India can request information under the RTI Act.",
+              "Applications can be posted to the institution’s Central Public Information Officer (CPIO), or made online through the Government of India’s RTI portal."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "health-centre",
+            "name": "Health Centre",
+            "purpose": "If you are unwell or in danger, contact local emergency services or your institution’s medical centre straight away.",
+            "details": [],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Where to get help",
+        "tagline": "",
+        "contactsLabel": "How to contact",
+        "cards": [
+          {
+            "id": "icc",
+            "name": "Internal Complaints Committee (ICC)",
+            "purpose": "Indian universities must have an Internal Complaints Committee to handle complaints of sexual harassment against women employees and students.",
+            "details": [
+              "Complaints can be made to the committee in writing or by email.",
+              "Any member of the committee can help you lodge a complaint.",
+              "Sexual harassment is an offence under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "anti-ragging",
+            "name": "Anti-ragging",
+            "purpose": "Ragging is prohibited. Every new student, and their parent or guardian, must submit an anti-ragging undertaking.",
+            "details": [
+              "Fill in the online undertaking on the national anti-ragging website, www.antiragging.in.",
+              "If you face ragging, you can contact the National Anti-Ragging Helpline on 1800-180-5522, as well as your institution’s anti-ragging committee."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "sc-st-cell",
+            "name": "SC/ST Cell",
+            "purpose": "Universities maintain an SC/ST Cell to look into complaints of discrimination and to support students and staff from Scheduled Castes and Scheduled Tribes.",
+            "details": [
+              "Complaints are inquired into confidentially.",
+              "People who complain, and witnesses, must not be victimised for doing so."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "equal-opportunity-cell",
+            "name": "Equal Opportunity Cell",
+            "purpose": "Equal Opportunity Cells oversee policies and programmes for disadvantaged groups and offer guidance on academic, financial and social matters.",
+            "details": [
+              "They monitor the implementation of reservation policy in admissions and recruitment.",
+              "They oversee welfare schemes for disadvantaged groups."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "right-to-information",
+            "name": "Right to Information (RTI)",
+            "purpose": "Publicly funded institutions in India are covered by the Right to Information Act, 2005.",
+            "details": [
+              "Any citizen of India can request information under the RTI Act.",
+              "Applications can be posted to the institution’s Central Public Information Officer (CPIO), or made online through the Government of India’s RTI portal."
+            ],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          },
+          {
+            "id": "health-centre",
+            "name": "Health Centre",
+            "purpose": "If you are unwell or in danger, contact local emergency services or your institution’s medical centre straight away.",
+            "details": [],
+            "contacts": [
+              "For the real cell and its current contacts at IIT (ISM) Dhanbad, use the official website (www.iitism.ac.in)."
+            ],
+            "links": []
+          }
+        ]
+      }
+    }
+  ]
+}

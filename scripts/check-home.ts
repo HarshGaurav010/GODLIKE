@@ -12,6 +12,10 @@ const checks: object[] = [];
 
 async function audit(reducedMotion: "reduce" | "no-preference") {
   const context = await browser.newContext({ reducedMotion });
+  // The intro voyage has its own check (check-motion.ts); start past it here.
+  await context.addInitScript(() =>
+    sessionStorage.setItem("isle-intro-seen", "1"),
+  );
   const page = await context.newPage();
   page.on("pageerror", (error) => failures.push(error.message));
   for (const width of [375, 768, 1280, 1440, 1920]) {
@@ -126,7 +130,7 @@ async function audit(reducedMotion: "reduce" | "no-preference") {
   ).toBeGreaterThan(0);
   if (reducedMotion === "no-preference") {
     await page
-      .getByRole("button", { name: "Batten down the motion", exact: true })
+      .getByRole("button", { name: ui.voyagePause.pirate, exact: true })
       .click();
     expect(
       await page
@@ -134,7 +138,7 @@ async function audit(reducedMotion: "reduce" | "no-preference") {
         .evaluate((el) => getComputedStyle(el).animationPlayState),
     ).toBe("paused");
     await page
-      .getByRole("button", { name: "Let the ship sway", exact: true })
+      .getByRole("button", { name: ui.voyageResume.pirate, exact: true })
       .click();
   } else {
     await expect(page.locator(".hero-motion")).toBeDisabled();
@@ -159,23 +163,31 @@ async function audit(reducedMotion: "reduce" | "no-preference") {
     expect(await board.evaluate((el) => el.scrollTop)).toBe(paused);
   } else {
     await expect(toggle).toHaveAttribute("aria-pressed", "true");
-    await expect(page.locator(".stat-value").first()).toHaveText("1926");
+    await expect(page.locator(".stat-value").first()).toHaveText("1717");
   }
   const track = page.locator(".event-track");
-  await page.getByRole("button", { name: /Next shore parties/ }).click();
+  await page.getByRole("button", { name: /Next events/ }).click();
   await page.waitForTimeout(700);
   expect(await track.evaluate((el) => el.scrollLeft)).toBeGreaterThan(0);
 
   // Safe link routing.
+  // The research cards rise as the band scrolls; finish the rise first.
+  await page.locator("#expeditions").evaluate((el) => {
+    const rect = el.getBoundingClientRect();
+    scrollTo(0, scrollY + rect.bottom - innerHeight * 1.5);
+  });
+  await expect(
+    page.locator("#expeditions [data-slot=domino-gallery]"),
+  ).toHaveAttribute("data-progress", "1.000");
   await page
     .locator("#expeditions")
-    .getByRole("link", { name: /Unroll the Scroll/ })
+    .getByRole("link", { name: /Read the paper/ })
     .first()
     .click();
   await expect(page).toHaveURL(/\/davy-jones-locker$/);
   await page.goto(`${baseUrl}/`);
   await page.locator("#isle-life .utility-action").click();
-  await expect(page).toHaveURL(/\/uncharted\?from=home-dsw$/);
+  await expect(page).toHaveURL(/\/campus-life$/);
   await page.goto(`${baseUrl}/home`);
   await expect(page).toHaveURL(`${baseUrl}/`);
   await context.close();

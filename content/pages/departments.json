@@ -1,0 +1,291 @@
+{
+  "slug": "departments",
+  "sourceUrl": "https://www.iitism.ac.in/departments",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Departments",
+    "pirate": "The Crews"
+  },
+  "seo": {
+    "pirateTitle": "The Crews",
+    "pirateDescription": "All seventeen departments of NO Anchor University, from Mining (aboard since 1717) to Mathematics & Computing (still checking the navigator’s sums). A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "crews-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "All Departments",
+        "title": "Departments",
+        "lede": "The University comprises seventeen academic departments.",
+        "imageId": "departments-hero",
+        "facts": [
+          {
+            "value": "17",
+            "label": "Departments"
+          },
+          {
+            "value": "1717",
+            "label": "Year the first departments opened"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Seventeen crews, one ship",
+        "title": "The Crews",
+        "lede": "Seventeen departments, each quietly certain the ship would sink without them. They are all correct.",
+        "imageId": "departments-hero",
+        "facts": [
+          {
+            "value": "17",
+            "label": "Crews"
+          },
+          {
+            "value": "1717",
+            "label": "The oldest crews, on board since"
+          }
+        ]
+      }
+    },
+    {
+      "id": "crew-list",
+      "kind": "cardGrid",
+      "variant": "crews",
+      "original": {
+        "heading": "All Departments",
+        "tagline": "",
+        "filterLabel": "Filter departments",
+        "allLabel": "All",
+        "groups": [
+          {
+            "id": "earth",
+            "label": "Earth and resources"
+          },
+          {
+            "id": "engineering",
+            "label": "Engineering"
+          },
+          {
+            "id": "sciences",
+            "label": "Sciences"
+          },
+          {
+            "id": "people",
+            "label": "Humanities and management"
+          }
+        ],
+        "cards": [
+          {
+            "name": "Applied Geology",
+            "group": "earth",
+            "text": "The composition, structure and history of the Earth."
+          },
+          {
+            "name": "Applied Geophysics",
+            "group": "earth",
+            "text": "Physical methods for investigating the subsurface."
+          },
+          {
+            "name": "Chemical Engineering",
+            "group": "engineering",
+            "text": "Design and operation of chemical processes."
+          },
+          {
+            "name": "Chemistry and Chemical Biology",
+            "group": "sciences",
+            "text": "The chemical sciences and their biological applications."
+          },
+          {
+            "name": "Civil Engineering",
+            "group": "engineering",
+            "text": "Design and construction of structures and infrastructure."
+          },
+          {
+            "name": "Computer Science and Engineering",
+            "group": "engineering",
+            "text": "Computing theory, systems and applications."
+          },
+          {
+            "name": "Electrical Engineering",
+            "group": "engineering",
+            "text": "Generation, transmission and use of electrical energy."
+          },
+          {
+            "name": "Electronics Engineering",
+            "group": "engineering",
+            "text": "Electronic devices, circuits and communication systems."
+          },
+          {
+            "name": "Environmental Science and Engineering",
+            "group": "earth",
+            "text": "Environmental protection and sustainable development."
+          },
+          {
+            "name": "Fuel, Minerals and Metallurgical Engineering",
+            "group": "earth",
+            "text": "Processing of fuels, minerals and metals."
+          },
+          {
+            "name": "Humanities and Social Sciences",
+            "group": "people",
+            "text": "The humanities and the social sciences."
+          },
+          {
+            "name": "Management Studies and Industrial Engineering",
+            "group": "people",
+            "text": "Management, operations and industrial engineering."
+          },
+          {
+            "name": "Mathematics & Computing",
+            "group": "sciences",
+            "text": "Mathematics, statistics and computing."
+          },
+          {
+            "name": "Mechanical Engineering",
+            "group": "engineering",
+            "text": "Design and manufacture of mechanical systems."
+          },
+          {
+            "name": "Mining Engineering",
+            "group": "earth",
+            "text": "Planning and operation of safe and efficient mines."
+          },
+          {
+            "name": "Petroleum Engineering",
+            "group": "earth",
+            "text": "Exploration and production of oil and gas."
+          },
+          {
+            "name": "Physics",
+            "group": "sciences",
+            "text": "Fundamental and applied physics."
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Find your crew",
+        "tagline": "Filter by what they mostly do, or by how dusty their boots get.",
+        "filterLabel": "Filter the crews",
+        "allLabel": "All crews",
+        "groups": [
+          {
+            "id": "earth",
+            "label": "Earth and resources"
+          },
+          {
+            "id": "engineering",
+            "label": "Engineering"
+          },
+          {
+            "id": "sciences",
+            "label": "Sciences"
+          },
+          {
+            "id": "people",
+            "label": "People and plans"
+          }
+        ],
+        "cards": [
+          {
+            "name": "Applied Geology",
+            "group": "earth",
+            "text": "The original crew. Collects rocks, labels them and refuses to throw any away."
+          },
+          {
+            "name": "Applied Geophysics",
+            "group": "earth",
+            "text": "Listens to the ground with very expensive instruments. Sometimes the ground answers."
+          },
+          {
+            "name": "Chemical Engineering",
+            "group": "engineering",
+            "text": "Turns small reactions in a flask into very large plants."
+          },
+          {
+            "name": "Chemistry and Chemical Biology",
+            "group": "sciences",
+            "text": "Knows what everything on board is made of, and which things should never be mixed."
+          },
+          {
+            "name": "Civil Engineering",
+            "group": "engineering",
+            "text": "Builds things that stay exactly where they are put. A bold idea on a ship with no anchor."
+          },
+          {
+            "name": "Computer Science and Engineering",
+            "group": "engineering",
+            "text": "Keeps the ship’s computers running, and is fairly sure the bug is in your code."
+          },
+          {
+            "name": "Electrical Engineering",
+            "group": "engineering",
+            "text": "Keeps the lights on, below deck and across the national grid."
+          },
+          {
+            "name": "Electronics Engineering",
+            "group": "engineering",
+            "text": "Makes very small things that do very clever jobs."
+          },
+          {
+            "name": "Environmental Science and Engineering",
+            "group": "earth",
+            "text": "Makes sure the treasure hunt does not wreck the island."
+          },
+          {
+            "name": "Fuel, Minerals and Metallurgical Engineering",
+            "group": "earth",
+            "text": "Takes what the miners dig up and turns it into something useful."
+          },
+          {
+            "name": "Humanities and Social Sciences",
+            "group": "people",
+            "text": "Asks why we are on this voyage at all. Usefully, and with footnotes."
+          },
+          {
+            "name": "Management Studies and Industrial Engineering",
+            "group": "people",
+            "text": "Works out who does what, by when, and what it will cost."
+          },
+          {
+            "name": "Mathematics & Computing",
+            "group": "sciences",
+            "text": "Does the sums the navigator keeps getting wrong."
+          },
+          {
+            "name": "Mechanical Engineering",
+            "group": "engineering",
+            "text": "Keeps everything that is supposed to turn, turning."
+          },
+          {
+            "name": "Mining Engineering",
+            "group": "earth",
+            "text": "Digging since 1717. The reason this ship exists."
+          },
+          {
+            "name": "Petroleum Engineering",
+            "group": "earth",
+            "text": "Knows where the oil is, and is far too polite to say how."
+          },
+          {
+            "name": "Physics",
+            "group": "sciences",
+            "text": "Explains why the ship floats. We have asked them to stop explaining why it might not."
+          }
+        ]
+      }
+    },
+    {
+      "id": "meet-the-heads",
+      "kind": "cta",
+      "original": {
+        "label": "HoDs",
+        "href": "/administration#hods"
+      },
+      "pirate": {
+        "label": "Meet the head of each crew →",
+        "href": "/administration#hods"
+      }
+    }
+  ]
+}

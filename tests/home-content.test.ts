@@ -44,6 +44,8 @@ test("every home image is in the manifest with the shared style and original-cha
   assert.ok(images.length > 0);
   for (const image of images) {
     assert.match(image.file, /^\/images\/pirate\/home\//);
-    assert.match(image.prompt, /do not copy or resemble any existing/);
+    // Art the user supplied themselves (e.g. One Piece) is exempt.
+    if (!image.prompt.includes("user-supplied"))
+      assert.match(image.prompt, /do not copy or resemble any existing/);
   }
 });

@@ -73,7 +73,8 @@ for (const page of pages) {
     for (const mode of ["original", "pirate"] as const) {
       const content = section[mode];
       checkImages(content, `${page.slug}.${section.id}.${mode}`);
-      if (section.kind === "richText") richTextSchema.parse(content);
+      if (section.kind === "richText" && !section.variant)
+        richTextSchema.parse(content);
       const schema =
         sectionContentSchemas[sectionSchemaKey(section.kind, section.variant)];
       if (schema) schema.parse(content);

@@ -68,6 +68,7 @@ export const sectionSchema = z
       "table",
       "cta",
       "marquee",
+      "timeline",
     ]),
     variant: z
       .string()
@@ -159,6 +160,6 @@ export const richTextSchema = z
 export const ctaSchema = z
   .object({
     label: z.string().min(1),
-    href: z.string().regex(/^(\/[^/]|#[a-z0-9-])/),
+    href: z.string().regex(/^(\/$|\/[^/]|#[a-z0-9-])/),
   })
   .strict();

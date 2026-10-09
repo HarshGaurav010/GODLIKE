@@ -71,7 +71,6 @@
   --space-shell: clamp(1rem, 4vw, 3.5rem);
   --size-border-mark: 0.15rem;
   --size-search-field: 16rem;
-  --position-rail: 40%;
   --layer-header: 5;
   --layer-menu: 6;
   --layer-tools: 7;
@@ -98,7 +97,6 @@
   --size-event-card: 20rem;
   --size-video-frame: 18rem;
   --size-feature: 24rem;
-  --size-research-art: 16rem;
   --font-size-stat: clamp(2rem, 4vw, 3rem);
   --font-size-card-title: 1.25rem;
   --duration-count: 2400ms;
@@ -182,7 +180,6 @@
   --size-portrait: 28rem;
   --size-feature: 29rem;
   --size-shell: 104rem;
-  --size-research-art: 20rem;
   --size-stat-icon: 4.5rem;
   --duration-reveal: 700ms;
   --duration-float: 6500ms;
@@ -227,10 +224,31 @@
   --opacity-inactive: 0.65;
   --story-art-ratio: 4 / 3;
   --research-art-ratio: 3 / 2;
+  /* Research domino cards */
+  --domino-sticky-top: 9.5rem;
+  --domino-perspective: 1500px;
+  --domino-perspective-origin: 50% -45%;
+  --size-domino-card-min: 15rem;
+  --domino-card-shadow: 0 1.125rem 2.5rem -1rem rgb(0 0 0 / 60%);
+  --domino-floor-shadow: rgb(0 0 0 / 40%);
+  --domino-shadow-blur: 0.75rem;
   --footer-title-size: clamp(3rem, 9vw, 9rem);
   --voyage-columns: repeat(2, minmax(0, 1fr));
   --ranking-columns: repeat(2, minmax(0, 1fr));
   --leader-columns: minmax(0, 3fr) minmax(0, 2fr);
+  /* Intro voyage overlay and hero barrels (timings: src/components/motion/motion-config.ts). */
+  --layer-intro: 30;
+  --intro-sky: #0b1622;
+  --intro-sea: #123a57;
+  --intro-wave: #1b5378;
+  --intro-foam: #f5f0e5;
+  --intro-ship-width: clamp(17rem, 56vw, 44rem);
+  --intro-waterline: clamp(1.5rem, 7vh, 4.5rem);
+  --intro-seam-soft: clamp(4rem, 10vw, 10rem);
+  --intro-wave-height: clamp(4rem, 16vh, 9rem);
+  --intro-failsafe: 7s;
+  --duration-intro-waves: 2600ms;
+  --barrel-shadow: rgb(0 0 0 / 0.5);
 }
 :root[data-contrast="high"] {
   --color-parchment: var(--color-high-background);
@@ -243,4 +261,38 @@
 }
 :root[data-text-size="large"] {
   --font-size-nav: var(--font-size-nav-large);
+}
+
+/* Inner pages (src/styles/pages.css). */
+:root {
+  --size-page-hero-copy: 52rem;
+  --font-size-page-title: clamp(3rem, 7vw, 6.5rem);
+  --size-fact: 10rem;
+  --font-size-fact: clamp(2.25rem, 3.6vw, 3.5rem);
+  --line-height-fact: 1.15;
+  --size-notice-search: 36rem;
+  --size-compass: 15rem;
+  --size-compass-text: 22rem;
+  --duration-compass: 1600ms;
+  --ticket-columns: 3.5rem minmax(0, 1fr);
+  --ticket-grid-columns: repeat(3, minmax(0, 1fr));
+  --crew-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  --size-treasure-map: 28rem;
+  --treasure-pin-zoom: 1.25;
+  --treasure-dash: 6 6;
+  --mast-columns: 9rem minmax(0, 1fr) auto;
+  --roster-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  --size-roster-badge: 3.5rem;
+  --contact-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  --help-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  --page-hero-columns: minmax(0, 3fr) minmax(0, 2fr);
+  --story-columns: minmax(0, 3fr) minmax(0, 1fr);
+  --voyage-columns-log: 7rem minmax(0, 1fr);
+  --compass-columns: minmax(0, 1.2fr) minmax(0, 0.9fr) minmax(0, 1.4fr);
+  --treasure-columns: minmax(0, 3fr) minmax(0, 2fr);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-compass: 0ms;
+  }
 }

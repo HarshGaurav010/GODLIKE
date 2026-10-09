@@ -7,7 +7,7 @@ Updated: 9 October 2026 (Asia/Kolkata).
 Task 0 — Setup is complete. Task 1 — Global shell is implemented from the cached Firecrawl source and ready for review, with one documented footer source gap.
 The user selected the name **NO Anchor University** and slogan **no direction full confidence**, overriding the initial glossary identity. Both language modes keep that parody identity visible; the original institutional identity remains in source data for provenance.
 The user clarified that this site is mainly for PC. Desktop at 1440 and 1920px is the primary review target; the required 375/768/1280px responsive behavior remains supported.
-Task 2.1 — Home is implemented and ready for review. All 20 briefed illustrations plus a transparent galleon hero are generated. The user authorized a Bucks Sauce-inspired visual pass on Home and the shared shell; this is now implemented (see Task 2.2). The root now serves Home; `/home` redirects to `/`. The next page, 3.1 — About overview, waits for the user's approval of Home.
+Task 3 (9 October 2026) cut the site to 10 merged pages + Safe Harbour and rewrote all copy without pirate dialect; see the queue below. Task 2.1 — Home is implemented and ready for review. All 20 briefed illustrations plus a transparent galleon hero are generated. The user authorized a Bucks Sauce-inspired visual pass on Home and the shared shell; this is now implemented (see Task 2.2). The root now serves Home; `/home` redirects to `/`. The next page, 3.1 — About overview, waits for the user's approval of Home.
 
 ## Source inspection
 
@@ -23,61 +23,27 @@ Task 2.1 — Home is implemented and ready for review. All 20 briefed illustrati
 - Most source image dimensions are absent from HTML. Manifest values remain null until measured; do not assume an aspect ratio.
 - No PDFs, logins, people subsite pages, or other page bodies were scraped. No original image assets were downloaded or shipped.
 
-## Implementation queue
+## Implementation queue (cut down 9 October 2026)
 
-Groups below preserve AGENTS.md ordering. Each route is a separate task with its own report and user approval before advancing.
+The user found the site had far too many destinations: 92 desktop nav links, 97 mobile links, 10 quick links, 5 social links and 8 footer links, almost all leading to `/uncharted`. They approved cutting it to **10 merged pages + one Safe Harbour page**. Everything else is removed from the nav, footer and queue. The old 40-route queue no longer applies.
 
-| Order      | Task                                                                           | Route                                                     | Status                                |
-| ---------- | ------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------- |
-| 0          | Setup: Next.js, tokens, loaders, scraping tools, glossary, fallback routes     | /uncharted; /davy-jones-locker                            | Complete                              |
-| 1          | Global shell: shared header, navigation, toggle, footer, original parody crest | Shared section                                            | Implemented; footer source gap noted  |
-| 2.1        | Home                                                                           | /                                                         | Complete; Home design ready to review |
-| 3.1        | About                                                                          | /about-overview                                           | Planned; URL mapped                   |
-| 3.2        | About                                                                          | /about-history                                            | Planned; URL mapped                   |
-| 3.3        | About                                                                          | /vision                                                   | Planned; URL mapped                   |
-| 4.1        | Leadership                                                                     | /director                                                 | Planned; URL mapped                   |
-| 4.2        | Leadership                                                                     | /chairman                                                 | Planned; URL mapped                   |
-| 4.3        | Leadership                                                                     | /deputy-director                                          | Planned; URL mapped                   |
-| 4.4        | Leadership                                                                     | /registrar                                                | Planned; URL mapped                   |
-| 4.5        | Leadership                                                                     | /deans                                                    | Planned; URL mapped                   |
-| 4.6        | Leadership                                                                     | /associate-deans                                          | Planned; URL mapped                   |
-| 4.7        | Leadership                                                                     | /hods                                                     | Planned; URL mapped                   |
-| 4.8        | Leadership                                                                     | /administration                                           | Planned; URL mapped                   |
-| 5.1        | Departments                                                                    | /departments                                              | Planned; URL mapped                   |
-| 5.template | Shared department template, after departments index                            | Select one mapped department source when this task begins | Planned                               |
-| 6.1        | Admissions & Programmes                                                        | /jeea                                                     | Planned; URL mapped                   |
-| 6.2        | Admissions & Programmes                                                        | /phdadmission                                             | Planned; URL mapped                   |
-| 6.3        | Admissions & Programmes                                                        | /home-mba                                                 | Planned; URL mapped                   |
-| 6.4        | Admissions & Programmes                                                        | /home-m-sc                                                | Planned; URL mapped                   |
-| 6.5        | Admissions & Programmes                                                        | /home-ma                                                  | Planned; URL mapped                   |
-| 6.6        | Admissions & Programmes                                                        | /executive-masters-programmes                             | Planned; URL mapped                   |
-| 6.7        | Admissions & Programmes                                                        | /ai-courses                                               | Planned; URL mapped                   |
-| 7.1        | Research                                                                       | /research-cluster                                         | Planned; URL mapped                   |
-| 7.2        | Research                                                                       | /center                                                   | Planned; URL mapped                   |
-| 7.3        | Research                                                                       | /project-opening                                          | Planned; URL mapped                   |
-| 8.1        | Placements                                                                     | /career-development-centre                                | Planned; URL mapped                   |
-| 9.1        | Faculty & Staff                                                                | /all-faculty                                              | Planned; URL mapped                   |
-| 9.2        | Faculty & Staff                                                                | /staff-and-officers                                       | Planned; URL mapped                   |
-| 10.1       | Student life                                                                   | /home-dsw                                                 | Planned; URL mapped                   |
-| 10.2       | Student life                                                                   | /library                                                  | Planned; URL mapped                   |
-| 10.3       | Student life                                                                   | /geological-museum                                        | Planned; URL mapped                   |
-| 11.1       | Notices & Recruitment                                                          | /all-active-notices                                       | Planned; URL mapped                   |
-| 11.2       | Notices & Recruitment                                                          | /tenders                                                  | Planned; URL mapped                   |
-| 11.3       | Notices & Recruitment                                                          | /facultycareers                                           | Planned; URL mapped                   |
-| 11.4       | Notices & Recruitment                                                          | /career-non-faculty                                       | Planned; URL mapped                   |
-| 12.1       | Governance & Compliance                                                        | /nirf                                                     | Planned; URL mapped                   |
-| 12.2       | Governance & Compliance                                                        | /annual-reports                                           | Planned; URL mapped                   |
-| 12.3       | Governance & Compliance                                                        | /right-to-information                                     | Planned; URL mapped                   |
-| 12.4       | Governance & Compliance                                                        | /sc-st-cell                                               | Planned; URL mapped                   |
-| 12.5       | Governance & Compliance                                                        | /equal-opportunity-cell                                   | Planned; URL mapped                   |
-| 12.6       | Governance & Compliance                                                        | /icc-1                                                    | Planned; URL mapped                   |
-| 13         | Additional mapped pages selected by the user                                   | To be selected                                            | Backlog                               |
+| Order | Page                            | Route                      | Merges                                                                                                                       | Status                                                 |
+| ----- | ------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 1     | Home ("Home Port")              | /                          | —                                                                                                                            | Built; copy rewritten                                  |
+| 2     | About ("Our Story")             | /about-overview            | overview, history, vision & mission                                                                                          | Planned                                                |
+| 3     | Admissions ("Join the Crew")    | /admissions                | JEE/UG, PG (M.Tech, MBA, M.Sc, MA, executive), PhD, AI courses                                                               | Planned                                                |
+| 4     | Departments ("The Crews")       | /departments               | departments index (no per-department pages)                                                                                  | Planned                                                |
+| 5     | Research ("Treasure Hunting")   | /research                  | research clusters, centres, project openings                                                                                 | Planned                                                |
+| 6     | Placements ("Hired Hands")      | /career-development-centre | —                                                                                                                            | Planned                                                |
+| 7     | Campus Life ("Life on Board")   | /campus-life               | student welfare, hostels, library, Geological Museum, fests                                                                  | Planned                                                |
+| 8     | Leadership ("Who’s Steering")   | /administration            | chairman, director, deputy director, registrar, deans, HoDs                                                                  | Planned                                                |
+| 9     | Notices ("Notices on the Mast") | /all-active-notices        | notices, tenders, faculty/staff openings                                                                                     | Planned                                                |
+| 10    | Contact ("Message in a Bottle") | /contact-information       | —                                                                                                                            | Planned                                                |
+| 11    | Safe Harbour                    | /safe-harbour              | anti-ragging, ICC, SC/ST cell, Equal Opportunity cell, RTI, health centre; plain guidance, light framing in the heading only | Planned (authored merged route; no single source slug) |
 
-AGENTS.md group numbers remain the source of truth; the row identifiers above only indicate sequential implementation order. The department template belongs immediately after the /departments index, before admissions.
+**Removed for good:** alumni portal and insurance, CE&O, In Media, institute video, sustainability subpages (MoTA, CSM, rainwater, waste), innovation, international relations, centenary events and seminar, 17 departmental newsletters, faculty portal/handbook/forms, ARK portal, online payment, Professor In-Charge, General Administration, statutes, the 1961 Act, IIT Council data, BoG minutes, ARIIA, NIRF, annual reports, CVO, BIS corner, policy, the separate leadership/about pages, foreign-student fees, Study in India, student verification, contingency rules, GJLT booking and IInvenTiv. Links to them are gone from the site.
 
-## Additional discovered paths
-
-Leave these in the user-selected backlog: /professor-in-charge, /general-administration, /rules-and-guidelines, /student-verification, /institute-video, /dean-iie, /seminar-1, /online-payment, /ariia-report, /iit-council-data, /minutes-of-bog-meeting, sustainability pages, programme subpages, and departmental newsletters. The map also includes alternate paths such as /home, /history, /vision-and-mission and /faculty-positions. Use actual header targets for navigation; resolve aliases in the relevant page task rather than implementing duplicate pages.
+Phones: the user asked for no phone work and no phone-width checks. Desktop (1280/1440/1920) is the only review target.
 
 ## Task 0 — Setup report
 
@@ -311,3 +277,146 @@ The user explicitly requested the design of https://buckssauce.com/ be applied t
 - Production browser verification at 1440px passed: hero scenes, motion pause, both copy modes, all 25 image assets, lazy image rendering, no horizontal overflow and no browser errors. Screenshot and report are in ignored `artifacts/vercel/`.
 - `.vercelignore` excludes environment files, local tool configuration, build artifacts and reference images/screenshots. Local project linkage is in ignored `.vercel/`.
 - Deployment uses the Vercel CLI; GitHub automatic deployments are not configured. Future production deployment: `npx vercel@latest deploy --prod --yes` from the linked repository.
+
+## Task 3 — Site audit, cut-down and copy rewrite (9 October 2026)
+
+The user asked for a complete audit: "the copy sucks and there are too many options and subsites". Their answers:
+
+- **Size:** about 10 merged pages, plus one plain Safe Harbour page for the support cells.
+- **Voice:** "not very tough to understand… pirate tone… funny… don't use pirate dialects at all". Recorded in `docs/COPY-VOICE.md`.
+- **Home:** remove the floating social bar and the quick-links popup. I decided to also drop the empty trending-video section and trim the notices.
+
+### What changed
+
+- **Header:** `content/global/header.json` is now one flat `nav` of 11 items plus `primaryIds`. The desktop row shows five: Our Story, Join the Crew, Treasure Hunting, Hired Hands, Life on Board. The menu panel ("The Whole Map") lists all 11 with no sub-menus. Every href is a local route; unbuilt ones still resolve to `/uncharted`.
+- **Removed:** the desktop two-row mega-menu data, the 97-item mobile tree, the quick-links popup, the floating social rail, the Hindi/English accessibility links and the "User Visit: —" footer counter. Their CSS and the uncommitted rail-gutter rules are gone too.
+- **Footer:** four resources (notices, campus tour, admissions, Safe Harbour). The Donation and Contact buttons stay; Contact now points to `/contact-information`.
+- **Home:**
+  - The empty "What's Trending" video section is removed.
+  - Notices are cut from 15 to 8 (dropped one duplicate Medical Officer notice, four of five LDCE promotions, TEXMiN and the not-shortlisted list).
+  - Campus links now go to `/campus-life`, "more academics" to `/departments`, and "more research" to `/research`.
+- **Copy:** every pirate string in the shell, footer, UI labels, Home, `/uncharted` and `/davy-jones-locker` is rewritten without dialect. The Director's message stays word for word.
+- **Glossary:** rebuilt from 208 to 90 entries. All dialect is removed (Cap'n → Captain, o' → of, and so on), stale nav entries are dropped, and current labels are added.
+- **Tests and checks:** the obsolete source-mirroring nav test is replaced with tests for the short nav, the exact disclaimer and no dialect in pirate copy. The browser checks now read labels from content, and `tsconfig.json` excludes the ignored `artifacts/` copy.
+- **Schema:** the CTA schema accepts `/` as an href.
+
+### New or changed glossary terms
+
+Our Story (About), The Crews (Departments), Treasure Hunting (Research), Hired Hands (Placements), Life on Board (Campus Life), Who’s Steering (Administration), Notices on the Mast (Notices), Message in a Bottle (Contact), Safe Harbour (help & support), The Whole Map (Menu), Useful Maps (Quick Links), Captain (Commodore of the Fleet) (Director), Search the map / Where are we going? (search), Stop the ship rocking / Let the ship rock (motion controls).
+
+### Verification
+
+- `npm run build`, `npm run lint` and `npm test` (13 tests) pass.
+- `check-browser`, `check-shell` and `check-home` pass against the production build, including axe WCAG A/AA in both modes.
+- At 1280/1440/1920 the header nav has no overflow and doesn't overlap the brand in either mode. Six primary items overflowed at 1440, so the row is five.
+
+### Open
+
+- Penman Auditorium's "resident ghosts" is used once; whether to make it recurring is still unasked.
+- Earlier optional questions (parrot summary box, "QS" backronym, One Piece imagery) stay pending.
+- Not yet deployed to Vercel.
+
+## Task 2.4 — Intro ship voyage, hero barrels and control audit
+
+The user asked for two animations built from their own ship and barrel pictures: a ship that sails across and reveals the site on load, and barrels that fall into the hero. They also asked for every button to be tested rigorously. Desktop (1440/1920) is the priority; phones only need to keep working.
+
+### What was built
+
+- **Intro voyage** (`src/components/motion/IntroVoyage.tsx`, mounted in `SiteShell`). A full-screen sea overlay. The user's ship, mirrored so its bow leads, sails left to right in about 3 s, rocking, bobbing and pitching. A foam-edged seam that follows the ship pulls the sea away and reveals the page behind it. When it finishes, the overlay is removed.
+  - It plays once per browser tab (`sessionStorage`). A click, wheel, key or touch skips it with a short fade.
+  - A pre-paint script in `src/app/layout.tsx` sets `html[data-intro]`, so returning visitors and reduced-motion users never see a flash. With JavaScript off the overlay never shows.
+  - If the ship image fails, or isn't ready within 1.5 s, the site appears immediately. A CSS failsafe hides the overlay after 7 s even if the app's scripts never load.
+- **Hero barrels** (`src/components/motion/HeroBarrels.tsx`, mounted in `Hero`).
+  - Barrels drop on alternating sides of the slogan and land on the "Voyage no." rule, so they show up in the first screen. Each one bounces with a squash, then either wobbles upright or tumbles and settles on its side.
+  - After resting, a barrel fades and shrinks in place. At most 3 exist at once, roughly 92–130 px tall at 1440 px.
+  - They render behind all hero text and controls, never take pointer events, and only land in gaps measured from the actual title, slogan, button and ship-art positions. They're clipped to the hero, so there's no page scroll.
+  - They pause when the hero is off-screen, the tab is hidden, the hero's pause-motion button is pressed or the intro is still playing. They are disabled for reduced motion. Observers, timers and nodes are cleaned up on unmount.
+- **Tuning:** every timing and physics value is in `src/components/motion/motion-config.ts`. Colours, sizes and the layer are `--intro-*` / `--barrel-*` tokens in `src/styles/tokens.css`. Styles are in `src/styles/voyage.css`.
+- **Assets:** the user's pictures are kept as sources in `docs/assets/intro-source/`. `scripts/prepare-intro-images.mjs` cuts them out with a deterministic flood fill (no AI generation) into `public/images/pirate/intro/ship.webp` (669×551, 67 KB) and `barrel.webp` (238×293, 18 KB). The ship cut-out loses its thinnest rigging lines and two tiny pennants. A cleaner hand or Codex cut-out of the same ship can replace `ship.webp` with no code change. A larger ship source would also look sharper on high-density screens.
+- **Removed:** the "A parody voyage inspired by IIT (ISM) Dhanbad" top-bar line, its UI string and its glossary entry, at the user's request. The required footer disclaimer is unchanged.
+
+### Verification
+
+- `npm run lint`, `npm test` (13) and `npm run build` pass.
+- `check-browser`, `check-shell` and `check-home` pass, including axe WCAG A/AA. Full-motion contexts start past the intro; it has its own check.
+- New `scripts/check-motion.ts`, now part of `npm run check:browser`, passes at 1440 and 1920:
+  - The intro reveals left to right and hands over in about 3.5 s, and the site is clickable immediately. It doesn't replay on reload, and a click skips it.
+  - Fallbacks all work: missing ship image (site shown in about 0.1 s), stalled scripts (CSS failsafe), no JS, and reduced motion.
+  - Barrels land on both sides and never pass over links or buttons, below their landing line or outside the hero. There's no overflow, the slogan stays on top, the pause button freezes them, nothing spawns off-screen, and they clean up across navigation. A missing barrel image just means no barrels.
+  - Frame time is a steady 16.7 ms (60 fps).
+- New `scripts/check-controls.ts` (`npm run check:controls`) covers all built pages in both modes at 1440 and 1920px. It checks:
+  - every link resolves to a working local route or anchor, and clicking it lands there
+  - every visible button, plus every button revealed inside the panels it opens, visibly changes something
+  - Escape closes dialogs
+  - nothing clickable is covered
+  - no text sits under fixed chrome
+  - no JS or console errors
+
+## Task 4 — Logo replacement (9 October 2026)
+
+- The user supplied a new logo: a straw-hat skull over a ship's wheel and crossed swords, a broken anchor on an open book, a gear-edged seal, and the text "NO ANCHOR UNIVERSITY / NO DIRECTION. FULL CONFIDENCE."
+- The source is kept at `docs/assets/global-logo-source.webp`. Its cream background was removed by flood fill from the edges, then the logo was resized into the three existing shared slots. The parrot badge is unchanged.
+  - Header: `global-header-logo.webp`, 1307 × 304, logo at left.
+  - Footer: `global-footer-logo.webp`, 616 × 144.
+  - Footer seal and "Started in" stat icon: `global-logo-seal.webp`, 140 × 140.
+- Files were renamed (the old `global-*-identity.webp` and `global-treasure-seal.webp` were deleted) so the Next.js and Vercel image caches cannot serve the old crest. Image IDs are unchanged, so no content or code references changed.
+- Manifest alts were rewritten in plain English. The parrot badge alt lost its "wearin’" dialect.
+- `scripts/prepare-global-images.mjs` still writes the old filenames from generated crests. Don't rerun it for the logo.
+- Note: the logo artwork's slogan reads "NO DIRECTION. FULL CONFIDENCE." in caps with periods. The site's text slogan stays the user-fixed "no direction full confidence".
+- Verified on a production build at 1440px: the new logo renders in the header, footer and seal with no broken images. `npm test` and lint pass.
+
+## Task 5 — User-supplied One Piece images on Home (9 October 2026)
+
+- `home-academics-deckhand` (Academics feature): the student hugging books is replaced with the user's Luffy artwork. It was cropped from a screenshot (the grey border removed) to the 518:640 portrait slot, given rounded corners and saved as `home-academics-luffy.webp` (777 × 960).
+- `home-campus-alive` (the Manthan "Alive" campus card): the pirate band with ghosts is replaced with the user's Straw Hat crew artwork, used as supplied in `home-campus-alive-crew.webp` (736 × 736, square like the original slot).
+- The sources are in `docs/assets/home-academics-luffy-source.webp` and `docs/assets/home-campus-alive-crew-source.webp`. The old WebPs are deleted, and the new filenames stop image caches from serving the old art. Alts describe the new images.
+- These are copyrighted One Piece characters supplied by the user, which reverses the earlier original-characters-only rule for these slots. `tests/home-content.test.ts` now exempts images whose prompt says "user-supplied".
+- Verified at 1440px on a production build: both images render, with no broken images. Tests and build pass.
+- Later the same day: `home-campus-sports-day` (the National Sports Day card) was replaced with the user's basketball Luffy artwork.
+  - It was cropped from a tall screenshot to the 4:3 slot and saved as `home-campus-sports-day-luffy.webp` (1125 × 844). The source is in `docs/assets/home-campus-sports-day-luffy-source.webp`, and the old WebP is deleted.
+  - The source carries a TikTok creator watermark (“@aniverse_00”). It was left in place, not removed.
+
+## Task 6 — Research cards without images, domino scroll effect (9 October 2026)
+
+- The user asked to remove all images from the Home research section ("Treasure Hunting") and turn it into simple cards with the 21st.dev DominoGallery effect.
+- New `src/components/ui/domino-gallery.tsx`, adapted from the pasted component:
+  - Each child is a text card (an `article` with a heading, paragraph and "Read the paper" link) instead of an image button, so links inside cards are valid and the cards keep heading semantics.
+  - Cards rest leaning back and rise upright one after another as the band scrolls, using the source's gravity-and-bounce easing and 45% overlap.
+  - The band is `100svh + 900px` tall with a sticky stage under the 150px sticky header (`--domino-sticky-top`). Rising starts when the band is 55% down the viewport, and all cards are upright at 80% of the sticky travel, before the stage releases.
+  - Autoplay is off so the text stays readable. It's one prop away (`autoplay`).
+- The source component's shadcn classes, Unsplash images and selection state weren't used. The project has no shadcn setup, and colours, shadow and perspective come from `tokens.css` (`--domino-*`). The `components/ui` folder was created for this component.
+- Accessibility:
+  - Reduced motion renders a plain static row.
+  - The server-rendered HTML is upright, so cards are readable without JavaScript.
+  - A focused link forces its card upright (`:focus-within`).
+- Content: `imageId` was removed from the research items in both modes, and from the schema. The four `home-research-*` images were removed from the manifest and `public/` (25 → 21 images). Unused research-art CSS and tokens were removed.
+- Verified at 1440 and 1920px:
+  - The rise is correct at 0/25/50/80/100% of the band, with no horizontal overflow.
+  - Lint, 13 tests and the build pass, along with `check-browser`, `check-shell`, `check-home` (now scrolls the band upright before clicking a paper link; axe has zero violations in both modes) and `check-motion`.
+  - A keyboard focus check shows the focused card upright.
+
+## Task 7 — Gold D. Roger portrait and no real college data (9 October 2026)
+
+- **Portrait:** the Home "Director’s Message" image is the user’s Gold D. Roger artwork. It was centre-cropped to the 832:863 slot with rounded corners and saved as `home-director-roger.webp`; the source is in `docs/assets/home-director-roger-source.webp`, and the old portrait is deleted.
+- **Decision (user):** no real IIT (ISM) Dhanbad data anywhere, in either mode. Landlubber mode is a stiff official-brochure version of the invented facts; Pirate mode is the funny version. Recorded in `docs/COPY-VOICE.md`.
+- **The invented facts, used consistently:**
+  - Founded 1717, "the year the anchor went missing".
+  - A 612-acre island campus (480 at high tide).
+  - 7,777 students, 365 professors and 17 departments.
+  - Rankings come from the "Seven Seas University Rankings" and the "Parrot Rankings Board".
+  - Admission is through the Great Sea Trials, with reporting at the first high tide of August.
+  - Fictional notices and tenders (NAU/… numbers, "One anchor. Any anchor, really") and fictional research centres: the Centre for Finding Things, Applied Knot Theory and Parrot Linguistics.
+- **Rewritten:**
+  - Home: rankings, Director’s message (invented, with the slogan as its verse), stats, campus cards, research, notices and events.
+  - About: history timeline cut from 24 to 8 entries, vision and mission, campus, governance.
+  - Admissions: every date, seat count and notice; the IIM dual degree became an MBA in Treasure Logistics; the real eligibility rules were removed.
+  - Notices: 53 real rows became 24 invented ones, all linking to `/davy-jones-locker`.
+  - Campus Life, Placements (invented messages and a 1717 "first placement drive"), Contact (no real hours or address), Departments (stiff one-line descriptions in Landlubber mode) and Research (8 invented outposts).
+  - Header, footer and UI subtitles, and one image alt.
+- **Safe Harbour:** college-specific procedures were removed. What remains is accurate national guidance, the anti-ragging website and helpline, and the relevant laws, plus a pointer to the official IIT (ISM) Dhanbad website for the real cells. No invented help procedures.
+- **Kept on purpose:** generic subject and degree names; the footer disclaimer; the pointers to the official website; and "a hackathon parody of IIT (ISM) Dhanbad" in SEO descriptions.
+- **New test:** `tests/no-real-data.test.ts` fails on real names, dates, numbers, events, schemes and codes in visible copy or image alts, and on the old Home stats.
+- **Verification:**
+  - Lint, 17 tests and the build pass; content validation covers 13 pages, 102 glossary entries and 31 images.
+  - `check-browser`, `check-shell`, `check-home` (the year assertion is now 1717) and `check-motion` pass.
+- **Known gap:** the ten inner-page hero images (`about-hero` … `safe-harbour-hero`) are still `status: "todo"` and show the striped "painting in progress" frame. Their prompts are in `content/images.json`.

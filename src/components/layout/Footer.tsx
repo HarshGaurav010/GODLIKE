@@ -76,9 +76,6 @@ export function Footer({
               })}
             </div>
             <p className="footer-badge-note">{t("parodyBadge")}</p>
-            <p className="footer-visit">
-              {data.visit.label} <span>{data.visit.value}</span>
-            </p>
           </div>
         </div>
         <p className="parody-notice">{t("notice")}</p>

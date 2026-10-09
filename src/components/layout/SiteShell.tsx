@@ -9,6 +9,7 @@ import type { PirateImage } from "@/content/types";
 import { useLanguage } from "@/components/content/LanguageProvider";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { IntroVoyage } from "@/components/motion/IntroVoyage";
 
 export function SiteShell({
   children,
@@ -30,6 +31,7 @@ export function SiteShell({
   const { mode } = useLanguage();
   return (
     <div className="site-shell" data-content-mode={mode} data-phase="1">
+      <IntroVoyage />
       <Header
         content={header}
         ui={ui}

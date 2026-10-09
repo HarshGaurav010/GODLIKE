@@ -1,0 +1,413 @@
+{
+  "slug": "all-active-notices",
+  "sourceUrl": "https://www.iitism.ac.in/all-active-notices",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "All Active Notices",
+    "pirate": "Notices on the Mast"
+  },
+  "seo": {
+    "pirateTitle": "Notices on the Mast",
+    "pirateDescription": "Every notice, tender and job opening at NO Anchor University, searchable in one place. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "mast-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "All Active Notices",
+        "title": "All Active Notices",
+        "lede": "Notices · Tenders · Faculty Careers · Non-Faculty Careers",
+        "imageId": "notices-hero",
+        "facts": [
+          {
+            "value": "12",
+            "label": "Active notices"
+          },
+          {
+            "value": "7",
+            "label": "Open tenders"
+          },
+          {
+            "value": "5",
+            "label": "Career documents"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Nailed to the mast",
+        "title": "Notices on the Mast",
+        "lede": "Every current notice, tender and job opening in one place. Search it, filter it, and try not to let the wind take it.",
+        "imageId": "notices-hero",
+        "facts": [
+          {
+            "value": "12",
+            "label": "Notices"
+          },
+          {
+            "value": "7",
+            "label": "Tenders open"
+          },
+          {
+            "value": "5",
+            "label": "Job papers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-mast",
+      "kind": "table",
+      "variant": "notices",
+      "original": {
+        "heading": "All Notices",
+        "tagline": "",
+        "searchLabel": "Search notices",
+        "placeholder": "Search by title, number or category",
+        "emptyText": "No matching notices.",
+        "countLabel": "{count} shown",
+        "allLabel": "All",
+        "openLabel": "Click",
+        "tabs": [
+          {
+            "id": "notices",
+            "label": "All Active Notices"
+          },
+          {
+            "id": "tenders",
+            "label": "Tenders"
+          },
+          {
+            "id": "faculty",
+            "label": "Faculty Careers"
+          },
+          {
+            "id": "staff",
+            "label": "Career Non Faculty"
+          }
+        ],
+        "rows": [
+          {
+            "tab": "notices",
+            "text": "Final result for recruitment to the post of Ship’s Cook (Grade II), Advertisement No. NAU/GAL/017/2026.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Applications are invited for the Post-Doctoral Fellowship in Advanced Map Reading.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "List of shortlisted candidates for Ph.D. admission, Department of Humanities and Social Sciences.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Winter Research Internship Scheme 2026: applications open.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Annual inspection of lifeboats: all departments are requested to confirm the location of their lifeboat.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Ph.D. viva-voce examination of Gold D. Roger, Gold D. Roger Hall, 11:30 AM.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Scholarship notice: steps for applying through the student portal.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "International Conference on Navigation Without Instruments (NWI-2026).",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Mid-Semester Examinations 2026–27: venue details.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Official Language Week 2026: programme of events.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Formation of four Special Interest Groups: Knot Theory, Tide Modelling, Sail Materials and Cartography.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "List of Gold Medal awardees, Convocation 2026.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Procurement of One (1) Ship’s Anchor, Iron, Standard Grade",
+            "meta": "Tender Number: NAU-ANC-001-1717 · Category: Purchase · Last Date: Open since 1717",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Supply and Installation of 40 Hammocks, Hostel Block C",
+            "meta": "Tender Number: NAU-HST-044-26 · Category: Furniture · Last Date: End of the dry season",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Annual Maintenance Contract for the Main Mast",
+            "meta": "Tender Number: NAU-MST-012-26 · Category: Services · Last Date: Before the next storm",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Running of the Galley (Canteen) for Two Years",
+            "meta": "Tender Number: NAU-GAL-019-26 · Category: Services · Last Date: First high tide of September",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Supply of Parrot Feed (Premium Grade), 500 kg",
+            "meta": "Tender Number: NAU-PRT-003-26 · Category: Purchase · Last Date: Before the parrots notice",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Pest Control Services, Lower Decks",
+            "meta": "Tender Number: NAU-PST-021-26 · Category: Services · Last Date: First high tide of October",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Procurement of a High-Performance Computing Cluster",
+            "meta": "Tender Number: NAU-CSE-140-26 · Category: Purchase · Last Date: Second week of October",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "faculty",
+            "text": "Faculty positions: advertisement and application instructions",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "faculty",
+            "text": "Faculty positions: department-wise specialisations",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Application form for non-faculty positions",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Recruitment rules and promotion policy for non-teaching posts",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Vacancy: Lighthouse Keeper (contract, one year)",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Search the mast",
+        "tagline": "Clicking a notice will not open a real document. This is a parody, and the paper blew away.",
+        "searchLabel": "Search the notices",
+        "placeholder": "Try “anchor”, “cook” or “parrot”",
+        "emptyText": "Nothing on the mast matches that. Try another word.",
+        "countLabel": "{count} on the mast",
+        "allLabel": "Everything",
+        "openLabel": "Open",
+        "tabs": [
+          {
+            "id": "notices",
+            "label": "Notices"
+          },
+          {
+            "id": "tenders",
+            "label": "Tenders"
+          },
+          {
+            "id": "faculty",
+            "label": "Professor jobs"
+          },
+          {
+            "id": "staff",
+            "label": "Crew jobs"
+          }
+        ],
+        "rows": [
+          {
+            "tab": "notices",
+            "text": "The search for a new ship’s cook is over: the result of Advertisement No. NAU/GAL/017/2026 is out. The galley is cautiously optimistic.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Post-doctoral fellowship in Advanced Map Reading: applications open. Candidates must be able to hold a map the right way up.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Ph.D. shortlist is up for Humanities and Social Sciences. Welcome to the map-drawing years.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "The Winter Research Internship is now boarding. Bring a jacket. The ship has no heating.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Annual lifeboat inspection. Every department must confirm where its lifeboat is. Two have already asked what a lifeboat is.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Ph.D. viva for Gold D. Roger, in Gold D. Roger Hall, 11:30 AM. He is also the examiner. Fair winds.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Scholarship notice, with step-by-step instructions for applying on the student portal.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "International Conference on Navigation Without Instruments (NWI-2026). Attendance is expected to be scattered.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Mid-semester exams: where to sit. Bring a pen and an umbrella.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Official Language Week 2026. Events in every language spoken on board, including Parrot.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Four new interest groups: Knot Theory, Tide Modelling, Sail Materials and Cartography. Meetings are wherever the ship is.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "notices",
+            "text": "Gold Medal awardees for 2026. Actual gold, for once.",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "One anchor. Any anchor, really",
+            "meta": "NAU-ANC-001-1717 · Purchase · open since 1717",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "40 hammocks for Hostel Block C. Must survive engineering students",
+            "meta": "NAU-HST-044-26 · Furniture · closes at the end of the dry season",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Keep the main mast standing for a year",
+            "meta": "NAU-MST-012-26 · Services · closes before the next storm",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Run the galley for two years. Must be able to cook for 7,777 in rough seas",
+            "meta": "NAU-GAL-019-26 · Services · closes at the first high tide of September",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "500 kg of premium parrot feed. Urgent: they have started talking about it",
+            "meta": "NAU-PRT-003-26 · Purchase · closes before the parrots notice",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "Pest control for the lower decks. Parrots are exempt",
+            "meta": "NAU-PST-021-26 · Services · closes at the first high tide of October",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "tenders",
+            "text": "A supercomputer, mainly to work out where we are",
+            "meta": "NAU-CSE-140-26 · Purchase · closes in the second week of October",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "faculty",
+            "text": "Professor jobs: the ship is hiring",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "faculty",
+            "text": "Professor jobs by crew and specialism",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Application form for crew jobs",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Recruitment and promotion rules for crew posts. Long, but fair",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          },
+          {
+            "tab": "staff",
+            "text": "Wanted: a lighthouse keeper. Must be comfortable being the only one who knows where we are",
+            "meta": "",
+            "href": "/davy-jones-locker"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   },
   "seo": {
     "pirateTitle": "Here Be Dragons",
-    "pirateDescription": "This corner of The Isle is still uncharted. Our crew is building the pirate parody one page at a time."
+    "pirateDescription": "This part of the map is still blank. The crew is building the parody one page at a time."
   },
   "sections": [
     {
@@ -22,10 +22,10 @@
         ]
       },
       "pirate": {
-        "heading": "Beyond the edge o’ the map",
+        "heading": "Off the edge of the map",
         "paragraphs": [
-          "This stretch o’ The Isle is still uncharted. Our crew be rebuilding the institute one page at a time, with knowledge as the treasure. Mostly.",
-          "Yer browser hasn’t sprung a leak. This shore will appear here once the shipbuilders reach it."
+          "We have not built this page yet. The crew is drawing the map one page at a time, and this corner is still blank.",
+          "Nothing is broken. We just sailed confidently in a direction that does not exist yet."
         ]
       }
     },
@@ -37,7 +37,7 @@
         "href": "/davy-jones-locker"
       },
       "pirate": {
-        "label": "Inspect the missing scrolls →",
+        "label": "What happened to the documents? →",
         "href": "/davy-jones-locker"
       }
     }

@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { eventsSchema, researchSchema } from "@/content/section-schemas";
 import type { Json } from "@/content/types";
 import { SafeNavLink } from "@/components/layout/SafeNavLink";
+import { DominoGallery } from "@/components/ui/domino-gallery";
 import { PirateFigure } from "./PirateFigure";
 import { SectionHeading } from "./SectionHeading";
 import { useSectionContext } from "./SectionContext";
@@ -19,35 +20,34 @@ function ResearchList({
   const { builtRoutes } = useSectionContext();
   return (
     <section
-      className="home-band home-band-alt"
+      className="home-band home-band-alt research-band"
       id={id}
       aria-labelledby={`${id}-heading`}
       data-section-kind="newsList"
       data-variant="research"
     >
-      <div className="shell-container">
-        <SectionHeading id={id} {...data} />
-        <ul className="card-grid card-grid-4">
-          {data.items.map((item) => (
-            <li className="research-card" key={item.imageId}>
-              <PirateFigure
-                id={item.imageId}
-                sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
-                className="research-card-art"
-              />
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-              <SafeNavLink
-                className="text-action"
-                href={item.cta.href}
-                builtRoutes={builtRoutes}
-              >
-                {item.cta.label} <span aria-hidden="true">→</span>
-              </SafeNavLink>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <DominoGallery
+        label={data.heading}
+        header={
+          <div className="shell-container">
+            <SectionHeading id={id} {...data} />
+          </div>
+        }
+      >
+        {data.items.map((item) => (
+          <article className="research-card" key={item.title}>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+            <SafeNavLink
+              className="text-action"
+              href={item.cta.href}
+              builtRoutes={builtRoutes}
+            >
+              {item.cta.label} <span aria-hidden="true">→</span>
+            </SafeNavLink>
+          </article>
+        ))}
+      </DominoGallery>
     </section>
   );
 }

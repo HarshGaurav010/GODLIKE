@@ -1,0 +1,25 @@
+## Director’s Message
+
+Dear Recruiter(s),
+
+The institute has a legacy of producing best workforce for the nation & the world. Having stamped its class in academic and corporate circles,the alumni of this institute today don the most challenging and demanding roles in the industry.This is testimony to the trust and belief that the industry has bestowed in us for years. The enlightnment of the students would not be possible but for the strong bond that IIT(ISM), Dhanbad cherishes with the industrial world. We look forward to traverse higher trajectories of excellence.
+
+My very best wishes!!
+
+### Prof. Sukumar Mishra
+
+###### **Director,** IIT (ISM) Dhanbad
+
+## **Chairperson, (CDC)**'s Message
+
+Dear Recruiter(s),
+
+Strong networking with industries and academia across the country and abroad has geared a recent overhaul in our academic curriculum, research facilities and laboratories. Long Standing connection with our alumni and their mentorship to students has been a constant support to the CDC in empowering them. Thus, we invite you to collaborate with us to meet your HR needs and promote your brands in our institute. Please reach at the CDC with all opportunities of internships and employment. Our students have potential to contribute in a big way to the growth and development of organizations they would work for.
+
+With best regards!
+
+### Prof. Saumya Singh,
+
+###### **Chairperson, (CDC),** IIT (ISM) Dhanbad
+
+Prominent Recruiters

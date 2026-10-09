@@ -12,7 +12,8 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "scrape": "tsx scripts/scrape.ts",
     "test": "tsx --test tests/*.test.ts",
-    "check:browser": "tsx scripts/check-browser.ts && tsx scripts/check-shell.ts && tsx scripts/check-home.ts"
+    "check:browser": "tsx scripts/check-browser.ts && tsx scripts/check-shell.ts && tsx scripts/check-home.ts && tsx scripts/check-motion.ts",
+    "check:controls": "tsx scripts/check-controls.ts"
   },
   "dependencies": {
     "next": "^16.4.0",

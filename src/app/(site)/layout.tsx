@@ -28,11 +28,7 @@ export default function SiteLayout({
         });
     });
   }
-  header.original.desktopRows.forEach((row, index) =>
-    collect(row, header.pirate.desktopRows[index]),
-  );
-  collect(header.original.mobileItems, header.pirate.mobileItems);
-  collect(header.original.quickLinks, header.pirate.quickLinks);
+  collect(header.original.nav, header.pirate.nav);
   collect(footer.original.resources, footer.pirate.resources);
   pages.forEach((page) =>
     entries.push({

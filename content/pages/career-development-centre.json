@@ -1,0 +1,166 @@
+{
+  "slug": "career-development-centre",
+  "sourceUrl": "https://www.iitism.ac.in/career-development-centre",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Career Development Centre",
+    "pirate": "Hired Hands"
+  },
+  "seo": {
+    "pirateTitle": "Hired Hands",
+    "pirateDescription": "The Career Development Centre at NO Anchor University: a word to recruiters, the first placement drive of 1717, and who to contact. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "hired-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Career Development Centre",
+        "title": "Career Development Centre",
+        "lede": "The University has a long record of preparing graduates for employment in industry, government and research.",
+        "imageId": "cdc-hero",
+        "facts": [
+          {
+            "value": "1717",
+            "label": "First recruiter on campus"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Career Development Centre",
+        "title": "Hired Hands",
+        "lede": "Where the crew meets the companies that want to hire them. Recruiters welcome. Parrots by appointment.",
+        "imageId": "cdc-hero",
+        "facts": [
+          {
+            "value": "1717",
+            "label": "Our first recruiter: a merchant ship short of a cook"
+          }
+        ]
+      }
+    },
+    {
+      "id": "captains-word",
+      "kind": "people",
+      "variant": "quote",
+      "original": {
+        "heading": "Director’s Message",
+        "kicker": "",
+        "salutation": "Dear Recruiter(s),",
+        "paragraphs": [
+          "Our graduates have joined ships, mines, laboratories and boardrooms since 1717. They know how to work in a crew, how to solve a problem with whatever is on board, and how to stay calm when the map is wrong. We would be delighted to introduce them to you."
+        ],
+        "closing": "With best wishes,",
+        "name": "Gold D. Roger",
+        "role": "Director, NO Anchor University"
+      },
+      "pirate": {
+        "heading": "A word from the Captain",
+        "kicker": "Read out word for word. Nobody edits the Captain.",
+        "salutation": "Dear Recruiter(s),",
+        "paragraphs": [
+          "Our graduates have joined ships, mines, laboratories and boardrooms since 1717. They know how to work in a crew, how to solve a problem with whatever is on board, and how to stay calm when the map is wrong. We would be delighted to introduce them to you."
+        ],
+        "closing": "With best wishes,",
+        "name": "Gold D. Roger",
+        "role": "Captain (Commodore of the Fleet) · Director"
+      }
+    },
+    {
+      "id": "chairs-word",
+      "kind": "people",
+      "variant": "quote",
+      "original": {
+        "heading": "Chairperson, (CDC)’s Message",
+        "kicker": "",
+        "salutation": "Dear Recruiter(s),",
+        "paragraphs": [
+          "The Career Development Centre welcomes recruiters for internships and full-time positions throughout the year. Our students are trained across seventeen departments and are ready to contribute from their first day. Please contact the Centre to arrange a campus visit; we will do our best to be in the same place when you arrive."
+        ],
+        "closing": "With best regards,",
+        "name": "Gold D. Roger",
+        "role": "Chairperson, Career Development Centre"
+      },
+      "pirate": {
+        "heading": "A word from the CDC",
+        "kicker": "Also unedited. We are learning.",
+        "salutation": "Dear Recruiter(s),",
+        "paragraphs": [
+          "The Career Development Centre welcomes recruiters for internships and full-time positions throughout the year. Our students are trained across seventeen departments and are ready to contribute from their first day. Please contact the Centre to arrange a campus visit; we will do our best to be in the same place when you arrive."
+        ],
+        "closing": "With best regards,",
+        "name": "Gold D. Roger",
+        "role": "Chairperson, Career Development Centre"
+      }
+    },
+    {
+      "id": "great-strike",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "1717",
+        "kicker": "",
+        "paragraphs": [
+          "The University’s first recruiter, a merchant vessel in need of a cook, visited the campus in its founding year. Placement activity has continued without interruption since."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "The first placement drive, 1717",
+        "kicker": "",
+        "paragraphs": [
+          "In 1717 a merchant ship pulled alongside, short of a cook. Three students volunteered, and one of them stayed on as head chef. The Career Development Centre has been running ever since."
+        ],
+        "aside": {
+          "label": "Placement tip",
+          "text": "Today there is an online portal. It is much quicker than waiting for a ship."
+        }
+      }
+    },
+    {
+      "id": "recruiter-contact",
+      "kind": "linkList",
+      "variant": "contacts",
+      "original": {
+        "heading": "Dean (Career Development)",
+        "tagline": "Opportunities for internships and employment are welcome throughout the year.",
+        "cards": [
+          {
+            "title": "Dean (Career Development)",
+            "lines": [
+              "Gold D. Roger. This is a parody website and cannot receive enquiries."
+            ]
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Recruiters: start here",
+        "tagline": "Internships and jobs both welcome. So is a calendar invite.",
+        "cards": [
+          {
+            "title": "Dean (Career Development)",
+            "lines": [
+              "Gold D. Roger, naturally. This is a parody, so please do not send real job offers to a bottle."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "to-the-crews",
+      "kind": "cta",
+      "original": {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      "pirate": {
+        "label": "See which crews you could hire from →",
+        "href": "/departments"
+      }
+    }
+  ]
+}

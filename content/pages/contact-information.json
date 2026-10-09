@@ -1,0 +1,202 @@
+{
+  "slug": "contact-information",
+  "sourceUrl": "https://www.iitism.ac.in/contact-information",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Contact Information",
+    "pirate": "Message in a Bottle"
+  },
+  "seo": {
+    "pirateTitle": "Message in a Bottle",
+    "pirateDescription": "How to reach NO Anchor University (you cannot; it is a parody, and we are not sure where it is). A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "bottle-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Contact Information",
+        "title": "Contact Information",
+        "lede": "This is a parody website and cannot receive messages. Real contact details are on the official IIT (ISM) Dhanbad website.",
+        "imageId": "contact-hero",
+        "facts": []
+      },
+      "pirate": {
+        "eyebrow": "Contact",
+        "title": "Message in a Bottle",
+        "lede": "We would love to hear from you, but this ship is a parody and we are not entirely sure where it is. Messages in bottles are read when found.",
+        "imageId": "contact-hero",
+        "facts": []
+      }
+    },
+    {
+      "id": "who-to-write-to",
+      "kind": "linkList",
+      "variant": "contacts",
+      "original": {
+        "heading": "Offices",
+        "tagline": "",
+        "cards": [
+          {
+            "title": "B.Tech. Admission Office",
+            "lines": [
+              "For queries regarding B.Tech. admission. Open from the morning bell to the evening bell on working days."
+            ]
+          },
+          {
+            "title": "Director",
+            "lines": ["Gold D. Roger (parody name)."]
+          },
+          {
+            "title": "Registrar",
+            "lines": ["Gold D. Roger (parody name)."]
+          },
+          {
+            "title": "Dean (Students Welfare)",
+            "lines": ["Gold D. Roger (parody name)."]
+          },
+          {
+            "title": "Dean (Career Development)",
+            "lines": ["Gold D. Roger (parody name)."]
+          },
+          {
+            "title": "Central Library",
+            "lines": ["Gold D. Roger (parody name)."]
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "Who you would write to",
+        "tagline": "Every office is run by Gold D. Roger, so in a sense you only need one address. Unfortunately, it is a bottle.",
+        "cards": [
+          {
+            "title": "B.Tech admissions",
+            "lines": [
+              "Every B.Tech question goes here. Open from the morning bell to the evening bell, except during storms."
+            ]
+          },
+          {
+            "title": "The Captain",
+            "lines": [
+              "Gold D. Roger. Usually on the bridge, occasionally up the mast."
+            ]
+          },
+          {
+            "title": "The Quartermaster",
+            "lines": ["Gold D. Roger, surrounded by ship’s papers."]
+          },
+          {
+            "title": "Crew welfare",
+            "lines": [
+              "Gold D. Roger, who also asks that you look after each other."
+            ]
+          },
+          {
+            "title": "Recruiters",
+            "lines": [
+              "Gold D. Roger, who would like to talk about internships."
+            ]
+          },
+          {
+            "title": "The Map Room",
+            "lines": ["Gold D. Roger, and six copies of every map."]
+          }
+        ]
+      }
+    },
+    {
+      "id": "office-hours",
+      "kind": "table",
+      "original": {
+        "heading": "Working hours",
+        "tagline": "",
+        "caption": "Working hours",
+        "columns": ["Section", "Hours"],
+        "rows": [
+          {
+            "cells": ["Academic", "From the morning bell to the evening bell"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Administration",
+              "From the second bell to the last bell"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Security", "Round the clock, in shifts"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "When the ship is staffed",
+        "tagline": "",
+        "caption": "Working hours",
+        "columns": ["Who", "When"],
+        "rows": [
+          {
+            "cells": [
+              "Teaching and labs",
+              "Morning bell to evening bell, with lunch when the galley says so"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Offices", "Second bell to last bell"],
+            "href": ""
+          },
+          {
+            "cells": ["Security", "Round the clock, in shifts"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": "Security never sleeps. We checked at 3 AM."
+      }
+    },
+    {
+      "id": "postal-address",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Address",
+        "kicker": "",
+        "paragraphs": [
+          "NO Anchor University occupies an island campus whose position depends on the tide. This is a parody website and has no postal address."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "Where the ship is",
+        "kicker": "",
+        "paragraphs": [
+          "Our address changes with the tide, so post tends to arrive late, or in a different ocean. This ship is a parody, so there is no real address. Bottles welcome; we cannot promise to find them."
+        ],
+        "aside": {
+          "label": "Navigator’s note",
+          "text": "Looking for the real institute this parody is based on? Its official website has the details."
+        }
+      }
+    },
+    {
+      "id": "to-safe-harbour",
+      "kind": "cta",
+      "original": {
+        "label": "Help & Support Cells",
+        "href": "/safe-harbour"
+      },
+      "pirate": {
+        "label": "Need help with something serious? →",
+        "href": "/safe-harbour"
+      }
+    }
+  ]
+}

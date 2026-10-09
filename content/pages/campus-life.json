@@ -1,0 +1,351 @@
+{
+  "slug": "campus-life",
+  "sourceUrl": "https://www.iitism.ac.in/home-dsw",
+  "sourceKind": "scraped",
+  "title": {
+    "original": "Campus Life",
+    "pirate": "Life on Board"
+  },
+  "seo": {
+    "pirateTitle": "Life on Board",
+    "pirateDescription": "Student life at NO Anchor University: the Dean of Students’ Welfare, the Map Room and a rock collection of 4,018 exhibits. A hackathon parody of IIT (ISM) Dhanbad."
+  },
+  "sections": [
+    {
+      "id": "board-hero",
+      "kind": "hero",
+      "variant": "page",
+      "original": {
+        "eyebrow": "Students’ Welfare",
+        "title": "Campus Life",
+        "lede": "All students live on board. The Office of the Dean (Students’ Welfare) is responsible for residential life, student activities and wellbeing.",
+        "imageId": "campus-life-hero",
+        "facts": [
+          {
+            "value": "7,777",
+            "label": "Students"
+          },
+          {
+            "value": "4,018",
+            "label": "Exhibits in the Geological Museum"
+          },
+          {
+            "value": "6",
+            "label": "Library officers"
+          }
+        ]
+      },
+      "pirate": {
+        "eyebrow": "Life on board",
+        "title": "Life on Board",
+        "lede": "Everyone lives on board. The Dean of Students’ Welfare looks after day-to-day life, from hostels and scholarships to sport, culture and wellbeing.",
+        "imageId": "campus-life-hero",
+        "facts": [
+          {
+            "value": "7,777",
+            "label": "Students on board"
+          },
+          {
+            "value": "4,018",
+            "label": "Rocks, fossils and minerals in the museum"
+          },
+          {
+            "value": "6",
+            "label": "Keepers of the Map Room"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dsw",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "About Us",
+        "kicker": "",
+        "paragraphs": [
+          "The Office of the Dean (Students’ Welfare) is responsible for all aspects of student life outside the classroom, including accommodation, clubs, sport, cultural activities and wellbeing.",
+          "The Office coordinates 42 student clubs and 9 hostels, the annual programme of festivals, and access to counselling and mental health services."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "The Dean of Students’ Welfare",
+        "kicker": "The office that answers the question “who do I ask about this?”",
+        "paragraphs": [
+          "The Dean of Students’ Welfare looks after everything that happens outside lectures: hammocks, clubs, sport, festivals and wellbeing.",
+          "There are 42 clubs and 9 hostels on board, and a counselling service for when the sea feels rough. All of it runs through this office."
+        ],
+        "aside": {
+          "label": "Good to know",
+          "text": "Mental health and wellness support is part of this office. Asking for help is completely normal on this ship."
+        }
+      }
+    },
+    {
+      "id": "dsw-vision",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Vision",
+        "kicker": "",
+        "paragraphs": [
+          "To provide a safe, inclusive and supportive residential environment in which every student can develop academically, personally and socially.",
+          "To ensure that every student has access to the resources, mentorship and opportunities required to reach their full potential."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "What the office is aiming for",
+        "kicker": "",
+        "paragraphs": [
+          "A safe, friendly ship where every student grows, in class and out of it.",
+          "Everyone gets the help, mentors and chances they need to do their best. Nobody gets left on the dock."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "dsw-promises",
+      "kind": "linkList",
+      "variant": "bullets",
+      "original": {
+        "heading": "Objectives",
+        "tagline": "",
+        "items": [
+          "To promote the all-round development of students.",
+          "To encourage self-discipline, responsibility and mutual respect.",
+          "To administer scholarships and financial support schemes.",
+          "To maintain safe and comfortable hostel accommodation.",
+          "To support student clubs and societies.",
+          "To organise cultural, sporting and technical events.",
+          "To maintain a clean and sustainable campus."
+        ]
+      },
+      "pirate": {
+        "heading": "Seven promises, in plain English",
+        "tagline": "",
+        "items": [
+          "Help every student grow, in every way.",
+          "A culture of self-discipline, responsibility and respect.",
+          "Make sure scholarships and support actually reach the students they are meant for.",
+          "Hostels that are safe, comfortable and feel like home. Hammocks included.",
+          "Back every student club, from robotics to knot-tying.",
+          "Plenty of cultural, sports and technical events, so everyone finds a talent beyond the classroom.",
+          "Keep the ship clean. The sea is watching."
+        ]
+      }
+    },
+    {
+      "id": "map-room",
+      "kind": "people",
+      "variant": "roster",
+      "original": {
+        "heading": "Library (Professor In-Charge and Officers)",
+        "tagline": "",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Professor In-Charge Library",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Librarian",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Deputy Librarian",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": ""
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": ""
+          }
+        ]
+      },
+      "pirate": {
+        "heading": "The Map Room",
+        "tagline": "Officially the Central Library. Every map on board is kept here, and these are the people who know where.",
+        "members": [
+          {
+            "name": "Gold D. Roger",
+            "role": "Professor In-Charge Library",
+            "title": "Officer in charge of the Map Room"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Librarian",
+            "title": "Chief Map Keeper"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Deputy Librarian",
+            "title": "Deputy Map Keeper"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": "Map Keeper"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": "Map Keeper (second shift)"
+          },
+          {
+            "name": "Gold D. Roger",
+            "role": "Asst. Librarian",
+            "title": "Map Keeper (third shift)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rock-collection",
+      "kind": "richText",
+      "variant": "story",
+      "original": {
+        "heading": "Geological Museum",
+        "kicker": "",
+        "paragraphs": [
+          "The Geological Museum, established in 1717, holds 4,018 exhibits, including minerals, rocks, fossils and models of geological processes.",
+          "Exhibits are arranged in three sections: Minerals and Crystals; Rocks and Structures; and Fossils and Landforms.",
+          "The collection has been assembled over three centuries by faculty, students and passing ships.",
+          "Approximately half of the collection is on public display. The remainder is held in storage for research."
+        ],
+        "aside": {
+          "label": "",
+          "text": ""
+        }
+      },
+      "pirate": {
+        "heading": "The rock collection",
+        "kicker": "Founded in 1717, the same year as the ship. Several exhibits are slightly older.",
+        "paragraphs": [
+          "Davy Jones’ Rock Collection, our geological museum, has 4,018 exhibits: minerals, rocks, fossils and models of how the Earth works.",
+          "They are sorted into three sections: minerals and crystals; rocks and structures; fossils and landforms.",
+          "It took three centuries to collect them. Some were found by professors, some by students, and some simply landed on the deck.",
+          "About half are on display. The rest are in storage, being studied, or under a hammock somewhere."
+        ],
+        "aside": {
+          "label": "Visitor tip",
+          "text": "Start with the minerals and crystals. The rocks will still be there; that is rather the point of rocks."
+        }
+      }
+    },
+    {
+      "id": "rock-count",
+      "kind": "table",
+      "original": {
+        "heading": "Collection",
+        "tagline": "",
+        "caption": "A section-wise number of exhibits",
+        "columns": ["Section", "Type of Stone", "Quantity"],
+        "rows": [
+          {
+            "cells": ["Minerals and Crystals", "Minerals", "1,402"],
+            "href": ""
+          },
+          {
+            "cells": ["Minerals and Crystals", "Crystal models", "88"],
+            "href": ""
+          },
+          {
+            "cells": ["Rocks and Structures", "Rocks", "1,750"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Rocks and Structures",
+              "Specimens of possible economic value",
+              "3"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Fossils and Landforms", "Fossils", "612"],
+            "href": ""
+          },
+          {
+            "cells": ["Fossils and Landforms", "Unclassified specimens", "163"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      },
+      "pirate": {
+        "heading": "The inventory",
+        "tagline": "Yes, someone counted all 1,750 rocks.",
+        "caption": "Museum exhibits by section",
+        "columns": ["Section", "Exhibit", "Count"],
+        "rows": [
+          {
+            "cells": ["Minerals and crystals", "Minerals", "1,402"],
+            "href": ""
+          },
+          {
+            "cells": ["Minerals and crystals", "Crystal models", "88"],
+            "href": ""
+          },
+          {
+            "cells": ["Rocks and structures", "Rocks", "1,750"],
+            "href": ""
+          },
+          {
+            "cells": [
+              "Rocks and structures",
+              "Rocks that might be treasure",
+              "3"
+            ],
+            "href": ""
+          },
+          {
+            "cells": ["Fossils and landforms", "Fossils", "612"],
+            "href": ""
+          },
+          {
+            "cells": ["Fossils and landforms", "Pebbles under review", "163"],
+            "href": ""
+          }
+        ],
+        "linkLabel": "",
+        "note": ""
+      }
+    },
+    {
+      "id": "need-help",
+      "kind": "cta",
+      "original": {
+        "label": "Help & Support Cells",
+        "href": "/safe-harbour"
+      },
+      "pirate": {
+        "label": "Need help? Head for Safe Harbour →",
+        "href": "/safe-harbour"
+      }
+    }
+  ]
+}

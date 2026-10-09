@@ -94,16 +94,14 @@ try {
     "Here Be Dragons",
   );
   await page
-    .getByRole("link", { name: "Inspect the missing scrolls →" })
+    .getByRole("link", { name: "What happened to the documents? →" })
     .click();
   await expect(page).toHaveURL(`${baseUrl}/davy-jones-locker`);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(
     "Davy Jones’ Locker",
   );
-  await page
-    .getByRole("link", { name: "Back to chartin’ the waters →" })
-    .click();
-  await expect(page).toHaveURL(`${baseUrl}/uncharted`);
+  await page.getByRole("link", { name: "Back to the home port →" }).click();
+  await expect(page).toHaveURL(`${baseUrl}/`);
   // The homepage is built (task 2); the source /home alias redirects to it.
   await page.goto(`${baseUrl}/home`);
   await expect(page).toHaveURL(`${baseUrl}/`);
