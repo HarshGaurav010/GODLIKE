@@ -1,10 +1,10 @@
+.git/
+.vercel/
 node_modules/
 .next/
-.vercel/
-out/
 .env*
+.claude/
+artifacts/
 scrape/images/
 scrape/screenshots/
-.DS_Store
 *.tsbuildinfo
-artifacts/

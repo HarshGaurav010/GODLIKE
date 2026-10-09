@@ -300,3 +300,14 @@ The user explicitly requested the design of https://buckssauce.com/ be applied t
 - Production browser checks cover 375/768/1280/1440/1920px, both copy modes, normal/reduced motion, safe links, shared menus/search/accessibility, all hero scenes, pause control, event carousel and notice ticker. Axe WCAG A/AA reports zero violations in both modes.
 - Every Home WebP was checked for exact dimensions, bytes and alpha where required. Browser screenshot/audit loads all lazy images; no broken images or horizontal overflow.
 - Screenshots and browser reports are in ignored `artifacts/home/` and `artifacts/global/`.
+
+## Production deployment — 9 October 2026
+
+- Live site: https://no-anchor-university.vercel.app
+- Vercel project: `vinayaks-projects-febcfc10/no-anchor-university`.
+- Deployment: `dpl_452Cpx4k5ANncVE9tFriJ9fEJ8Di`, production status READY. Deployed the Home implementation from Git commit `40baaef` with `vercel.json` explicitly selecting Next.js and `npm run build`.
+- The first deployment used the generic framework preset and returned 404; corrected the project preset to Next.js and redeployed successfully.
+- Vercel's production build and content validation passed. Public, unauthenticated checks returned HTTP 200 for `/`, `/uncharted`, `/davy-jones-locker` and the `/home` redirect.
+- Production browser verification at 1440px passed: hero scenes, motion pause, both copy modes, all 25 image assets, lazy image rendering, no horizontal overflow and no browser errors. Screenshot and report are in ignored `artifacts/vercel/`.
+- `.vercelignore` excludes environment files, local tool configuration, build artifacts and reference images/screenshots. Local project linkage is in ignored `.vercel/`.
+- Deployment uses the Vercel CLI; GitHub automatic deployments are not configured. Future production deployment: `npx vercel@latest deploy --prod --yes` from the linked repository.
